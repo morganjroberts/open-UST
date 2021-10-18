@@ -8,7 +8,7 @@ nav:
     - Contact and Support: contact_and_support.md
     - Bill of Materials: bill_of_materials.md
     - Manufacturing Documentation:
-        - User Workflow Overview: workflow_overview.md
+        - User Workflow Overview: user_workflow_overview.md
         - Matching Layer Deposition: matching_layer_deposition.md
         - PZT Element Alignment: pzt_element_alignment.md
         - Interconnect PCB Soldering: interconnect_pcb_soldering.md

@@ -1,0 +1,29 @@
+site_name: open-UST
+site_url: https://morganjroberts.github.io/open-UST/
+repo_url: https://github.com/morganjroberts/open-UST
+
+nav:
+    - Home: index.md
+    - Background: background.md
+    - Contact and Support: contact_and_support.md
+    - Bill of Materials: bill_of_materials.md
+    - Manufacturing Documentation:
+        - User Workflow Overview: workflow_overview.md
+        - Matching Layer Deposition: matching_layer_deposition.md
+        - PZT Element Alignment: pzt_element_alignment.md
+        - Interconnect PCB Soldering: interconnect_pcb_soldering.md
+        - Signal Electrode Connection: signal_electrode_connection.md
+        - Backing Layer Casting: backing_layer_casting.md
+        - Ground Electrode Connection: ground_electrode_connection.md      
+        - Ribbon Cable Preparation: ribbon_cable_preparation.md
+        - Strain Relief Clip Fabrication: strain_relief_clip_fabrication.md
+        - Cover Piece Welding: cover_piece_welding.md
+        - Electromagnetic Shielding: electromagnetic_shielding.md
+        - Rigid Coating Casting: rigid_coating_casting.md
+        - Acoustic Coating Casting: acoustic_coating_casting.md
+        - Bend Relief Installation: bend_relief_installation.md 
+        - Plug Backshell Fabrication: plug_backshell_fabrication.md
+        - Electrical Impedance Matching: electrical_impedance_matching.md
+        - Modular Array Assembly: array_assembly.md
+
+theme: readthedocs        

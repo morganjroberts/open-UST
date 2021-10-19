@@ -38,6 +38,11 @@ Video:
 * 3D print the parts 
 * Assemble the parts
 
+* Clamp should be 100% infill to make it as rigid as possible.
+* Print orientation is important for doctor blade coater.
+
+![doctor_blade_coater_print_orientation](../img/doctor blade coater/doctor_blade_print_orientation.png)
+
 Photos:
 ```
 - [ ] Dissassembled blade coater

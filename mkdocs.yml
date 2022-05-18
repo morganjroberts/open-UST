@@ -15,6 +15,7 @@ nav:
         - Signal Electrode Connection: signal_electrode_connection.md
         - Backing Layer Casting: backing_layer_casting.md
         - Ground Electrode Connection: ground_electrode_connection.md      
+        - Impedance Measurement: impedance_measurement.md
         - Ribbon Cable Preparation: ribbon_cable_preparation.md
         - Strain Relief Clip Fabrication: strain_relief_clip_fabrication.md
         - Cover Piece Welding: cover_piece_welding.md

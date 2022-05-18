@@ -12,6 +12,7 @@ nav:
         - Matching Layer Deposition: matching_layer_deposition.md
         - PZT Element Alignment: pzt_element_alignment.md
         - Interconnect PCB Soldering: interconnect_pcb_soldering.md
+        - Housing - PCB bonding: housing_-_pcb_bonding.md
         - Signal Electrode Connection: signal_electrode_connection.md
         - Backing Layer Casting: backing_layer_casting.md
         - Ground Electrode Connection: ground_electrode_connection.md      

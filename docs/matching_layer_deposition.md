@@ -1,7 +1,7 @@
 # Matching Layer Deposition
 
 ## Dimension Capture
-It is helpful to meausure the dimensions of the PZT elements before depositing the matching layers. The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were XXX for width and XXX for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))
+It is helpful to meausure the dimensions of the PZT elements before depositing the matching layers. The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were XXX for width and XXX for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))git
 Knowing the distribution of element widths is useful when calibrating the slot widths in the matching layer deposition mould. Knowing the distribution of element thicknesses is useful when defining the slot depth in the matching layer mould
 
 Also, if the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses. This data can be useful to interpret inter-element variation in acoustic performance. Also, 

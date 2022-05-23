@@ -29,4 +29,10 @@ nav:
         - Electrical Impedance Matching: electrical_impedance_matching.md
         - Modular Array Assembly: array_assembly.md
 
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math
+
 theme: readthedocs        

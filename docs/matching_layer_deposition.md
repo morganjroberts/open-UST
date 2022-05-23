@@ -1,10 +1,11 @@
 # Matching Layer Deposition
 
 ## Dimension Capture
-It is helpful to meausure the dimensions of the PZT elements before depositing the matching layers. The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were XXX for width and XXX for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))git
-Knowing the distribution of element widths is useful when calibrating the slot widths in the matching layer deposition mould. Knowing the distribution of element thicknesses is useful when defining the slot depth in the matching layer mould
+It is helpful to measure the dimensions of the PZT elements before depositing the matching layers.
 
-Also, if the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses. This data can be useful to interpret inter-element variation in acoustic performance. Also, 
+* The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 um for width and +- 25 um for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))
+* Knowing the distribution of element widths and thicknesses is useful for calibrating the slot widths and depths in the matching layer deposition mould. 
+* If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses. This data can be useful to interpret inter-element variation in acoustic performance.
 
 ## Manufacture Doctor Blade Coater
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the tungsten-epoxy quarter-wavelength-matching-layers to scrape the compound over the PZT elements.

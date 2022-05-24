@@ -1,5 +1,12 @@
 # Matching Layer Deposition
 
+## Dress the PZT electrode edges
+
+* The PZT electrode edges can become damaged  during their manufacture and shipping.
+* In some cases, they can delaminate from the PZT and fold over onto themselves.
+* This can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.
+* To fix this, the edges should be "dressed" by scraping away the raised electrode.
+
 ## PZT Dimension Capture
 It is helpful to measure the dimensions of the PZT elements before depositing the matching layers:
 
@@ -26,11 +33,7 @@ To keep track of the PZT elements, a gridded tray has been designed.
 4. Label the rows and columns using a permenant marker.
 5. Use M3 screws to secure the lid to the tray (part ID XXX in BOM).
 
-### Dress the PZT electrode edges
 
-* The PZT electrode edges can become damaged  during their manufacture and shipping.
-* In some cases, they can delaminate from the PZT and fold over onto themselves. This would affect the thickness measurement of the PZT elements.
-* To fix this, the edges can be "dressed" by scraping away the raised electrode.
 
 ## Manufacture Doctor Blade Coater
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the tungsten-epoxy quarter-wavelength-matching-layers to scrape the compound over the PZT elements.

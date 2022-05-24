@@ -13,7 +13,7 @@ To keep track of the PZT elements, a gridded tray has been designed.
 
 ![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/pzt-dimension-capture/PZT Element Tray.jpg)
 
-**Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.step) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters.
+**Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters.
 
 1. Print the stl file with these settings:
     * Low infill < 20% (non-structural)
@@ -24,7 +24,13 @@ To keep track of the PZT elements, a gridded tray has been designed.
 2. Install the threaded inserts into the holes using a soldering iron set to 275\(^{\circ}\)C (adjust as necessary for non-PLA filaments),
 3. Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the [`PZT Element Tray Drawing.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf) drawing can be printed out at 100% size to help mark out the hole pattern.
 4. Label the rows and columns using a permenant marker.
-5. Use M3 screws to secure the lid to the tray.
+5. Use M3 screws to secure the lid to the tray (part ID XXX in BOM).
+
+### Dress the PZT electrode edges
+
+* The PZT electrode edges can become damaged  during their manufacture and shipping.
+* In some cases, they can delaminate from the PZT and fold over onto themselves. This would affect the thickness measurement of the PZT elements.
+* To fix this, the edges can be "dressed" by scraping away the raised electrode.
 
 ## Manufacture Doctor Blade Coater
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the tungsten-epoxy quarter-wavelength-matching-layers to scrape the compound over the PZT elements.

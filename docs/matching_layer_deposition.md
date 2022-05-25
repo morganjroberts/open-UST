@@ -67,24 +67,28 @@ The PZT element dimensions should be recorded in spreadsheet XXX, where the data
 `placeholder for video`
 
 ## Manufacture Doctor Blade Coater
-The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the tungsten-epoxy quarter-wavelength-matching-layers to scrape the compound over the PZT elements.
+The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the matching layers to scrape the tungsten-epoxy compound over the PZT elements.
+
+PLACEHOLDER - add new photo of doctor blade coater
 ![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/doctor-blade-coater/doctor_coater_dissassembled.jpg)
 
+### Set the Blade Height
+**Note:** This step is only required if a non-standard PZT thickness is being used: If the nominal PZT thickness is approximately equal to the default value of 1 mm, skip this step and use the default `blade-holder.stl` and `support-arm.stl` files instead.
 
-### Set the Rail Height and Other Parameters
-To set the blade angle, the correct thickness of the QWML-deposition mould must be specified.
-(This step is only required if a non-standard PZT thickness is being used: If the nominal PZT thickness is approximately 1 mm, skip this step).
+During use, the angle of the blade is maintained by the support arm, which rides along the surface of the glass plate. For the support arm to have the correct vertical offset from the blade tip, the blade height must be defined as a parameter.  
+The blade height should be equal to the thickness of the matching layer deposition mould.  
 
-* Open the `QWML-deposition-mould.f3d` CAD file in Fusion 360,
-* Record the `calculatedPartHeight` value from the `Solid > Modify > Change Parameters` menu,
-* Open the `doctor-blade-coater.f3d` CAD file in Fusion 360,
-* In the `Solid > Modify > Change Parameters` menu, set the `bladeHeight` parameter to the same value as `calculatedPartHeight`.
-* Export the blade-holder and support-arm as .stl files.
 
-**Notes:**
 
-* This doctor blade coater is designed for a specific safety blade (RS PRO 546-758). If a different blade is used, the blade dimensions should be updated in the 'Change Parameters' menu.
-* The standard `bladeAngle` parameter used is 45 degrees. Preliminary testing showed that steeper blade angles produce a rougher surface finish, and that shallower blade angles require excessive downwards pressure, which can lead to blade-flexing and non-uniform matching layer thickness.
+![doctor-blade-coater-blade-height](../img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png)
+
+* Open the `QWML-deposition-mould.f3d` CAD file in Fusion 360.
+* Record the `calculated_part_height` value from the `Solid > Modify > Change Parameters` menu,
+* Open the [`doctor-blade-coater.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/doctor-blade-coater/`doctor-blade-coater.f3d`) CAD file in Fusion 360,
+* In the `Solid > Modify > Change Parameters` menu, set the `blade_height` parameter to the same value as `calculated_part_height`.
+* Export the blade holder and support arm as .stl files.
+
+**Notes:** This doctor blade coater is designed for a specific safety blade (RS PRO 546-758m, part ID XX in BOM). If a different blade is used, the blade dimensions should be updated in the `Change Parameters` menu. The default `blade-angle` parameter used is 45 degrees. Preliminary testing showed that steeper blade angles produce a rougher surface finish, and that shallower blade angles require excessive downwards pressure, which can lead to blade-flexing and non-uniform matching layer thickness.
 
 ### 3D-printing
 

@@ -7,6 +7,8 @@
 * This can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.
 * To fix this, the edges should be "dressed" by scraping away the raised electrode.
 
+![folded-electrode](../img/matching-layer-deposition/dressing-pzt-electrode-edges/folded-electrode.svg)
+
 1. Perform this work underneath a microscope.
 2. Hold the PZT element using tweezers (ideally plastic, to avoid scratching the electrode).
 3. Use a scalpel blade (Swann-Morton No.11) to gently chamfer the edges of the electrodes.
@@ -80,7 +82,7 @@ The blade height should be equal to the thickness of the matching layer depositi
 
 
 
-![doctor-blade-coater-blade-height](../img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png)
+![doctor-blade-coater-blade-height](../img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.svg)
 
 * Open the `QWML-deposition-mould.f3d` CAD file in Fusion 360.
 * Record the `calculated_part_height` value from the `Solid > Modify > Change Parameters` menu,

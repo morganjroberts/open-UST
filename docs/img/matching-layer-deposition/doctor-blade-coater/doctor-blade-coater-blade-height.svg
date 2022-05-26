@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="485.72623mm"
+   height="213.27837mm"
+   viewBox="0 0 485.72623 213.27837"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="doctor-blade-coater-blade-height.svg"
+   inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+   inkscape:export-xdpi="200.02008"
+   inkscape:export-ydpi="200.02008">
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern3487"
+       patternTransform="matrix(1.7740832,1.489316,-12.254145,14.597231,3.3072917,5.7877604)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_1"
+       inkscape:stockid="Stripes 1:1"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect2507" />
+    </pattern>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path927" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect906"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect902"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path927-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="1056.5848"
+     inkscape:cy="355.0671"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="241.10918,11.340896"
+       orientation="1,0"
+       id="guide3644" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(439.30623,123.00944)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.465;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3642"
+       width="485.26123"
+       height="212.81337"
+       x="-439.07373"
+       y="-122.77694"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.465;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3493"
+       width="237.66107"
+       height="17.257315"
+       x="-323.89728"
+       y="60.209091"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.189;stroke-miterlimit:10;stroke-dasharray:none"
+       id="rect893"
+       width="211.28854"
+       height="6.0476112"
+       x="-311.48584"
+       y="54.161484"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -145.19428,59.792578 c -0.8117,-0.1971 -10.95547,-3.63999 -22.54171,-7.65087 l -21.06588,-7.29252 h -44.58797 -44.58796 l -1.10065,1.52135 c -0.60535,0.83675 -2.48248,2.92034 -4.1714,4.63021 -4.47759,4.53315 -4.81695,4.21397 -1.67777,-1.57806 1.77992,-3.28409 4.92303,-7.66776 24.7925,-34.5779 15.5229,-21.0233753 22.90907,-30.822224 23.2416,-30.833395 0.26809,-0.009 0.79988,0.229394 1.18175,0.529778 0.57546,0.452654 0.74114,0.483846 0.96778,0.1822 0.1504,-0.200176 4.27487,-5.773992 9.16551,-12.386258 l 8.89205,-12.022305 1.22826,-3.878416 1.22826,-3.878413 v -26.951754 -26.951755 l 2.05637,-2.04431 2.05637,-2.04431 h 12.84661 12.84661 l 2.85575,1.95648 2.85575,1.95649 26.91035,69.41487 c 14.80069,38.1781807 27.10942,70.213248 27.35272,71.189038 0.50294,2.01705 0.58117,5.83908 0.16243,7.93625 -0.39282,1.96741 -1.72555,4.84427 -3.0447,6.57236 -2.23279,2.92495 -5.75758,5.26935 -9.30416,6.18836 -1.96665,0.50961 -6.48478,0.51641 -8.55847,0.0129 z m 8.02931,-0.80664 c 4.89838,-1.2693 8.95711,-4.6851 10.98153,-9.24197 1.42985,-3.21854 1.77929,-6.79903 0.97751,-10.01598 -0.22284,-0.89413 -12.51605,-32.8939793 -27.31823,-71.110781 l -26.91305,-69.485087 -2.77812,-1.88838 -2.77813,-1.88837 -12.30974,0.002 -12.30975,0.002 -1.91161,1.92445 -1.9116,1.92445 v 26.939322 26.939323 l -1.2292,3.878414 -1.2292,3.878416 -30.65309,41.4766307 c -16.8592,22.8121423 -30.6531,41.5347223 -30.6531,41.6057323 0,0.071 20.00881,0.1291 44.46402,0.1291 h 44.46402 l 21.06589,7.29252 c 11.58624,4.01088 21.73001,7.45377 22.54171,7.65087 2.03109,0.49319 5.57061,0.48711 7.50014,-0.0129 z M -225.07783,5.3053807 c -4.41236,-1.231191 -6.83236,-5.76437201 -5.38357,-10.084584 1.7987,-5.3636357 8.59897,-7.0780807 12.82127,-3.23242 1.70438,1.552348 2.21813,2.887599 2.21813,5.764975 0,2.87144099 -0.40073,3.912611 -2.15893,5.609339 -1.87491,1.809345 -5.03762,2.628908 -7.4969,1.94269 z m 5.38468,-1.561899 c 4.25149,-2.491542 4.80098,-7.966687 1.12433,-11.203004 -3.83505,-3.3757477 -9.68935,-1.533438 -11.1557,3.510627 -0.96323,3.31340099 1.01781,6.942714 4.5144,8.270476 1.35246,0.513572 4.15534,0.219871 5.51697,-0.578099 z m 19.72033,-67.4739077 c -3.07885,-1.100259 -4.99668,-3.886121 -4.99668,-7.258243 0,-2.092363 0.45549,-3.610222 1.49064,-4.967375 2.7662,-3.626674 8.65091,-3.986467 11.77662,-0.720027 1.66218,1.737019 2.17614,3.067175 2.17836,5.637753 0.002,2.010426 -0.0806,2.39132 -0.77653,3.591192 -0.92317,1.591744 -2.26033,2.821662 -3.85368,3.544626 -1.36271,0.61831 -4.32491,0.705908 -5.81873,0.172074 z m 5.72673,-1.16414 c 2.28072,-1.174788 3.91176,-3.735306 3.91355,-6.143755 0.003,-3.45036 -2.57775,-6.414543 -6.0944,-7.001053 -1.4258,-0.237797 -3.57543,0.36867 -5.02264,1.417026 -1.49132,1.080302 -2.72617,3.576299 -2.72617,5.51038 0,2.748134 1.98889,5.576364 4.59988,6.54109 1.44083,0.532368 3.96551,0.37904 5.32978,-0.323688 z m -69.06597,88.312504 17.88468,-24.20938131 -0.58321,-0.47358299 c -0.32076,-0.260469 -0.67017,-0.379531 -0.77646,-0.264583 -0.1063,0.114951 -8.15946,10.993224 -17.89591,24.1739473 -11.97068,16.20532 -18.07238,24.68661 -18.84456,26.19375 l -1.14193,2.22881 1.73636,-1.71979 c 1.07818,-1.0679 8.51568,-10.89654 19.62103,-25.92917 z m 23.00262,-31.1310873 c 2.43812,-3.2976157 4.48281,-6.1255937 4.54375,-6.2843967 0.14227,-0.370769 -0.95078,-1.063913 -1.21801,-0.772388 -0.28135,0.306914 -8.57385,11.5179747 -8.83581,11.9455757 -0.19033,0.310684 0.44905,1.072944 0.92138,1.098463 0.0857,0.0046 2.15057,-2.689635 4.58869,-5.987254 z"
+       id="path877"
+       sodipodi:nodetypes="sscccsssssssscccccccccccssssssscssscccccccccccssscssccsssssssssssssssccssscsssssscsssscssssssss"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.190919;stroke-miterlimit:10;stroke-dasharray:none"
+       d="m -145.04242,58.724436 c -1.0469,-0.291272 -2.73069,-0.825257 -3.74178,-1.186635 -1.01107,-0.361379 -6.22822,-2.159032 -11.59366,-3.994791 -5.36543,-1.835753 -13.76641,-4.730244 -18.66883,-6.4322 l -8.9135,-3.094466 h -36.41197 c -20.02658,0 -40.02517,-0.07921 -44.44132,-0.176025 l -8.02935,-0.176027 2.95914,-4.03347 c 4.78998,-6.528982 13.65076,-18.539978 36.39601,-49.3356522 11.77993,-15.9493078 21.49884,-29.1347018 21.59757,-29.3008738 0.0987,-0.166169 0.72251,-2.022207 1.3862,-4.124528 l 1.20669,-3.822404 v -26.872449 -26.872445 l 1.93101,-1.94399 1.93101,-1.94399 h 12.176 12.176 l 2.78686,1.93991 2.78687,1.9399 12.11173,31.268333 c 34.82603,89.908877 41.9307,108.480261 42.31874,110.619812 0.72599,4.002862 -0.87322,9.182957 -3.9049,12.648623 -1.52859,1.747403 -4.63656,3.838665 -6.84311,4.604512 -2.48796,0.863525 -6.67788,0.994854 -9.21541,0.288856 z M -219.57806,4.7600013 c 3.05693,-1.4661277 4.17282,-3.2905197 4.18271,-6.8384155 0.008,-2.8566056 -0.41906,-4.2101134 -1.76523,-5.5952204 -1.6621,-1.7101846 -3.34101,-2.4148814 -5.75835,-2.4169874 -2.59577,-0.0021 -4.37483,0.7577351 -5.99683,2.5617939 -2.75033,3.0590304 -2.71132,7.52457262 0.0936,10.7192576 2.12946,2.425311 6.06613,3.0937305 9.24405,1.5695718 z m 25.65788,-68.6973703 c 1.54152,-0.682272 2.72558,-1.772448 3.62134,-3.334208 0.70843,-1.235147 0.78327,-1.596901 0.78023,-3.771609 -0.004,-2.797278 -0.42629,-3.971053 -2.00903,-5.583073 -0.56133,-0.571719 -1.67232,-1.337852 -2.46885,-1.702518 -1.26215,-0.577832 -1.7285,-0.648318 -3.62924,-0.548555 -1.7708,0.09294 -2.45381,0.26235 -3.63145,0.900709 -1.48749,0.806315 -2.80815,2.338269 -3.40027,3.944279 -0.45619,1.237332 -0.4229,4.430203 0.061,5.85035 0.78157,2.293772 3.02151,4.255399 5.46452,4.785539 1.32728,0.288025 3.95506,0.01529 5.21176,-0.540914 z"
+       id="path887"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.016875;stroke-miterlimit:10;stroke-dasharray:none"
+       d="m -245.11305,-1.7941829 c -0.34875,-0.1606417 -0.68769,-0.5670312 -0.71565,-0.8580649 -0.01,-0.1012851 -0.001,-0.1287383 0.0759,-0.2448798 0.43996,-0.6626198 8.32789,-11.3254264 8.72146,-11.7895474 0.12305,-0.145119 0.19738,-0.166494 0.3976,-0.114345 0.30348,0.07904 0.72769,0.381175 0.82596,0.588245 0.0833,0.175501 0.0909,0.162031 -0.77266,1.37078 -2.42112,3.3890402 -6.86171,9.3463667 -8.04372,10.7911769 -0.27405,0.3349757 -0.29497,0.3459533 -0.48887,0.2566352 z"
+       id="path889"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.0477298;stroke-miterlimit:10;stroke-dasharray:none"
+       d="m -284.43741,50.734178 c 0,-0.125095 1.13246,-2.238454 1.50667,-2.811693 1.72081,-2.636072 7.33409,-10.418942 15.58978,-21.615423 5.54917,-7.525867 18.84326,-25.49492181 20.3566,-27.5151425 0.22762,-0.3038634 0.28871,-0.3481229 0.43227,-0.3131609 0.17497,0.042614 0.48219,0.2409428 0.85629,0.55277547 l 0.22139,0.18454423 -7.79693,10.5554144 c -19.42521,26.2976753 -24.96252,33.7058073 -28.46657,38.0841743 -0.89229,1.114933 -2.6995,3.041986 -2.6995,2.878511 z"
+       id="path891"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.349376;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.3975, 1.3975;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -286.50133,53.949238 -237.61976,5.0676877"
+       id="path914"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -234.28421,52.555088 c 6.89807,-25.13541 -12.37872,-35.43526 -12.37872,-35.43526"
+       id="path916"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:65.5883;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-274.19907"
+       y="83.438232"
+       id="text920"
+       transform="translate(-17.237915,-89.891176)"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="-274.19907"
+         y="83.438232"><tspan
+           style="font-size:7.05556px;text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.264583">matching layer</tspan><tspan
+           y="83.438232"> </tspan></tspan><tspan
+         x="-274.19907"
+         y="92.25768"><tspan
+           style="font-size:7.05556px;text-align:center;text-anchor:middle;fill:#0000ff;stroke-width:0.264583">deposition mould</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m -110.40251,43.956138 v 8.97693"
+       id="path922"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-0)"
+       d="m -110.40251,70.624048 v -8.97693"
+       id="path922-9"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-106.42369"
+       y="38.915222"
+       id="text920-0"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan918-8"
+         x="-106.42369"
+         y="38.915222"
+         style="font-size:7.05556px;fill:#0000ff;stroke-width:0.264583">blade </tspan><tspan
+         sodipodi:role="line"
+         x="-106.42369"
+         y="47.734673"
+         style="font-size:7.05556px;fill:#0000ff;stroke-width:0.264583"
+         id="tspan1350">height</tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -288.69932,6.2860737 -293.6651,57.495318"
+       id="path1354"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-217.54597"
+       y="30.725739"
+       id="text920-2"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan918-6"
+         x="-217.54597"
+         y="30.725739"
+         style="font-size:7.05556px;fill:#0000ff;stroke-width:0.264583">blade</tspan><tspan
+         sodipodi:role="line"
+         x="-217.54597"
+         y="39.545189"
+         style="font-size:7.05556px;fill:#0000ff;stroke-width:0.264583"
+         id="tspan1352-0">angle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:65.5883;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-274.19907"
+       y="83.438232"
+       id="text920-8"
+       transform="translate(15.857169,-108.72852)"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="-274.19907"
+         y="83.438232"><tspan>blade</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -258.28572,-23.323628 8.93705,21.6892597"
+       id="path1354-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:30.8145;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-274.19907"
+       y="83.438232"
+       id="text920-8-8"
+       transform="translate(156.46874,-99.410268)"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="-274.19907"
+         y="83.438232"><tspan>support</tspan><tspan
+           y="83.438232"> </tspan></tspan><tspan
+         x="-274.19907"
+         y="92.25768"><tspan>arm</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -121.29663,-4.8750993 -134.66017,50.454038"
+       id="path1354-2-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:65.5883;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-274.19907"
+       y="83.438232"
+       id="text920-9"
+       transform="translate(-56.58123,-48.751952)"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="-274.19907"
+         y="83.438232"><tspan>glass plate</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -323.75298,37.537808 8.18889,30.45409"
+       id="path1354-26"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:30.8145;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-274.19907"
+       y="83.438232"
+       id="text920-8-8-5"
+       transform="translate(24.308238,-161.49204)"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="-274.19907"
+         y="83.438232"><tspan>blade</tspan><tspan
+           y="83.438232"> </tspan></tspan><tspan
+         x="-274.19907"
+         y="92.25768"><tspan>holder</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -245.08581,-62.804543 22.60326,44.167028"
+       id="path1354-2-8-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Morgan\Documents\PhD Git Repos\open-UST\docs\img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+  </g>
+</svg>

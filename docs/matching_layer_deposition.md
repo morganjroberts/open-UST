@@ -1,74 +1,6 @@
 # Matching Layer Deposition
 
-## Dress the PZT electrode edges
 
-* The PZT electrode edges can become damaged  during their manufacture and shipping.
-* In some cases, they can delaminate from the PZT and fold over onto themselves.
-* This can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.
-* To fix this, the edges should be "dressed" by scraping away the raised electrode.
-
-![folded-electrode](../img/matching-layer-deposition/dressing-pzt-electrode-edges/folded-electrode.svg)
-
-1. Perform this work underneath a microscope.
-2. Hold the PZT element using tweezers (ideally plastic, to avoid scratching the electrode).
-3. Use a scalpel blade (Swann-Morton No.11) to gently chamfer the edges of the electrodes.
-
-**Notes:** Do not apply excessive downwards pressure with the scalpel. Do not touch the face of the electrode with the scalpel.
-
-`placeholder for video`
-
-## PZT Dimension Capture
-It is helpful to measure the dimensions of the PZT elements before depositing the matching layers:
-
-* The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 \(\mu m\) for width and \(\pm\) 25 \(\mu m\) for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))
-* Knowing the distribution of element widths and thicknesses is useful for calibrating the slot widths and depths in the matching layer deposition mould. 
-* If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses. This data can be useful to interpret inter-element variation in acoustic performance.
-
-### Manufacture the PZT Element Tray
-
-To keep track of the PZT elements, a gridded tray has been designed.
-
-![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/pzt-dimension-capture/PZT Element Tray.jpg)
-
-**Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters in the `Solid > Modify > Change Parameters` menu.
-
-1. Print the stl file with these settings:
-    * Low infill < 20% (non-structural)
-    * Coarse layer height 0.2 mm
-    * No support required
-    * Preview the part and make sure the holes are empty
-
-2. Install the threaded inserts into the holes using a soldering iron set to 275\(^{\circ}\)C (adjust as necessary for non-PLA filaments),
-3. Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the [`PZT Element Tray Drawing.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf) drawing can be printed out at 100% size to help mark out the hole pattern.
-4. Label the rows with numbers and columns with letters using a permenant marker.
-5. Use M3 screws to secure the lid to the tray (part ID XXX in BOM).
-
-BATCHES
-
-ADD NOTE AND PHOTO IN ABOUT QUALITY CONTROL - EXAMPLES OF DEFECTS
-
-### Meaure the PZT element dimensions
-
-![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/pzt-dimension-capture/Micrometer Measurement.jpg)
-
-The PZT element dimensions should be recorded in spreadsheet XXX, where the data rows and columns correspond to the physical rows and column locations on the PZT element tray. From now on, the element should be identified by its row/column location e.g. 'A/3'.
-
-1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
-2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and acetone.
-3. If using a digital micrometer, calibrate/tare it to 0.
-4. For each PZT element:
-    * Carefully handle the PZT element using tweezers (plastic if possible)
-    * Clean the PZT element using a foam swab and acetone.
-    * Align the PZT element so that the electroded faces are parallel with the micrometer anvils.
-    * Turn the ratcheting (rear-most) micrometer screw until it clicks.
-    * Record the thickness measurement.
-    * Rotate the element so that the non-electroded faces are parallel with the micrometer anvils.
-    * Record the PZT element width.
-    * Gently drop the PZT element into the correct location in the PZT element tray, being careful not to scrape the PZT element against the hole wall.
-
-**Note:** Re-clean the micrometer anvils using a foam swab and acetone every 10 PZT elements.
-
-`placeholder for video`
 
 ## Manufacture Doctor Blade Coater
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the matching layers to scrape the tungsten-epoxy compound over the PZT elements.
@@ -81,8 +13,6 @@ PLACEHOLDER - add new photo of doctor blade coater
 
 During use, the angle of the blade is maintained by the support arm, which rides along the surface of the glass plate. For the support arm to have the correct vertical offset from the blade tip, the blade height must be defined as a parameter.  
 The blade height should be equal to the thickness of the matching layer deposition mould.  
-
-
 
 ![doctor-blade-coater-blade-height](../img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.svg)
 

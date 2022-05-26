@@ -45,6 +45,8 @@ To keep track of the PZT elements, a gridded tray has been designed.
 
 BATCHES
 
+ADD NOTE AND PHOTO IN ABOUT QUALITY CONTROL - EXAMPLES OF DEFECTS
+
 ### Meaure the PZT element dimensions
 
 ![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/pzt-dimension-capture/Micrometer Measurement.jpg)

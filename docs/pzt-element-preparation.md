@@ -14,7 +14,7 @@ It is helpful to measure the dimensions of the PZT elements before depositing th
 
 To store and keep track of the PZT elements, a gridded tray has been designed. This is accompanied by spreadsheet XXX, where the data rows and columns correspond to the physical rows and column locations on the PZT element tray. From now on, each PZT element should be identified by its row/column location e.g. 'A/3'.
 
-![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/pzt-dimension-capture/PZT Element Tray.jpg)
+![doctor_blade_coater_print_orientation](../img/pzt-element-preparation/PZT Element Tray.jpg)
 
 **Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters in the `Solid > Modify > Change Parameters` menu.
 
@@ -32,16 +32,18 @@ To store and keep track of the PZT elements, a gridded tray has been designed. T
 
 ## Dress the PZT Electrode Edges, Assess Defects
 
-* During manufacture the individual PZT bars are cut from a large slab. Sometimes the silver electrodes are not cut flush to the edge of the PZT.
+* During manufacture the individual PZT bars are cut from a large slab. Sometimes the silver electrodes are not cut neatly to the edge of the PZT.
 * The excess PZT electrode material can fold over onto itself during shipping and handling.
 * The excess electrode can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.
 * To fix this, the electrode edges should be "dressed" by scraping away the excess electrode material.
 
-![folded-electrode](../img/matching-layer-deposition/dressing-pzt-electrode-edges/folded-electrode.svg)
+![folded-electrode](../img/pzt-element-preparation/folded-electrode.svg)
+
 
 **Note:** Perform this work underneath a microscope.
 
 For each PZT element:  
+
 1. Remove the PZT element from the tray using tweezers.
 2. Hold the PZT element on a flat clean surface with the electrode facing upwards.
 3. Use a scalpel blade (Swann-Morton No.11) to gently chamfer the edges of the electrodes. Do not apply excessive downwards pressure with the scalpel. Do not touch the face of the electrode with the scalpel.
@@ -52,16 +54,16 @@ For each PZT element:
 
 `placeholder for electrode damage example photo`
 
-## Meaure the PZT element dimensions
+## Meaure the PZT Element Dimensions
 
-![micrometer-measurement](../img/matching-layer-deposition/pzt-dimension-capture/Micrometer Measurement.jpg)
+![micrometer-measurement](../img/pzt-element-preparation/Micrometer Measurement.jpg)
 
 1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
 2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and acetone.
 3. If using a digital micrometer, calibrate/tare it to 0.
 4. For each PZT element:
     * Carefully handle the PZT element using tweezers (plastic if possible)
-    * Clean the PZT element using a foam swab and acetone.
+    * Clean the PZT element using a foam swab and isopropyl alcohol.
     * Align the PZT element so that the electroded faces are parallel with the micrometer anvils.
     * Turn the ratcheting (rear-most) micrometer screw until it clicks.
     * Record the thickness measurement.
@@ -72,3 +74,15 @@ For each PZT element:
 **Note:** Re-clean the micrometer anvils using a foam swab and acetone every 10 PZT elements.
 
 `placeholder for video`
+
+## Example Data
+
+Width and thickness distributions were measured from the PZT elements (N = 288) used for this project, using the procedure detailed above. Excess electrode folding was found to produce a systematic error in thickness measurement. A mean decrease of 22 \( \mu m \) was measured before and after dressing the electrode edges. The difference in standard deviation was negligible after dressing.
+
+| Dimension                  | Mean [\( \mu m \)] | Standard Deviation [\( \mu m \)] |
+| ---                        |    ----            |          ---                     |
+| Thickness (Pre-dressing)   | 1021               | 8.2                              |
+| Thickness (Post-dressing)  | 999                | 8.4                              |
+| Width                      | 1000               | 20.4                             |
+
+![pzt-element-dimensions](../img/pzt-element-preparation/pzt-element-dimensions.svg)

@@ -14,7 +14,7 @@ It is helpful to measure the dimensions of the PZT elements before depositing th
 
 To store and keep track of the PZT elements, a gridded tray has been designed. This is accompanied by spreadsheet XXX, where the data rows and columns correspond to the physical rows and column locations on the PZT element tray. From now on, each PZT element should be identified by its row/column location e.g. 'A/3'.
 
-![doctor_blade_coater_print_orientation](../img/pzt-element-preparation/PZT Element Tray.jpg)
+![doctor_blade_coater_print_orientation](img/pzt-element-preparation/PZT-element-tray.jpg)
 
 **Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters in the `Solid > Modify > Change Parameters` menu.
 
@@ -37,7 +37,7 @@ To store and keep track of the PZT elements, a gridded tray has been designed. T
 * The excess electrode can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.
 * To fix this, the electrode edges should be "dressed" by scraping away the excess electrode material.
 
-![folded-electrode](../img/pzt-element-preparation/folded-electrode.svg)
+![folded-electrode](img/pzt-element-preparation/folded-electrode.svg)
 
 
 **Note:** Perform this work underneath a microscope.
@@ -56,7 +56,7 @@ For each PZT element:
 
 ## Meaure the PZT Element Dimensions
 
-![micrometer-measurement](../img/pzt-element-preparation/Micrometer Measurement.jpg)
+![micrometer-measurement](img/pzt-element-preparation/micrometer-measurement.jpg)
 
 1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
 2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and acetone.
@@ -85,4 +85,4 @@ Width and thickness distributions were measured from the PZT elements (N = 288) 
 | Thickness (Post-dressing)  | 999                | 8.4                              |
 | Width                      | 1000               | 20.4                             |
 
-![pzt-element-dimensions](../img/pzt-element-preparation/pzt-element-dimensions.svg)
+![pzt-element-dimensions](img/pzt-element-preparation/pzt-element-dimensions.svg)

@@ -6,7 +6,7 @@
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the matching layers to scrape the tungsten-epoxy compound over the PZT elements.
 
 PLACEHOLDER - add new photo of doctor blade coater
-![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/doctor-blade-coater/doctor_coater_dissassembled.jpg)
+![doctor_blade_coater_print_orientation](img/matching-layer-deposition/doctor-blade-coater/doctor-coater-dissassembled.jpg)
 
 ### Set the Blade Height
 **Note:** This step is only required if a non-standard PZT thickness is being used: If the nominal PZT thickness is approximately equal to the default value of 1 mm, skip this step and use the default `blade-holder.stl` and `support-arm.stl` files instead.
@@ -14,7 +14,7 @@ PLACEHOLDER - add new photo of doctor blade coater
 During use, the angle of the blade is maintained by the support arm, which rides along the surface of the glass plate. For the support arm to have the correct vertical offset from the blade tip, the blade height must be defined as a parameter.  
 The blade height should be equal to the thickness of the matching layer deposition mould.  
 
-![doctor-blade-coater-blade-height](../img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.svg)
+![doctor-blade-coater-blade-height](img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.svg)
 
 * Open the `QWML-deposition-mould.f3d` CAD file in Fusion 360.
 * Record the `calculated_part_height` value from the `Solid > Modify > Change Parameters` menu,
@@ -29,7 +29,7 @@ The blade height should be equal to the thickness of the matching layer depositi
 * Load `blade-holder.stl` and `support-arm.stl` into the Cura slicer software.
 * Use the following print orientation, to make sure the blade-holding features are flat. Use the 'Select face to align to the build plate' function.
 
-![doctor_blade_coater_print_orientation](../img/matching-layer-deposition/doctor-blade-coater/doctor_blade_print_orientation.png)
+![doctor_blade_coater_print_orientation](img/matching-layer-deposition/doctor-blade-coater/doctor-blade-print-orientation.png)
 
 Recomended Settings:
 

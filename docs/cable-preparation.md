@@ -1,0 +1,1 @@
+![cut-cable-to-length](img/cable-preparation/cut-cable-to-length.jpg)

@@ -52,7 +52,7 @@ For each PZT element:
 
 4. Assess the PZT element for any defects. Possible defects are chipping (C), electrode delamination (E), sliced electrode (S). Record these defects in spreadsheet XXX.
 
-`placeholder for electrode damage example photo`
+![pzt-defects](img/pzt-element-preparation/pzt-defects.svg)
 
 ## Meaure the PZT Element Dimensions
 

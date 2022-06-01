@@ -5,8 +5,9 @@
 ## Manufacture Doctor Blade Coater
 The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the matching layers to scrape the tungsten-epoxy compound over the PZT elements.
 
-PLACEHOLDER - add new photo of doctor blade coater
-![doctor_blade_coater_print_orientation](img/matching-layer-deposition/doctor-blade-coater/doctor-coater-dissassembled.jpg)
+
+![doctor-blade-coater](img/matching-layer-deposition/doctor-blade-coater/doctor-blade-coater.png)
+![doctor-blade-coater](img/matching-layer-deposition/doctor-blade-coater/doctor-blade-coater.svg)
 
 ### Set the Blade Height
 **Note:** This step is only required if a non-standard PZT thickness is being used: If the nominal PZT thickness is approximately equal to the default value of 1 mm, skip this step and use the default `blade-holder.stl` and `support-arm.stl` files instead.

@@ -26,7 +26,7 @@ To store and keep track of the PZT elements, a gridded tray has been designed. T
 3. Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the [`PZT Element Tray Drawing.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf) drawing can be printed out at 100% size to help mark out the hole pattern.
 4. Label the rows with numbers and columns with letters using a permenant marker.
 5. Load the tray with PZT elements.
-6. Use M3 x 12 mm screws to secure the lid to the tray during storage (part ID XXX in BOM).
+6. Use M3 x 12 mm screws to secure the lid to the tray during storage (part ID XXX in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)).
 
 ## Dress the PZT Electrode Edges, Assess Defects
 
@@ -59,17 +59,17 @@ For each PZT element:
 
 ![micrometer-measurement](img/pzt-element-preparation/micrometer-measurement.jpg)
 
-1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
-2. Clean the micrometer anvils using a foam swab (part ID 040 in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)) and isopropyl alcohol.
+1. Setup a micrometer securely in a clamp on a workbench.
+2. Clean the micrometer anvils using a foam swab (part ID XXX in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)) and isopropyl alcohol (part ID XXX in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)).
 3. If using a digital micrometer, calibrate/tare it to 0.
 4. For each PZT element:
     * Carefully handle the PZT element using tweezers (plastic to avoid electrode scratching)
     * Clean the PZT element using a foam swab and isopropyl alcohol.
     * Align the PZT element so that the electroded faces are parallel with the micrometer anvils.
     * Turn the ratcheting (rear-most) micrometer screw until it clicks.
-    * Record the thickness measurement in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx)
+    * Record the PZT element thickness
     * Rotate the element so that the non-electroded faces are parallel with the micrometer anvils.
-    * Record the PZT element width in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx)
+    * Record the PZT element width
     * Gently drop the PZT element into the correct location in the PZT element tray, being careful not to scrape the PZT element against the hole wall.
 
 **Note:** Re-clean the micrometer anvils using a foam swab and isopropyl alcohol every 10 PZT elements.

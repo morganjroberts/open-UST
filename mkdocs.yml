@@ -9,7 +9,7 @@ nav:
     - Bill of Materials: bill-of-materials.md
     - Manufacturing Documentation:
         - (WIP) User Workflow Overview: user_workflow_overview.md
-        - (WIP) PZT Element Preparation: pzt-element-preparation.md
+        - (Draft) PZT Element Preparation: pzt-element-preparation.md
         - (WIP) Matching Layer Deposition: matching_layer_deposition.md
         - (WIP) PZT Element Alignment: pzt_element_alignment.md
         - (WIP) Interconnect PCB Soldering: interconnect_pcb_soldering.md

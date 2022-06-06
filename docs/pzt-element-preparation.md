@@ -1,10 +1,10 @@
 # PZT Element Preparation 
 
-The PZT element pool will have a distribution of different widths and thicknesses, with differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 \(\mu m\) for width and \(\pm\) 25 \(\mu m\) for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf)). Also, some elements will have defects. 
+The PZT elements will each have slightly different widths and thicknesses, due to deviations from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 \(\mu m\) for width and \(\pm\) 25 \(\mu m\) for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf)). Also, some elements will have defects. 
 
 In this section, these characteristics are measured and recorded. This information is important for several reasons:
 
-* Defect classifications will be used to select which elements should be used for the transducer modules. 
+* Defect classifications will be used later to select which elements should be used for the transducer modules. 
 * The distribution of element widths and thicknesses is needed for calibrating the slot widths and depths in the matching layer deposition mould. 
 * If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses (this data can be useful when interpretting inter-element variations in acoustic performance).
 
@@ -60,7 +60,7 @@ For each PZT element:
 ![micrometer-measurement](img/pzt-element-preparation/micrometer-measurement.jpg)
 
 1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
-2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and isopropyl alcohol.
+2. Clean the micrometer anvils using a foam swab (part ID 040 in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)) and isopropyl alcohol.
 3. If using a digital micrometer, calibrate/tare it to 0.
 4. For each PZT element:
     * Carefully handle the PZT element using tweezers (plastic to avoid electrode scratching)

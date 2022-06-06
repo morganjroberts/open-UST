@@ -1,18 +1,16 @@
-# PZT Element Preparation
+# PZT Element Preparation 
 
-The PZT element population will have a distribution of different widths and thicknesses, and some will have defects. In this section, these characteristics are measured and recorded. This information is used to select which elements should be used for the transducer modules. 
+The PZT element pool will have a distribution of different widths and thicknesses, with differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 \(\mu m\) for width and \(\pm\) 25 \(\mu m\) for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf)). Also, some elements will have defects. 
 
-The data can also be useful when interpretting inter-element variations in acoustic performance.
+In this section, these characteristics are measured and recorded. This information is important for several reasons:
 
-It is helpful to measure the dimensions of the PZT elements before depositing the matching layers:
-
-* The actual PZT dimensions will differ from the nominal values given on the datasheet (tolerances provided by the manufacturer for these PZT elements were \(\pm\) 130 \(\mu m\) for width and \(\pm\) 25 \(\mu m\) for thickness, detailed in: [`Piezoelectric Element Tolerances - APC International.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/Piezoelectric%20Element%20Tolerances%20-%20APC%20International.pdf))
-* Knowing the distribution of element widths and thicknesses is useful for calibrating the slot widths and depths in the matching layer deposition mould. 
-* If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses. 
+* Defect classifications will be used to select which elements should be used for the transducer modules. 
+* The distribution of element widths and thicknesses is needed for calibrating the slot widths and depths in the matching layer deposition mould. 
+* If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses (this data can be useful when interpretting inter-element variations in acoustic performance).
 
 ## Manufacture and Load the PZT Element Tray
 
-To store and keep track of the PZT elements, a gridded tray has been designed. This is accompanied by spreadsheet XXX, where the data rows and columns correspond to the physical rows and column locations on the PZT element tray. From now on, each PZT element should be identified by its row/column location e.g. 'A/3'.
+To store and keep track of the PZT elements, a gridded tray has been designed. This is accompanied by spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx), where the data rows and columns correspond to the physical row and column locations on the PZT element tray. From now on, each PZT element should be identified by its row/column location e.g. 'A/3'.
 
 ![doctor_blade_coater_print_orientation](img/pzt-element-preparation/PZT-element-tray.jpg)
 
@@ -50,34 +48,37 @@ For each PZT element:
 
 `placeholder for video`
 
-4. Assess the PZT element for any defects. Possible defects are chipping (C), electrode delamination (E), sliced electrode (S). Record these defects in spreadsheet XXX.
 
 ![pzt-chip-electrode-defects](img/pzt-element-preparation/pzt-chip-electrode-defects.svg)
+
+4. Assess the PZT element for any defects. Possible defects are chipping (C), electrode delamination (E), sliced electrode (S), broken (B). Record these defects in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx).
+
+**Note:** This defect classification is not final, since some PZT elements will become damaged during manufacture. 
 
 ## Meaure the PZT Element Dimensions
 
 ![micrometer-measurement](img/pzt-element-preparation/micrometer-measurement.jpg)
 
 1. Setup a micrometer (this project used Mituyo XXX) securely in a clamp on a workbench.
-2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and acetone.
+2. Clean the micrometer anvils using a foam swab (part ID XXX in BOM) and isopropyl alcohol.
 3. If using a digital micrometer, calibrate/tare it to 0.
 4. For each PZT element:
-    * Carefully handle the PZT element using tweezers (plastic if possible)
+    * Carefully handle the PZT element using tweezers (plastic to avoid electrode scratching)
     * Clean the PZT element using a foam swab and isopropyl alcohol.
     * Align the PZT element so that the electroded faces are parallel with the micrometer anvils.
     * Turn the ratcheting (rear-most) micrometer screw until it clicks.
-    * Record the thickness measurement.
+    * Record the thickness measurement in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx)
     * Rotate the element so that the non-electroded faces are parallel with the micrometer anvils.
-    * Record the PZT element width.
+    * Record the PZT element width in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx)
     * Gently drop the PZT element into the correct location in the PZT element tray, being careful not to scrape the PZT element against the hole wall.
 
-**Note:** Re-clean the micrometer anvils using a foam swab and acetone every 10 PZT elements.
+**Note:** Re-clean the micrometer anvils using a foam swab and isopropyl alcohol every 10 PZT elements.
 
 `placeholder for video`
 
 ## Example Data
 
-Width and thickness distributions were measured from the PZT elements (N = 288) used for this project, using the procedure detailed above. Excess electrode folding was found to produce a systematic error in thickness measurement. A mean decrease of 22 \( \mu m \) was measured before and after dressing the electrode edges. The difference in standard deviation was negligible after dressing.
+Width and thickness distributions were measured from the pool of PZT elements (N = 288) used for this project, using the procedure detailed above. Excess electrode folding was found to produce a systematic error in thickness measurement. A mean decrease of 22 \( \mu m \) was measured before and after dressing the electrode edges. The difference in standard deviation was negligible after dressing. In this case, the mean values for thickness and width match the nominal value provided by the manufacturer.
 
 | Dimension                  | Mean [\( \mu m \)] | Standard Deviation [\( \mu m \)] |
 | ---                        |    ----            |          ---                     |

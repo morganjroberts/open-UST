@@ -33,9 +33,9 @@ The cable braid is made from groups of strands that are woven together. To preve
 
 The length of ribbon cable between the end of the sheath and the IDC connector should be 36 mm \( \pm \) 5 mm. Deviations from this will it difficult to install the cable into the transducer module later.
 
-The chosen cable has a continuous split/bond repeating pattern, where the split sections are 36 mm in length, and the bonded sections are 25 mm in length , detailed in [`3M-3659-3_34-way-screened-round-ribbon-cable_datasheet.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/3M-3659-3_34-way-screened-round-ribbon-cable_datasheet.pdf))
+The ribbon cable has a continuous split/bonded repeating pattern, where the split sections are 36 mm in length, and the bonded sections are 25 mm in length , detailed in [`3M-3659-3_34-way-screened-round-ribbon-cable_datasheet.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/technical-datasheets/3M-3659-3_34-way-screened-round-ribbon-cable_datasheet.pdf))
 
-The end of the sheath should be aligned with the point where the ribbon cable changes from bonded to split (moving towards the end of the cable). This will provide approximately 36 mm of cable between the end of the sheath and the IDC connector. 
+The IDC connector is installed on the bonded section. The end of the sheath should be aligned with the point where the ribbon cable changes from bonded to split (moving towards the end of the cable). This will provide approximately 36 mm of cable between the end of the sheath and the IDC connector (see section below). 
 
 1. Use a scalpel to remove the foil, exposing the ribbon cable.
 2. Mark the transition point where the ribbon cable changes from split to bonded (moving towards the end of the cable) using a permenant marker.
@@ -53,8 +53,19 @@ The end of the sheath should be aligned with the point where the ribbon cable ch
 
 ## Installing the Connectors
 
+1. Hold the cable so that the red wire is on the right hand side. Pre-flatten the ribbon cable by folding it approximately 6mm above the transition from split to bonded.
+2. Install the IDC clip underneath the cable. 
+3. Install the IDC housing onto the IDC clip. Press the two parts together until the IDC contacts grip the ribbon cable.
+    * **Note:** Make sure that the polarity indicator (embossed triangle) is on the right hand side. The tab should also be facing forwards.
+    * **Note:** Make sure the individual conductors are well aligned with the clip indentations and the IDC contacts.
+4. Use a vice to compress the assembly until the IDC clip locks to the IDC housing.
+5. Use side cutters to trim the excess ribbon cable flush with the IDC connector.
 
 ![install-idc-connector](img/cable-preparation/install-idc-connector.svg)
+
+## Test Continuity
+
+Before proceeding further, the continuity of the cables should be verified.
 
 ## Sheath Surface Treatment for Bonding (Transducer End)
 

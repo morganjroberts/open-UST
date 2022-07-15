@@ -63,10 +63,42 @@ The IDC connector is installed on the bonded section. The end of the sheath shou
 
 ![install-idc-connector](img/cable-preparation/install-idc-connector.svg)
 
-## Test Continuity
+## Test Continuity and Isolation
 
-Before proceeding further, the continuity of the cables should be verified.
+The quality of the IDC connector installation should be tested at this point, to prevent further manufacture on a bad cable, which would have to be repeated once the fault is detected.
+Conductor continuity along the cable is tested, in addition to isolation between neighbouring conductors.
+
+![test-continuity-isolation](img/cable-preparation/test-continuity-isolation.svg)
+
+1. Find a multimeter with probes that are compatible with the IDC socket.
+2. If necessary, incompatible multimeter probes can be modified:
+    * Cut 2 lengths of 120 mm solid core 28 awg wire,
+    * Wrap one end tightly around each multimeter probe, using a knot,
+    * Obtain two single header pins with 0.64 mm sqaure posts (part in BOM)
+    * Solder each pin to the other end of the wire,
+    * Cut a 120 mm length of heatshrink (part in bOM)
+    * Install the heatshrink and shrink it onto the extended probe.
+3. Hold the IDC connectors from each end of the cable in a vice. Make sure their orientation is the same.
+4. Use the multimeter probes to test continuity and isolation according to the pattern shown in following diagram (also see video below):
+    * **Note:** for continuous measurements the DC resistance should be \( < 1 \Omega \).
+    * **Note:** for isolated measurements the DC resistance should be out-of-range.
+
+![IDC-testing-pinout-diagram](img/cable-preparation/IDC-testing-pinout-diagram.png)
 
 ## Sheath Surface Treatment for Bonding (Transducer End)
+
+During the coating process, an adhesive bond to the PVC cable sheath is required. It is difficult to bond to PVC, so a surface treatment is used to increase bond strength.
+
+1. Choose the end of the cable with the longest copper braid,
+2. Pull the copper braid back over the IDC connector,
+3. Make a mark 36 mm from the end of the sheath using a permenant marker. Extend the mark around the sheath circumference.
+4. Use a 24 tpi hacksaw blade (or similar) to abrade the cable sheath (see video below)
+    * **Note:** The shiny PVC surface should be completely removed.
+    * **Note:** Surface treatment should be applied up to at least 10 mm from the end of the sheath.
+5. Pull the copper braid back over the sheath,
+6. Wrap the end of the sheath in electrical insulating tape
+    * **Note:** The tape width should be \(\leq \) 14 mm.
+
+![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.svg)
 
 ## Sheath Copper Coating for Shield Termination (Plug End)

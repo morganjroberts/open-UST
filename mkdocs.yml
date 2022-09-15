@@ -36,4 +36,6 @@ extra_javascript:
 markdown_extensions:
     - mdx_math
 
-theme: readthedocs        
+theme: 
+    name: readthedocs  
+    logo: img/open-UST_logo.svg

@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to open-UST
 
 <!-- For adding MathJax to MkDocs
 https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax/31926644#31926644

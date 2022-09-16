@@ -8,27 +8,27 @@ nav:
     - Contact and Support: contact_and_support.md
     - Bill of Materials: bill-of-materials.md
     - Manufacturing Documentation:
-        - (WIP) User Workflow Overview: user_workflow_overview.md
-        - (Draft) PZT Element Preparation: pzt-element-preparation.md
-        - (WIP) Matching Layer Deposition: matching_layer_deposition.md
-        - (WIP) PZT Element Alignment: pzt_element_alignment.md
-        - (WIP) Interconnect PCB Soldering: interconnect_pcb_soldering.md
-        - (WIP) Housing - PCB bonding: housing_-_pcb_bonding.md
-        - (WIP) Signal Electrode Connection: signal_electrode_connection.md
-        - (WIP) Backing Layer Casting: backing_layer_casting.md
-        - (WIP) Ground Electrode Connection: ground_electrode_connection.md      
-        - (WIP) Impedance Measurement: impedance_measurement.md
-        - (WIP) Cable Preparation: cable-preparation.md
-        - (WIP) Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
-        - (WIP) Cover Piece Welding: cover_piece_welding.md
-        - (WIP) Electromagnetic Shielding: electromagnetic_shielding.md
-        - (WIP) Install Mounting Points: install_mounting_points.md
-        - (WIP) Rigid Coating Casting: rigid_coating_casting.md
-        - (WIP) Acoustic Coating Casting: acoustic_coating_casting.md
-        - (WIP) Bend Relief Installation: bend_relief_installation.md 
-        - (WIP) Plug Backshell Fabrication: plug_backshell_fabrication.md
-        - (WIP) Electrical Impedance Matching: electrical_impedance_matching.md
-        - (WIP) Modular Array Assembly: array_assembly.md
+        - User Workflow Overview: user_workflow_overview.md
+        - PZT Element Preparation: pzt-element-preparation.md
+        - Matching Layer Deposition: matching_layer_deposition.md
+        - PZT Element Alignment: pzt_element_alignment.md
+        - Interconnect PCB Soldering: interconnect_pcb_soldering.md
+        - Housing - PCB bonding: housing_-_pcb_bonding.md
+        - Signal Electrode Connection: signal_electrode_connection.md
+        - Backing Layer Casting: backing_layer_casting.md
+        - Ground Electrode Connection: ground_electrode_connection.md      
+        - Impedance Measurement: impedance_measurement.md
+        - Cable Preparation: cable-preparation.md
+        - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
+        - Cover Piece Welding: cover_piece_welding.md
+        - Electromagnetic Shielding: electromagnetic_shielding.md
+        - Install Mounting Points: install_mounting_points.md
+        - Rigid Coating Casting: rigid_coating_casting.md
+        - Acoustic Coating Casting: acoustic_coating_casting.md
+        - Bend Relief Installation: bend_relief_installation.md 
+        - Plug Backshell Fabrication: plug_backshell_fabrication.md
+        - Electrical Impedance Matching: electrical_impedance_matching.md
+        - Modular Array Assembly: array_assembly.md
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML

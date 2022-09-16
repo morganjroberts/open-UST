@@ -2,32 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://morganjroberts.github.io/open-UST/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morganjroberts.github.io/open-UST/bill-of-materials/</loc>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/cable-preparation/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/contact_and_support/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/matching_layer_deposition/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/pzt-element-preparation/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morganjroberts.github.io/open-UST/strain-relief-clip-manufacture/</loc>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/user_workflow_overview/</loc>
-         <lastmod>2022-06-03</lastmod>
+         <lastmod>2022-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

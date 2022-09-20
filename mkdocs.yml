@@ -4,31 +4,31 @@ repo_url: https://github.com/morganjroberts/open-UST
 
 nav:
     - Home: index.md
-    - Background: background.md
-    - Contact and Support: contact_and_support.md
-    - Bill of Materials: bill-of-materials.md
+    # - Background: background.md
+    # - Contact and Support: contact_and_support.md
+    # - Bill of Materials: bill-of-materials.md
     - Manufacturing Documentation:
-        - User Workflow Overview: user_workflow_overview.md
+        # - User Workflow Overview: user_workflow_overview.md
         - PZT Element Preparation: pzt-element-preparation.md
         - Matching Layer Deposition: matching_layer_deposition.md
-        - PZT Element Alignment: pzt_element_alignment.md
-        - Interconnect PCB Soldering: interconnect_pcb_soldering.md
-        - Housing - PCB bonding: housing_-_pcb_bonding.md
-        - Signal Electrode Connection: signal_electrode_connection.md
-        - Backing Layer Casting: backing_layer_casting.md
-        - Ground Electrode Connection: ground_electrode_connection.md      
-        - Impedance Measurement: impedance_measurement.md
+        # - PZT Element Alignment: pzt_element_alignment.md
+        # - Interconnect PCB Soldering: interconnect_pcb_soldering.md
+        # - Housing - PCB bonding: housing_-_pcb_bonding.md
+        # - Signal Electrode Connection: signal_electrode_connection.md
+        # - Backing Layer Casting: backing_layer_casting.md
+        # - Ground Electrode Connection: ground_electrode_connection.md      
+        # - Impedance Measurement: impedance_measurement.md
         - Cable Preparation: cable-preparation.md
-        - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
-        - Cover Piece Welding: cover_piece_welding.md
-        - Electromagnetic Shielding: electromagnetic_shielding.md
-        - Install Mounting Points: install_mounting_points.md
-        - Rigid Coating Casting: rigid_coating_casting.md
-        - Acoustic Coating Casting: acoustic_coating_casting.md
-        - Bend Relief Installation: bend_relief_installation.md 
-        - Plug Backshell Fabrication: plug_backshell_fabrication.md
-        - Electrical Impedance Matching: electrical_impedance_matching.md
-        - Modular Array Assembly: array_assembly.md
+        # - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
+        # - Cover Piece Welding: cover_piece_welding.md
+        # - Electromagnetic Shielding: electromagnetic_shielding.md
+        # - Install Mounting Points: install_mounting_points.md
+        # - Rigid Coating Casting: rigid_coating_casting.md
+        # - Acoustic Coating Casting: acoustic_coating_casting.md
+        # - Bend Relief Installation: bend_relief_installation.md 
+        # - Plug Backshell Fabrication: plug_backshell_fabrication.md
+        # - Electrical Impedance Matching: electrical_impedance_matching.md
+        # - Modular Array Assembly: array_assembly.md
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -37,5 +37,5 @@ markdown_extensions:
     - mdx_math
 
 theme: 
-    name: readthedocs  
+    name: readthedocs
     logo: img/open-UST_logo.svg

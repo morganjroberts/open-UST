@@ -2,6 +2,8 @@ site_name: open-UST
 site_url: https://morganjroberts.github.io/open-UST/
 repo_url: https://github.com/morganjroberts/open-UST
 
+# MAKE SURE ALL FILES FOLLOW HYPENATED CONVENTION
+
 nav:
     - Home: index.md
     # - Background: background.md
@@ -10,7 +12,7 @@ nav:
     - Manufacturing Documentation:
         # - User Workflow Overview: user_workflow_overview.md
         - PZT Element Preparation: pzt-element-preparation.md
-        - Matching Layer Deposition: matching_layer_deposition.md
+        - Matching Layer Deposition: matching-layer-deposition.md
         # - PZT Element Alignment: pzt_element_alignment.md
         # - Interconnect PCB Soldering: interconnect_pcb_soldering.md
         # - Housing - PCB bonding: housing_-_pcb_bonding.md

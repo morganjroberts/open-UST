@@ -5,7 +5,7 @@ The PZT elements will each have slightly different widths and thicknesses, due t
 In this section, these characteristics are measured and recorded. This information is important for several reasons:
 
 * Defect classifications will be used later to select which elements should be used for the transducer modules. 
-* The distribution of element widths and thicknesses is needed for calibrating the slot widths and depths in the matching layer deposition mould. 
+* The element widths are needed for calibrating the slot widths in the matching layer deposition mould, and the PZT alignment mould.
 * If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses (this data can be useful when interpretting inter-element variations in acoustic performance).
 
 ## Manufacture and Load the PZT Element Tray

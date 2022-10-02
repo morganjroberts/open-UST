@@ -7,16 +7,18 @@ repo_url: https://github.com/morganjroberts/open-UST
 nav:
     - Home: index.md
     # - Background: background.md
-    # - Contact and Support: contact_and_support.md
-    # - Bill of Materials: bill-of-materials.md
+    - Contact: contact.md
+    - UST Background: background.md
+    - Bill of Materials: bill-of-materials.md
     - Manufacturing Documentation:
         # - User Workflow Overview: user_workflow_overview.md
+        # - Custom Tooling Manufacture: custom-tooling-manufacture.md
         - PZT Element Preparation: pzt-element-preparation.md
         - Matching Layer Deposition: matching-layer-deposition.md
-        # - PZT Element Alignment: pzt_element_alignment.md
+        - PZT Element Alignment: pzt-element-alignment.md
         # - Interconnect PCB Soldering: interconnect_pcb_soldering.md
         # - Housing - PCB bonding: housing_-_pcb_bonding.md
-        # - Signal Electrode Connection: signal_electrode_connection.md
+        - Rear Electrode Connection: rear-electrode-connection.md
         # - Backing Layer Casting: backing_layer_casting.md
         # - Ground Electrode Connection: ground_electrode_connection.md      
         # - Impedance Measurement: impedance_measurement.md

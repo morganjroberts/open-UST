@@ -1,0 +1,5 @@
+# Contact
+
+open-UST is an ongoing research project from the [Biomedical Ultrasound Group](https://bug.medphys.ucl.ac.uk/) (University College London).
+
+For questions, suggestions and feedback, please contact [morgan.roberts.18@ucl.ac.uk](morgan.roberts.18@ucl.ac.uk).

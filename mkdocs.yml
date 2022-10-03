@@ -19,13 +19,13 @@ nav:
         # - Interconnect PCB Soldering: interconnect_pcb_soldering.md
         # - Housing - PCB bonding: housing_-_pcb_bonding.md
         - Rear Electrode Connection: rear-electrode-connection.md
-        # - Backing Layer Casting: backing_layer_casting.md
-        # - Ground Electrode Connection: ground_electrode_connection.md      
+        - Backing Layer Casting: backing-layer-casting.md
+        - Front Electrode Connection: front-electrode-connection.md      
         # - Impedance Measurement: impedance_measurement.md
         - Cable Preparation: cable-preparation.md
-        # - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
-        # - Cover Piece Welding: cover_piece_welding.md
-        # - Electromagnetic Shielding: electromagnetic_shielding.md
+        - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
+        - Cable Installation: cable-installation.md
+        - Electromagnetic Shielding: electromagnetic-shielding.md
         # - Install Mounting Points: install_mounting_points.md
         # - Rigid Coating Casting: rigid_coating_casting.md
         # - Acoustic Coating Casting: acoustic_coating_casting.md

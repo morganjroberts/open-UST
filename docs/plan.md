@@ -21,3 +21,11 @@ Outputs
 hardware
 - files
 - BOM
+- 3d print orientation and settings files
+
+things to check
+- safety
+- hyphenation
+- full stops vs commas at end of lines
+- notes formating
+- standard sentence for 3D printing  details found elsewhere

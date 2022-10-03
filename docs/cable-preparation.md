@@ -89,7 +89,7 @@ Conductor continuity along the cable is tested, in addition to isolation between
 
 During the coating process, an adhesive bond to the PVC cable sheath is required. It is difficult to bond to PVC, so a surface treatment is used to increase bond strength.
 
-1. Choose the end of the cable with the longest copper braid,
+1. Choose the end of the cable with the longest copper braid. This will be the transducer end of the cable.
 2. Pull the copper braid back over the IDC connector,
 3. Make a mark 36 mm from the end of the sheath using a permenant marker. Extend the mark around the sheath circumference.
 4. Use a 24 tpi hacksaw blade (or similar) to abrade the cable sheath (see video below)
@@ -102,3 +102,15 @@ During the coating process, an adhesive bond to the PVC cable sheath is required
 ![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.svg)
 
 ## Sheath Copper Coating for Shield Termination (Plug End)
+
+1. Cut a XX mm by X mm rectangle of adhesive-backed copper foil using scissors.
+2. Wrap the copper foil around the plug end of the cable.
+3. Setup a soldering iron with a high temperature of 380 degC and a large-area tip.
+4. Apply solder to the copper foil seam.
+5. Use tweezers to untangle the copper braid.
+6. Form 4 twisted bundles of copper braid, equally spaced around the cable circumference.
+7. Bend one of the bundles so that its base touches the copper foil.
+8. Pre-solder the base of a bundle.
+9. Cut the bundle so that it overlaps the copper foil by ~ 4 mm.
+10. Solder the trimmed bundle to the copper foil. Keep heating time to a minimum to avoid melting the PVC cable sheath.
+11. Repeat this process for all four bundles.

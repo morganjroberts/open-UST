@@ -1,5 +1,7 @@
 # Strain Relief Clip Manufacture
 
+## Overview
+
 The strain relief clips are used to:
 * secure the cable to the transducer module housing,
 * secure the cable to the plug backshell.
@@ -7,8 +9,8 @@ The strain relief clips are used to:
 ## Mark hole and outline locations
 
 1. Download and print the template `placeholder`
-2. Cut a piece of 0.2 mm steel shim stock (part in BOM) larger than the template printout.
-3. Use a strong adhesive to fix the paper template to the steel sheet.
+2. Cut a piece of 0.2 mm steel shim stock slightly larger than the template printout.
+3. Use a pritt stick adhesive to fix the paper template to the steel sheet.
 
 **Note:** If marking the hole and outline locations manually, use the following dimensions: (from )
 **Note:** Make more clips than required to allow for defects.

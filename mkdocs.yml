@@ -11,8 +11,8 @@ nav:
     - UST Background: background.md
     - Bill of Materials: bill-of-materials.md
     - Manufacture Preparation: 
-        - Custom Tooling Manufacture: custom-tooling-manufacture.md
-        - Offset Calibration for 3D-printed Parts: offset-calibration.md   
+        - $Custom Tooling Manufacture: custom-tooling-manufacture.md
+        - $Offset Calibration for 3D-printed Parts: offset-calibration.md   
     - Transducer Manufacture:
         - PZT Element Preparation: pzt-element-preparation.md
         - Matching Layer Deposition: matching-layer-deposition.md
@@ -31,10 +31,10 @@ nav:
         - Finishing: finishing.md 
     - Additional Manufacture:
         - Plug Assembly: plug-assembly.md       
-        - 2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
+        - $2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
     - Impedance Matching:
-        - Impedance Measurement: impedance-measurement.md
-        - Impedance Matching Circuit: impedance-matching-circuit.md
+        - $Impedance Measurement: impedance-measurement.md
+        - $Impedance Matching Circuit: impedance-matching-circuit.md
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML

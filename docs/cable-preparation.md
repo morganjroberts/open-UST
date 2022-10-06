@@ -99,8 +99,9 @@ During the coating process, an adhesive bond to the PVC cable sheath is required
 6. Wrap the end of the sheath in electrical insulating tape
     * **Note:** The tape width should be \(\leq \) 14 mm.
 
-![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.webp)
-![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment-800.webp)
+![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.png)
+<!-- ![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.webp) -->
+<!-- ![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment-800.webp) -->
 
 ## Sheath Copper Coating for Shield Termination (Plug End)
 

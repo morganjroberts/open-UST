@@ -28,7 +28,7 @@ The interconnect PCB-housing assembly should not be removed from the base plate 
 
 ## Rear Electrode Connection
 
-`Note: the acetone evaporates from the mixture, increasing its viscosity. The effect of re-dilution on the cured electrical properties of MG XXX has not been tested. Instead, dispose of the mixture once it becomes too viscous to use, and prepare a new batch. Typically, it lasts for 15 minutes (connection time for ~3 transducer modules).`
+`Note: the acetone evaporates from the mixture, increasing its viscosity. The effect of repeated dilution on the cured electrical properties of MG XXX has not been tested. Instead, dispose of the mixture once it becomes too viscous to use, and prepare a new batch. Typically, it lasts for 15 minutes (connection time for ~3 transducer modules).`
 
 1. Place the module assembly on the angled support plate, under a microscope,
 2. Prepare a dispensing tool - attach a sewing needle to a long rod using tape,

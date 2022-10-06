@@ -3,14 +3,13 @@ Slot width affects orientation in lateral plane
 elevation plane easier 
 
 
-## Description
+## Overview
 
-## Manufacture Steps
-### Probe assignment by PZT element width
+## Probe assignment by PZT element width
 Transducer modules should contain PZT elements with similar widths, so that a constant slot width can be used.
 
 
-### Calibrate Alignment Mould Slot Width
+## Calibrate Alignment Mould Slot Width
 The slot width should be tuned for every transducer module. Slot width calibration should be performed immediately before printing the final alignmnet-mould for a given transducer module, because deviations in 3D-printer filament diameter can cause drift in 3D-printer linewidth over time.
 
 The alignment mould slot width must be as close as possible to the width of the PZT elements. This is so that the PZT elements cannot rotate in their slots.
@@ -27,7 +26,7 @@ Tune the slot width:
 - insert the pzt elements into all of the slots. The element should seat easily into the slots without needing force, but it should not rotate in the slots.
 
 
-### 3D-print Alignment Mould
+## Prepare alignment Mould
 
 1. Adjust the slot width in CAD and export the new stl file,
 2. Print the stl file with the following orientation and settings:
@@ -38,7 +37,7 @@ Tune the slot width:
 6. Cleanup nozzle stringing using a scalpel,
 7. Use an air duster to blow debris out of the slots.
 
-### Clean and load PZT into alignment mould slots
+## Prepare and load PZT elements into alignment mould slots
 
 1. Hold the alignment mould with the blind end of the slots on the left and the PCB recess on the right.
 2. Identify the PZT element ID for the first position, and remove the PZT element from the PZT tray using tweezers,
@@ -51,7 +50,7 @@ Tune the slot width:
 7. Apply gently pressure with the tweezers to fully seat the element onto the bottom of the slot. Make sure the element is pushed fully into the blind end of the slot.
 8. Repeat this process for all elements in the transducer module.
 
-### Apply PVA blocking layer
+## Apply PVA blocking layer
 
 A PVA blocking layer is needed to prevent the backing layer composite from bonding to the exposed front electrode (this would later obstruct an electrical connection from the electrode to the PCB pad).
 

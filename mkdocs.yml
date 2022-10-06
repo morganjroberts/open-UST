@@ -10,29 +10,31 @@ nav:
     - Contact: contact.md
     - UST Background: background.md
     - Bill of Materials: bill-of-materials.md
-    - Manufacturing Documentation:
-        # - User Workflow Overview: user_workflow_overview.md
-        # - Custom Tooling Manufacture: custom-tooling-manufacture.md
+    - Manufacture Preparation: 
+        - Custom Tooling Manufacture: custom-tooling-manufacture.md
+        - Offset Calibration for 3D-printed Parts: offset-calibration.md   
+    - Transducer Manufacture:
         - PZT Element Preparation: pzt-element-preparation.md
         - Matching Layer Deposition: matching-layer-deposition.md
         - PZT Element Alignment: pzt-element-alignment.md
-        # - Interconnect PCB Soldering: interconnect_pcb_soldering.md
-        # - Housing - PCB bonding: housing_-_pcb_bonding.md
+        - PCB-Housing Assembly: pcb-housing-assembly.md
         - Rear Electrode Connection: rear-electrode-connection.md
         - Backing Layer Casting: backing-layer-casting.md
         - Front Electrode Connection: front-electrode-connection.md      
-        # - Impedance Measurement: impedance_measurement.md
         - Cable Preparation: cable-preparation.md
         - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
         - Cable Installation: cable-installation.md
         - Electromagnetic Shielding: electromagnetic-shielding.md
-        # - Install Mounting Points: install_mounting_points.md
-        # - Rigid Coating Casting: rigid_coating_casting.md
-        # - Acoustic Coating Casting: acoustic_coating_casting.md
-        # - Bend Relief Installation: bend_relief_installation.md 
-        # - Plug Backshell Fabrication: plug_backshell_fabrication.md
-        # - Electrical Impedance Matching: electrical_impedance_matching.md
-        # - Modular Array Assembly: array_assembly.md
+        - Install Mounting Nuts: install-mounting-nuts.md
+        - Rigid Coating: rigid-coating.md
+        - Acoustic Coating: acoustic-coating.md
+        - Finishing: finishing.md 
+    - Additional Manufacture:
+        - Plug Assembly: plug-assembly.md       
+        - 2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
+    - Impedance Matching:
+        - Impedance Measurement: impedance-measurement.md
+        - Impedance Matching Circuit: impedance-matching-circuit.md
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML

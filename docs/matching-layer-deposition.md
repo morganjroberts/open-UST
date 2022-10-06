@@ -1,102 +1,132 @@
 # Matching Layer Deposition
 
+## Overview
 
+## Prepare PVA Deposition Mould
 
-## Manufacture Doctor Blade Coater
-The doctor blade coater uses a 3D-printed blade holder to hold a safety blade at the correct angle. It is used during the deposition of the matching layers to scrape the tungsten-epoxy compound over the PZT elements.
+1. Using the width ordered list of PZT elements, select a batch of 20 PZT elements with a similar width
+1. Calibrate the slot width for the PVA deposition mould, (detialed fuether in XXX)
+1. 3D-print the PVA deposition mould (setting desiebd in)
+1. Allow the part to cool for 1 hour.
+1. Carefully remove the part from the glass build plate using a scalpel.
+1. Inspect the slots under a microscope. Remove any debris using a scalpel and an air duster.
 
-![doctor-blade-coater](img/matching-layer-deposition/doctor-blade-coater/doctor-blade-coater.svg)
+## Prepare deposition tooling
 
-### Set the Blade Height
-**Note:** This step is only required if a non-standard PZT thickness is being used: If the nominal PZT thickness is approximately equal to the default value of 1 mm, skip this step and use the default `blade-holder.stl` and `support-arm.stl` files instead.
+1. Remove debris from the deposition tooling parts using an air duster.
+1. Degrease the deposition tooling parts using a paper towel, foam swab and isopropyl alcohol.
+1. Use a foam swab to apply a coating of petroleum jelly to both sides of the steel gauge blocks, and to one side of each of the glass pieces.
+1. Wipe off the coating using a paper towel to leave only a very thin layer that has negligible thickness.
+1. Clamp the jig to the work surface using a small G-clamp.
+1. Place the glass base into its recess, with the greased side facing up.
+1. Place the PVA deposition mould onto the glass plate, in the same orientation that it was 3D-printed.
+1. Install the retention clips and loosely install the M3 x 6 mm screws.
+1. Install the coating rails and loosely install the M3 x 6 mm screws.
+1. Adjust the parts so that there is no gap between the rails and the PVA deposition mould.
+1. Tighten all the screws until the parts are fixed in place, but no further (to avoid flexing).
+1. Place strips of masking tape on the glass plate beside the rails, and on the retention clips.
 
-During use, the angle of the blade is maintained by the support arm, which rides along the surface of the glass plate. For the support arm to have the correct vertical offset from the blade tip, the blade height must be defined as a parameter.  
-The blade height should be equal to the thickness of the matching layer deposition mould.  
+## Prepare and load PZT elements
 
-![doctor-blade-coater-blade-height](img\matching-layer-deposition\doctor-blade-coater\doctor-blade-coater-blade-height.svg)
+Note: PZT element electrodes are polarised, and come from the manufacturer with a polarity indicator (e.g. an ink marking). Polarity affects whether the PZT generates a positive or negative pressure wave when driven with a positive voltage pulse, and should be the same for all the elements in the array. Although their polarity can be identified during calibration, and corrected for with the driving voltage, it is more convenient to make sure that the PZT elements are loaded into the deposition mould with the same polarity.
 
-* Open the `QWML-deposition-mould.f3d` CAD file in Fusion 360.
-* Record the `calculated_part_height` value from the `Solid > Modify > Change Parameters` menu,
-* Open the [`doctor-blade-coater.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/doctor-blade-coater/`doctor-blade-coater.f3d`) CAD file in Fusion 360,
-* In the `Solid > Modify > Change Parameters` menu, set the `blade_height` parameter to the same value as `calculated_part_height`.
-* Export the blade holder and support arm as .stl files.
+1. Identify the PZT element ID for the first position, and remove the PZT element from the PZT tray using tweezers.
+1. Find the side without a polarity indicator. This is the 'front electrode', and the composite will bond to this side.
+1. Under a microscope, lightly abrade the surface of the front electrode using a small piece of P2000 grit sandpaper held in a pair of forceps. Do not remove excessive material,
+1. Clean all faces of the PZT element using isopropyl alcohol and a foam swab.
+1. Use tweezers to place the clean PZT element into the deposition mould slots, with the front electrode facing up. Make sure the PZT element is in full contact with the glass plate.
 
-**Notes:** This doctor blade coater is designed for a specific safety blade (RS PRO 546-758m, part ID XX in BOM). If a different blade is used, the blade dimensions should be updated in the `Change Parameters` menu. The default `blade-angle` parameter used is 45 degrees. Preliminary testing showed that steeper blade angles produce a rougher surface finish, and that shallower blade angles require excessive downwards pressure, which can lead to blade-flexing and non-uniform matching layer thickness.
+## Prepare tungsten-epoxy composite
 
-### 3D-printing
+MAKE SURE THIS MIRRORS THE BACKING LAYER SECTIOJN
 
-* Load `blade-holder.stl` and `support-arm.stl` into the Cura slicer software.
-* Use the following print orientation, to make sure the blade-holding features are flat. Use the 'Select face to align to the build plate' function.
+1. Calculate the required mass of tungsten, resin and hardener. For four transducer modules, the required volume is XXX ml. For a tungsten-weight fraction of 86.9 %, the required quantities are:
 
-![doctor_blade_coater_print_orientation](img/matching-layer-deposition/doctor-blade-coater/doctor-blade-print-orientation.png)
+| Component | Mass [g] |
+|-----------|----------|
+|Tungsten powder | |
+|Araldite standard resin | |
+|Araldite standard hardener | |
 
-Recomended Settings:
+Use the matlab function XXX to calculate the masses needed for other volumes and compositions.
 
-* Use 100% infill to make the blade-holder as stiff as possible, so that the blade can be clamped flat,
-* PVA support required for `blade-holder.stl` but not for `support-arm.stl`.
-* 0.2 mm layer thickness,
-* Enable top support interface.
+2. Place a clean piece of paper on a digital balance (resolution 0.1 g or better), and tare it,
+3. Dispense the required mass of tungsten powder, place aside for later,
+4. Clean the glass mixing plate with isopropyl alcohol,
+5. Place the glass plate on the digital balance, and tare it,
+6. Dispense the required mass of resin,
+7. Tare the balance,
+8. Dispense the required mass of hardener,
+9. Remove the glass plate from the balance and clamp securely to the work surface,
+10. Use a flat scraper to combine the resin and hardener. Mix thoroughly for 5 minutes, making sure that all of the material is fully incorporated.
+11. Add the tungsten powder.
+12. Mix thoroughly for 15 minutes, making sure that the mixture is homogeneous. Frequently remove unmixed material from the scraper blade and the edges of the glass plate and combine it with the rest of the material.
 
-### Process the Blade-holder
+## Blade coating composite
 
-* A smooth flat surface is required to clamp the blade without flexing,
-* Use a scalpel to remove bumps created by the 3D-printer nozzle. 
+Note: practice this step
 
-<div align="center">    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OjL9OB76LAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br/>
+1. Clean the custom blade coater using a foam swab and isopropyl alcohol.
+1. Carefully place ~ 3 ml of composite above the first row of PZT elements, on the deposition mould. Do not allow the composite to touch the elements, as this can pull them up out of their slots.
+1. Place the blade coater down onto the rails so that the composite is underneath the tool.
+1. Slowly (~0.6 mm/s) drag the blade along the rails to coat the PZT elements with the composite. Make sure that even pressure is applied to the three points of contact between the blade coater and the rails/jig.
+1. At the end of the coating stroke, slowly detach the blade from the composite using a side-to-side position.
+1. Remove the masking tape, being careful not to touch the coating layer.
+1. Remove the rails, being careful not to touch the coating layer.
+1. Use a paper towel and isopropyl alcohol to remove residue from the parts of the glass base previously covered by the rails and tape.
 
+## Composite compression
 
-### Install Threaded Inserts
+1. Place the 2 clamp bases either side of the deposition mould.
+1. Install the M3 x 12 mm screws and tighten  until the clamps are fixed in place, but no further (to avoid flexing).
+1. Use tweezers to place the steel gauge blocks in their recesses, either side of the deposition mould. Be very careful not to touch the coating layer.
+1. Use tweezers to place one edge of the glass lid down so that it touches both gauge blocks. Once it touches the composite, do not lift it up.
+1. Allow it to fall into place onto the gauge blocks. The greased side should be touching the composite.
+1. Fix the clamp bars to the clamp bases using M3 x 6 mm screws.
+1. Insert the M3 x 20 mm screws into the clamp bar, and advance them so that they almost touch the glass lid.
+1. In sequence, compress the composite layer. Tighten the four screws a quarter-turn at a time, to apply even clamping pressure. Stop once the glass lid touches the gauge block.
+1. Label the glass lid with the batch ID using a permananent marker.
+1. Allow the composite to cure undisturbed for 24 hours.
 
-* Use a soldering iron set to 275 degC,
-* Place the M3 threaded insert [part ID 0] on to the soldering iron tip,
-* Place the insert into the hole and push gently,
-* As the plastic melts, push the insert into the hole, making sure that the insert is properly aligned.
-* Keeping pushing until the insert sits below the surface,
-* Gently twist the solering iron to remove it.
-* Once all the inserts are installed, remove the raised edge around the insert by scraping with a scalpel.
+Note: during the manufacture of UST-001, there were major problems compressing the composite, since the thin 1 mm glass coverslips flexed and cracked before it made proper contact with the gauge blocks. This custom tooling needs a redesign which is an open issue on GitHub.
 
-### Install the Safety Blade
+## Mould removal
 
-* Degrease the blade using Isopropyl Alcohol and a paper towel.
-* Attach the support-arm to the blade-holder using x2 of M3 x 12 mm screws [part ID 1].
-* Pre-install x4 of M3 x 6 mm screws [part ID 2] into the blade holder, leaving space for the blade. Use washers [part ID 3] for the two outermost screws near the blade tips.
-* Slide the safety blade underneath the heads of the screws. Make sure the blade is fully seated against the registering features.
-* Gently tighten the screws, using the lowest tension required to grip the blade. Overtightening will lead to blade flex.
-* Look along the blade to check its straightness. If there is a visible bend, check that the screws are not overtightened, and that the clamping surfaces are flat and clean.
+1. Dissasemble the coating tooling.
+1. Use a scalpel to gently release the PVA deposition mould from the glass base. Do not attempt to remove the glass lid.
+1. To dissolve the PVA deposition mould, place the glass-PZT-PVA assembly in a bath of room temperature water for ~36 hours.
 
-## Batching
+`Note: residual PVA can be gently removed from between the PZT elements using a toothbrush. Do not use warm water or agressive agitation since this can damage the adhesive bond between the PZT and the composite. `
 
-## Slot width calibration
-### Process width and thickness data
-* Sort PZT elements into ascending width order
-* Decide thickess
+1. Place the glass lid on a flat surface with the PZT elements facing up.
+1. Use a scalpel to gently release the composite from the glass lid. Work slowly, from the outside inwards, from all directions.
 
-## Print Matching Layer Deposition Mould
+## Matching layer trimming
 
-## Load PZT Elements into Deposition Mould
+Note: change the scalpel blade for a new sharp one every 10 elements.
 
-## Tungsten-Epoxy Composite Preparation
-### Prepare Vacuum Mixing Bag
-### Measure Components into Bag
-### Remove Air and Seal Bag
-### Mix Components
+1. Place the composite-PZT assembly, with the rear electrodes facing up, on a flat surface under a microscope.
+1. Use a scalpel to isolate a PZT element by cutting it out from the assembly.
+1. Hold the PZT element down using plastic tweezers and use a scalpel to trim the composite flush with the edge on each side.
+1. Repeat this to remove composite from the ends of the PZT element.
+1. Rotate the PZT element so that the non-electroded side is facing up.
+1. Hold the PZT with tweezers, and use a scalpel to shave the excess composite away from the PZT. The hard PZT can be used as a guide for the scalpel blade to run along, to cut the softer composite flush with the surface.
+1. Repeat for the other non-electroded side of the PZT element.
+1. Place the PZT element back in the PZT storage tray.
+1. Repeat this process for all PZT elements.
 
-## Tungsten-Epoxy Doctor Blade Coating
+## Thickness measurement
 
-### Print Doctor blade coater
+Repeat the thickness measurement described in XXX. 
 
-## Dissolve PVA Mould
+## Expose the front electrode
 
-## Trim Matching Layers
-
-
-
-
-
-
-
-
-
+1. Setup the custom matching layer trimmer by adjusting the blade and depth-stop to the correct position.
+1. Remove a PZT element from the PZT storage tray.
+1. Place the PZT element, matching layer facing down, onto the custom trimming tool, with one of the ends touching the depth stop.
+1. Use a soft push-stick (e.g. a pencil with eraser) to press the matching layer onto the blade.
+1. If the matching layer did not separate fully, bring the PZT element under a microscope.
+1. Use a scalpel blade to release the waste matching layer. Do not damage the elctrode with the scalpel blade.
+1. Record any defects (chipping, electrode damage, matching layer damage) in the XXX spreadsheet.
+1. Return the PZT element to the PZT storage tray.
+1. Repeat this process for all PZT elements.

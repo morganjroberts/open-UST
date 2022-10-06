@@ -9,7 +9,7 @@ Masking tape is used to remove excess composite after casting.
 1. Cut four pieces of masking tape for each transducer module,
 2. Place these smoothly around the backing layer cavity.
 
-## Tungsten-epoxy composite preparation
+## Prepare tungsten-epoxy composite
 
 1. Calculate the required mass of tungsten, resin and hardener. For four transducer modules, the required volume is XXX ml. For a tungsten-weight fraction of 80.8 %, the required quantities are:
 
@@ -48,8 +48,7 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 2. Transfer any module identification labels from the alignment mould to the housing using a permanent marker.
 3. To dissolve the PVA alignment mould, place the module assembly in a bath of room temperature water for ~36 hours.
 
-
-`Note: residual PVA can be gently removed from between the PZT elements using a toothbrush. Do not use warm water or agressive agitation since this can damage the adhesive bond between the PZT and the matching and backing layers. `
+`Note: residual PVA can be gently removed from between the PZT elements using a toothbrush. Do not use warm water or agressive agitation since this can warp the housing, and damage the adhesive bond between the PZT and the matching and backing layers. `
 
 4. After dissolving the alignment mould, rinse in clean water and pat dry with a paper towel.
 5. Once dry, use a scalpel to create a chamfer on the edges of the backing layer.

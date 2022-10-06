@@ -47,13 +47,70 @@
     </ul>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Manufacturing Documentation</span></p>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="pzt-element-preparation/">PZT Element Preparation</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="matching-layer-deposition/">Matching Layer Deposition</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="impedance-matching-circuit/">$Impedance Matching Circuit</a>
                   </li>
               </ul>
       </div>
@@ -69,7 +126,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Home</li>
+    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Home</li>
     <li class="wy-breadcrumbs-aside">
         <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/index.md"
           class="icon icon-github"> Edit on GitHub</a>
@@ -77,46 +135,42 @@
   </ul>
   <hr/>
 </div>
-
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
                 <h1 id="open-ust">open-UST</h1>
-<p>This is the documentation for the open-source hardware distribution <a href="https://github.com/morganjroberts/open-UST">open-UST</a>: a low-cost Ultrasound Tomography research system.</p>
-<p>This is an ongoing project from the <a href="https://bug.medphys.ucl.ac.uk/">Biomedical Ultrasound Group</a> (University College London).</p>
+<p>This is the documentation for the <a href="https://github.com/morganjroberts/open-UST">open-UST</a> hardware distribution: an open source manufacturing framework for a low-cost, modular Ultrasound Tomography (UST) research system.</p>
+<p>This documentation, and the hardware github repository, are both being actively updated. </p>
+<p>Additional documentation and hardware files are being added so that open-UST can be used 'out-of-the-box'.</p>
+<p>Read more about UST and the motivation for this work <a href="background/">here</a>.</p>
+<p>Progress tracker:</p>
 <table>
 <thead>
 <tr>
 <th>Task</th>
 <th>Status</th>
-<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Prototyping</td>
 <td>Complete</td>
-<td>M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Transducer Module Development for an Open-Source Ultrasound Tomography System," 2021 IEEE International Ultrasonics Symposium (IUS), 2021, pp. 1-4, doi: <a href="https://doi.org/10.1109/IUS52206.2021.9593866">10.1109/IUS52206.2021.9593866</a></td>
 </tr>
 <tr>
-<td>Batch 1 Manufacture (x8 probes, x128 element array)</td>
+<td>Batch 1 Manufacture (x8 modules)</td>
 <td>Complete</td>
-<td></td>
 </tr>
 <tr>
 <td>Batch 1 Acoustic Evaluation</td>
 <td>In Progress</td>
-<td></td>
 </tr>
 <tr>
-<td>Batch 2 Manufacture (x8 probes, x128 element array)</td>
+<td>Batch 2 Manufacture (x8 modules)</td>
 <td>In Progress</td>
-<td></td>
 </tr>
 <tr>
-<td>Combine Batch 1 &amp; 2 (x16 probes, x256 element array) and do UST imaging tests</td>
+<td>Combine Batch 1 &amp; 2 (x16 modules), do UST phantom imaging</td>
 <td>Not started</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +178,7 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="pzt-element-preparation/" class="btn btn-neutral float-right" title="PZT Element Preparation">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="contact/" class="btn btn-neutral float-right" title="Contact">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -152,7 +206,7 @@
     
     
     
-      <span><a href="pzt-element-preparation/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="contact/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -171,6 +225,6 @@
 </html>
 
 <!--
-MkDocs version : 1.3.0
-Build Date UTC : 2022-09-21 09:41:12.612882+00:00
+MkDocs version : 1.3.1
+Build Date UTC : 2022-10-06 11:52:40.544742+00:00
 -->

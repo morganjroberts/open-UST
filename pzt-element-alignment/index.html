@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://morganjroberts.github.io/open-UST/pzt-element-alignment/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>PZT Element Alignment - open-UST</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PZT Element Alignment";
+        var mkdocs_page_input_path = "pzt-element-alignment.md";
+        var mkdocs_page_url = "/open-UST/pzt-element-alignment/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">PZT Element Alignment</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#probe-assignment-by-pzt-element-width">Probe assignment by PZT element width</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#calibrate-alignment-mould-slot-width">Calibrate Alignment Mould Slot Width</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#prepare-alignment-mould">Prepare alignment Mould</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#prepare-and-load-pzt-elements-into-alignment-mould-slots">Prepare and load PZT elements into alignment mould slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#apply-pva-blocking-layer">Apply PVA blocking layer</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">open-UST</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Transducer Manufacture &raquo;</li>
+      <li>PZT Element Alignment</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/pzt-element-alignment.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pzt-element-alignment">PZT Element Alignment</h1>
+<p>Slot width affects orientation in lateral plane
+elevation plane easier </p>
+<h2 id="overview">Overview</h2>
+<h2 id="probe-assignment-by-pzt-element-width">Probe assignment by PZT element width</h2>
+<p>Transducer modules should contain PZT elements with similar widths, so that a constant slot width can be used.</p>
+<h2 id="calibrate-alignment-mould-slot-width">Calibrate Alignment Mould Slot Width</h2>
+<p>The slot width should be tuned for every transducer module. Slot width calibration should be performed immediately before printing the final alignmnet-mould for a given transducer module, because deviations in 3D-printer filament diameter can cause drift in 3D-printer linewidth over time.</p>
+<p>The alignment mould slot width must be as close as possible to the width of the PZT elements. This is so that the PZT elements cannot rotate in their slots.</p>
+<p>These other parameters must be controlled to minimise the gap between the PZT elements and the alignment mould, so that the PZT element location is well known:
+- PCB offset
+- slot corner radius
+- slot length
+- </p>
+<p>Tune the slot width:
+- print <code>piece.stl</code>
+- choose the two elements with the largest width
+- insert the pzt elements into all of the slots. The element should seat easily into the slots without needing force, but it should not rotate in the slots.</p>
+<h2 id="prepare-alignment-mould">Prepare alignment Mould</h2>
+<ol>
+<li>Adjust the slot width in CAD and export the new stl file,</li>
+<li>Print the stl file with the following orientation and settings:
+<code>image</code></li>
+<li>Label the part, marking the first (1) and last (16) element positions,</li>
+<li>Allow the part to cool for 1 hour,</li>
+<li>If the part is not being used immediately, store it in a sealed container to prevent dimensional changes due to humdity,</li>
+<li>Cleanup nozzle stringing using a scalpel,</li>
+<li>Use an air duster to blow debris out of the slots.</li>
+</ol>
+<h2 id="prepare-and-load-pzt-elements-into-alignment-mould-slots">Prepare and load PZT elements into alignment mould slots</h2>
+<ol>
+<li>Hold the alignment mould with the blind end of the slots on the left and the PCB recess on the right.</li>
+<li>Identify the PZT element ID for the first position, and remove the PZT element from the PZT tray using tweezers,</li>
+<li>Under a microscope, lightly abrade the surface of the rear electrode using a small piece of P2000 grit sandpaper held in a pair of forceps. Do not remove excessive material,</li>
+<li>Clean all faces of the PZT element using isopropyl alcohol and a foam swab,</li>
+<li>Place the element on a clean surface and allow the solvent to evaporate,</li>
+<li>Using a fine brush, paint the bottom of the alignment mould slot with washable PVA adhesive. Apply a thin coat, avoiding the side walls (excess PVA could squeeze onto the rear electrode, preventing bonding to the backing layer),</li>
+<li>Wash the brush in water,</li>
+<li>Using plastic tweezers, slide the clean PZT element into the slot, with the matching layer facing down, and the exposed front electrode on the right hand side, above the PCB recess.</li>
+<li>Apply gently pressure with the tweezers to fully seat the element onto the bottom of the slot. Make sure the element is pushed fully into the blind end of the slot.</li>
+<li>Repeat this process for all elements in the transducer module.</li>
+</ol>
+<h2 id="apply-pva-blocking-layer">Apply PVA blocking layer</h2>
+<p>A PVA blocking layer is needed to prevent the backing layer composite from bonding to the exposed front electrode (this would later obstruct an electrical connection from the electrode to the PCB pad).</p>
+<ol>
+<li>Under a microscope, apply a small drop of washable PVA adhesive to the end of the PZT element with a fine brush. Do not cover the rear electrode. Cover the gap between the alignment mould and the PZT element, where the matching layer has been removed to expose the front electrode.</li>
+<li>Repeat this process for all elements in the transducer module.</li>
+<li>Allow the adhesive to dry for 30 minutes</li>
+<li>Inspect the blocking layers. If the PVA adhesive does not completely block the gap next to the exposed electrode, apply a second blocking layer coat.</li>
+</ol>
+<p>Note: if PVA adhesive is accidentally applied to the rear electrode, do not use solvent or water to remove it. Liquids can dissolve the surrounding PVA alignment mould and deposit a thin layer of PVA onto the rear electrode, preventing a proper bond between the electrode and the backing layer composite. Instead, allow the PVA adheisve to dry, then remove it using a small piece of P2000 grit sandpaper held in a pair of forceps. Remove the debris with an air duster.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../matching-layer-deposition/" class="btn btn-neutral float-left" title="Matching Layer Deposition"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pcb-housing-assembly/" class="btn btn-neutral float-right" title="PCB-Housing Assembly">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/morganjroberts/open-UST" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../matching-layer-deposition/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../pcb-housing-assembly/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

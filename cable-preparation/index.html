@@ -45,11 +45,40 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Manufacturing Documentation</span></p>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Cable Preparation</a>
     <ul class="current">
@@ -69,6 +98,34 @@
     </li>
     </ul>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -84,7 +141,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Manufacturing Documentation &raquo;</li><li>Cable Preparation</li>
+          <li>Transducer Manufacture &raquo;</li>
+      <li>Cable Preparation</li>
     <li class="wy-breadcrumbs-aside">
         <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/cable-preparation.md"
           class="icon icon-github"> Edit on GitHub</a>
@@ -92,7 +150,6 @@
   </ul>
   <hr/>
 </div>
-
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
@@ -185,7 +242,7 @@ Conductor continuity along the cable is tested, in addition to isolation between
 <h2 id="sheath-surface-treatment-for-bonding-transducer-end">Sheath Surface Treatment for Bonding (Transducer End)</h2>
 <p>During the coating process, an adhesive bond to the PVC cable sheath is required. It is difficult to bond to PVC, so a surface treatment is used to increase bond strength.</p>
 <ol>
-<li>Choose the end of the cable with the longest copper braid,</li>
+<li>Choose the end of the cable with the longest copper braid. This will be the transducer end of the cable.</li>
 <li>Pull the copper braid back over the IDC connector,</li>
 <li>Make a mark 36 mm from the end of the sheath using a permenant marker. Extend the mark around the sheath circumference.</li>
 <li>Use a 24 tpi hacksaw blade (or similar) to abrade the cable sheath (see video below)<ul>
@@ -201,11 +258,25 @@ Conductor continuity along the cable is tested, in addition to isolation between
 </ol>
 <p><img alt="sheath-surface-treatment" src="../img/cable-preparation/sheath-surface-treatment.svg" /></p>
 <h2 id="sheath-copper-coating-for-shield-termination-plug-end">Sheath Copper Coating for Shield Termination (Plug End)</h2>
+<ol>
+<li>Cut a XX mm by X mm rectangle of adhesive-backed copper foil using scissors.</li>
+<li>Wrap the copper foil around the plug end of the cable.</li>
+<li>Setup a soldering iron with a high temperature of 380 degC and a large-area tip.</li>
+<li>Apply solder to the copper foil seam.</li>
+<li>Use tweezers to untangle the copper braid.</li>
+<li>Form 4 twisted bundles of copper braid, equally spaced around the cable circumference.</li>
+<li>Bend one of the bundles so that its base touches the copper foil.</li>
+<li>Pre-solder the base of a bundle.</li>
+<li>Cut the bundle so that it overlaps the copper foil by ~ 4 mm.</li>
+<li>Solder the trimmed bundle to the copper foil. Keep heating time to a minimum to avoid melting the PVC cable sheath.</li>
+<li>Repeat this process for all four bundles.</li>
+</ol>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../matching-layer-deposition/" class="btn btn-neutral float-left" title="Matching Layer Deposition"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../front-electrode-connection/" class="btn btn-neutral float-left" title="Front Electrode Connection"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../strain-relief-clip-manufacture/" class="btn btn-neutral float-right" title="Strain Relief Clip Manufacture">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -232,8 +303,10 @@ Conductor continuity along the cable is tested, in addition to isolation between
         </span>
     
     
-      <span><a href="../matching-layer-deposition/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../front-electrode-connection/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+    
+      <span><a href="../strain-relief-clip-manufacture/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

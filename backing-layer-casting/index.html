@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://morganjroberts.github.io/open-UST/backing-layer-casting/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Backing Layer Casting - open-UST</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Backing Layer Casting";
+        var mkdocs_page_input_path = "backing-layer-casting.md";
+        var mkdocs_page_url = "/open-UST/backing-layer-casting/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Backing Layer Casting</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mould-masking">Mould masking</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#prepare-tungsten-epoxy-composite">Prepare tungsten-epoxy composite</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#composite-casting">Composite casting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#alignment-mould-removal">Alignment mould removal</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">open-UST</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Transducer Manufacture &raquo;</li>
+      <li>Backing Layer Casting</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/backing-layer-casting.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="backing-layer-casting">Backing Layer Casting</h1>
+<h2 id="overview">Overview</h2>
+<h2 id="mould-masking">Mould masking</h2>
+<p>Masking tape is used to remove excess composite after casting.</p>
+<ol>
+<li>Cut four pieces of masking tape for each transducer module,</li>
+<li>Place these smoothly around the backing layer cavity.</li>
+</ol>
+<h2 id="prepare-tungsten-epoxy-composite">Prepare tungsten-epoxy composite</h2>
+<ol>
+<li>Calculate the required mass of tungsten, resin and hardener. For four transducer modules, the required volume is XXX ml. For a tungsten-weight fraction of 80.8 %, the required quantities are:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Mass [g]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tungsten powder</td>
+<td></td>
+</tr>
+<tr>
+<td>Araldite standard resin</td>
+<td></td>
+</tr>
+<tr>
+<td>Araldite standard hardener</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Use the matlab function XXX to calculate the masses needed for other volumes and compositions.</p>
+<ol>
+<li>Place a clean piece of paper on a digital balance (resolution 0.1 g or better), and tare it,</li>
+<li>Dispense the required mass of tungsten powder, place aside for later,</li>
+<li>Clean the glass mixing plate with isopropyl alcohol,</li>
+<li>Place the glass plate on the digital balance, and tare it,</li>
+<li>Dispense the required mass of resin,</li>
+<li>Tare the balance,</li>
+<li>Dispense the required mass of hardener,</li>
+<li>Remove the glass plate from the balance and clamp securely to the work surface,</li>
+<li>Use a flat scraper to combine the resin and hardener. Mix thoroughly for 5 minutes, making sure that all of the material is fully incorporated.</li>
+<li>Add the tungsten powder.</li>
+<li>Mix thoroughly for 15 minutes, making sure that the mixture is homogeneous. Frequently remove unmixed material from the scraper blade and the edges of the glass plate and combine it with the rest of the material.</li>
+</ol>
+<h2 id="composite-casting">Composite casting</h2>
+<ol>
+<li>Collect ~3ml of composite on the end of the scraper,</li>
+<li>First dispense the composite onto the wedged scattering structure on the front end of the transducer housing. Push the composite into the wedged cutouts so that they fill completely.</li>
+<li>Next, slightly overfill the remaining backing layer cavity with composite, </li>
+<li>Remove the excess composite by sliding the scraper blade along the top surface of the housing and alignment mould. Do this in both directions, with the blade angled towards the direction of travel.</li>
+<li>To fully remove the excess composite, carefully pull away the masking tape.</li>
+<li>Allow the composite to cure for 24 hours.</li>
+</ol>
+<h2 id="alignment-mould-removal">Alignment mould removal</h2>
+<ol>
+<li>Remove the nylon screws that hold the module assembly to the base plate.</li>
+<li>Transfer any module identification labels from the alignment mould to the housing using a permanent marker.</li>
+<li>To dissolve the PVA alignment mould, place the module assembly in a bath of room temperature water for ~36 hours.</li>
+</ol>
+<p><code>Note: residual PVA can be gently removed from between the PZT elements using a toothbrush. Do not use warm water or agressive agitation since this can warp the housing, and damage the adhesive bond between the PZT and the matching and backing layers.</code></p>
+<ol>
+<li>After dissolving the alignment mould, rinse in clean water and pat dry with a paper towel.</li>
+<li>Once dry, use a scalpel to create a chamfer on the edges of the backing layer.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../rear-electrode-connection/" class="btn btn-neutral float-left" title="Rear Electrode Connection"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../front-electrode-connection/" class="btn btn-neutral float-right" title="Front Electrode Connection">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/morganjroberts/open-UST" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../rear-electrode-connection/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../front-electrode-connection/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://morganjroberts.github.io/open-UST/plug-assembly/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Plug Assembly - open-UST</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Plug Assembly";
+        var mkdocs_page_input_path = "plug-assembly.md";
+        var mkdocs_page_url = "/open-UST/plug-assembly/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Plug Assembly</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3d-print-the-plug-parts">3D-print the plug parts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#process-the-backshell-parts">Process the backshell parts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#solder-the-dl5-breakout-pcb">Solder the DL5 breakout PCB</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#solder-the-cable-mount-pcb">Solder the cable mount PCB</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#assemble-the-plug-components">Assemble the plug components</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">open-UST</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Additional Manufacture &raquo;</li>
+      <li>Plug Assembly</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/plug-assembly.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="plug-assembly">Plug Assembly</h1>
+<h2 id="overview">Overview</h2>
+<h2 id="3d-print-the-plug-parts">3D-print the plug parts</h2>
+<ol>
+<li>3D-print the plug parts listed in XXX.</li>
+<li>Remove the support material.</li>
+</ol>
+<h2 id="process-the-backshell-parts">Process the backshell parts</h2>
+<p>Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the clamp, using the following process:
+1. Use calipers to take a dimension from the part.
+1. Transfer these dimensions to a sheet of adhesive-backed copper foil.
+1. Cut the required shape from the foil using scissors.
+1. Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.
+1. Repeat this until the parts are fully coated.
+1. Setup a soldering iron with a temperature of 380 deg C, with a large tip.
+1. Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.
+1. Use a scalpel to expose any covered holes
+1. Setup a solering iron with a temperature of 275 deg C, and a clean tip.
+1. Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.</p>
+<h2 id="solder-the-dl5-breakout-pcb">Solder the DL5 breakout PCB</h2>
+<ol>
+<li>Setup a soldering iron with a temperature of 350 degC and a small tip.</li>
+<li>3D-print the breakout PCB soldering jig detailed in XXX</li>
+<li>Load x8 of the AMPMODU 4-way sockets into the soldering jig.</li>
+<li>Place the breakout PCB into the soldeing jig, aligning the socket legs with the pads. Make sure the egde of the PCB is pushed squarely against the base of every socket.</li>
+<li>Solder the sockets to the PCB. Use small solder joints and short heating times to prevent shorting the signal and ground pins.</li>
+<li>Attach x1 of the AMPMODU 10-way sockets to the end of the PCB, aligning the socket legs with the pads. Make sure the edge of the PCB is pushed squarely against the base of the socket.</li>
+<li>Solder the socket in place.</li>
+<li>Flip the PCB and solder the joints on the other side.</li>
+</ol>
+<h2 id="solder-the-cable-mount-pcb">Solder the cable mount PCB</h2>
+<p>Note: If impedance matching is being used, the SMT component below refers to an inductor. If not, then the SMT component will be a zero-ohm link.</p>
+<ol>
+<li>Setup a soldering iron with a temperature of 350 degC and a small tip.</li>
+<li>3D-print the cable mount PCB soldering jig detailed in XXX</li>
+<li>Load x1 8-way Wurth header pin strip and x1 24-way Wurth header pin strip into the soldering jig.</li>
+<li>Place the cable mount PCB into the soldeing jig, aligning the socket legs with the header pins. Make sure the egde of the PCB is pushed squarely against the base of every header pin strip.</li>
+<li>Solder the header pins to the PCB. </li>
+<li>Flip the PCB and solder the joints on the other side.</li>
+<li>Position x1 Samtec header pin strip onto the PCB.</li>
+<li>Solder the header pins to the PCB. </li>
+<li>To prepare for SMT component installation, apply a bead of solder to one pad for each of the SMT pad-pairs.</li>
+<li>Use tweezers to position the SMT component above a pad-pair, and re-melt the solder to fix the component in place.</li>
+<li>Solder the other end of the SMT component to its pad.</li>
+</ol>
+<h2 id="assemble-the-plug-components">Assemble the plug components</h2>
+<ol>
+<li>Attach the breakout PCB support block to the main plug body using two M3 x 10 mm screws.</li>
+<li>Attach the coupler to the shaft of the DL5-260P connector using an M4 x 12 mm screw.</li>
+<li>Push the breakout PCBs onto the DL5-260P connector pins, according to the pinout diagram XXX.</li>
+<li>Attach the DL5-260P connector to the main plug body using two M3 x 10 mm screws. Pay attention to the plug polarity, shown in the picture below. The breakout PCBs should fit into the grooves in the support block.</li>
+<li>Attach the retention bar to fix the breakout PCBs to the support block, using 2 M3 x 6 mm screws.</li>
+<li>Push the lever through the hole in the main plug body, into the coupler. Make sure the hole in the coupler aligns with the threaded insert on the end of the lever.</li>
+<li>Secure the lever to the coupler using an M3 x 6 mm screw.</li>
+<li>Install a cable mount PCB on to the end of each transducer module. Make sure that the polarity indicator (embossed triangle on IDC / red wire) is on the same side as the triangle printed on the PCB. The tab on the IDC connector should be facing away from the PCB.</li>
+<li>Push the header pins on cable mount PCB 'A' into the sockets on breakout PCB stack.</li>
+<li>Position a strain relief clip over the copper foil cable collar, and attach fix the cable to the main plug body using two M3 x 6 mm screws. The screw heads must sit below the surface.</li>
+<li>Repeat this for every other transducer modules  ('C', 'E', and 'G').</li>
+<li>Install the riser bar on top of the cables, using five M3 x 10 mm screws.</li>
+<li>Repeat the cable mount PCB installation process for the remaining transducer modules ('B', 'D', and 'F').</li>
+<li>Install the jumper shorting the DL5 connector pins A1 and A2.</li>
+<li>Positon the cable mount pcb support block.</li>
+<li>Place the plug lid over the plug main body. </li>
+<li>Make sure the holes in the support block are aligned with the holes in the plug lid, adjusting if necessary.</li>
+<li>Fix the plug lid to the support block using two M3 x 10 mm screws.</li>
+<li>Fix the plug lid to the DL5-260P connector using two M3 x 10 mm screws.</li>
+<li>Fix the plug lid to the plug main body connector using six M3 x 10 mm screws, and two M3 x 30 mm screws.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../finishing/" class="btn btn-neutral float-left" title="Finishing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../2D-ring-array-mounting-plate/" class="btn btn-neutral float-right" title="$2D Ring Array Mounting Plate">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/morganjroberts/open-UST" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../finishing/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../2D-ring-array-mounting-plate/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://morganjroberts.github.io/open-UST/pcb-housing-assembly/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>PCB-Housing Assembly - open-UST</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "PCB-Housing Assembly";
+        var mkdocs_page_input_path = "pcb-housing-assembly.md";
+        var mkdocs_page_url = "/open-UST/pcb-housing-assembly/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">PCB-Housing Assembly</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#solder-interconnect-pcb">Solder Interconnect PCB</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#prepare-the-housing">Prepare the housing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#base-plate-setup">Base plate setup</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pcb-housing-bonding">PCB-Housing Bonding</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../strain-relief-clip-manufacture/">Strain Relief Clip Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">open-UST</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Transducer Manufacture &raquo;</li>
+      <li>PCB-Housing Assembly</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/pcb-housing-assembly.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pcb-housing-assembly">PCB-Housing Assembly</h1>
+<h2 id="overview">Overview</h2>
+<h2 id="solder-interconnect-pcb">Solder Interconnect PCB</h2>
+<ol>
+<li>Setup a soldering iron with a temperature of 350 degC and a small tip.</li>
+<li>Position x1 Samtec header pin strip on the interconnect PCB. The edge of the insulating body should be flush with the upper edge of the PCB.</li>
+<li>Solder the header pin strip to the PCB.</li>
+</ol>
+<h2 id="prepare-the-housing">Prepare the housing</h2>
+<ol>
+<li>3D-print the housing using the ...</li>
+<li>Allow the parts to cool and remove from the build plate.</li>
+<li>Remove the PVA support from the wedged structure on the front of the housings. Do not attempt to dig the PVA support out of the mounting nut recesses.</li>
+<li>Place the housings in a bath of room temperature water for ~36 hours.</li>
+</ol>
+<p><code>Note: residual PVA can be gently removed from the housing using a toothbrush and foam swabs. Do not use warm water since this can warp the housing.</code></p>
+<ol>
+<li>Install M3 threaded inserts into the housing, using a soldering iron set to 275 degC. Make sure to use a tip that does not protrude all the way through the insert, since this would melt a hole through the housing.</li>
+<li>Use a scalpel to scrape flat the PCB mating face (the region between the two PCB alignment tabs).</li>
+<li>Test fit the PCB-housing assembly (with the header pin strip facing the housing), to verify that the mating faces are in full contact.</li>
+</ol>
+<h2 id="base-plate-setup">Base plate setup</h2>
+<p>It is required that the PZT elements are aligned perpendicularly to the top surface of the transducer housing. To achieve this, the PZT elements are installed in the PZT alignment mould to align them perpendicularly with the base plate, which acts as a reference plane. The top surface of the housing is parallel with the surface of the base plate, which in turn means that it is perpendicular to the PZT elements. The following adjustment procedure is required to make the top surface of the housing parallel with the surface of the base plate:</p>
+<ol>
+<li>Install M3 x 12 mm socket head screws into the threaded holes in the base plate.</li>
+<li>The height of the top of the socket head above the base plate should be approximately 8 mm. Measure this using digital calipers and adjust if necessary (1 rotation advances the M3 screw by 0.5 mm).</li>
+<li>Clip the PCB to the housing, and place the PCB flat against the base plate, with the housing resting on the socket screws.</li>
+<li>Push 4 M5 x 30 mm screws through the clamp, into the threaded holes in the base plate. </li>
+<li>Tighten the screws to clamp the PCB-housing assembly to the base plate.</li>
+<li>Use digital calipers to measure the distance between the top of the housing and the top of the base plate. Take two reference measurements at the front of the housing, and calculate the mean of these. This is the target value.</li>
+<li>At the rear of the housing, record two height measurements: one beside each socket screw.</li>
+<li>Calculate the difference between each rear measurement and the target value. This is the estimated height adjustment needed for each socket head screw.</li>
+<li>Remove the clamp and PCB-housing assembly from the base plate, and adjust the screw heights.</li>
+<li>Verify the adjustment by clamping the PCB-housing assembly to the base plate again, and re-measuring the heights.</li>
+<li>Repeat this process until the 4 height measurements are within 25 (\mu m(.</li>
+<li>Loosen the clamp screws so that the PCB-housing assembly can be removed. Leave the screws and clamp attached to the base plate, for the PCB-housing bonding. </li>
+</ol>
+<h2 id="pcb-housing-bonding">PCB-Housing Bonding</h2>
+<p>Note: the Loctite 3090 has an extremely short work time, so these steps must be performed quickly. Make sure that everything is prepared before starting.</p>
+<ol>
+<li>Degrease the mating faces on the PCB and the housing with isopropyl alcohol and a foam swab.</li>
+<li>Fit a nozzle to the Loctite 3090 syringe barrel, squeezeout ~ 0.5 ml of adhesive and discard it.</li>
+<li>Dispense a line of adhesive on the mating face of the housing.</li>
+<li>Clip the interconnect PCB into place.</li>
+<li>Quickly, place the PCB-housing assembly back on the base plate, sliding it underneath the clamp.</li>
+<li>Tighten the screws so that the clamp pushes down on the housing.</li>
+<li>Allow to cure for 1 hour. Do not remove the assembly from the base plate, since it is required for the rear electrode connection procedure.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../pzt-element-alignment/" class="btn btn-neutral float-left" title="PZT Element Alignment"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../rear-electrode-connection/" class="btn btn-neutral float-right" title="Rear Electrode Connection">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/morganjroberts/open-UST" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../pzt-element-alignment/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../rear-electrode-connection/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

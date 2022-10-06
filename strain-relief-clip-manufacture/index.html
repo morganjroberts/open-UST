@@ -45,13 +45,84 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Manufacturing Documentation</span></p>
               <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../background/">UST Background</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Manufacture Preparation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../offset-calibration/">$Offset Calibration for 3D-printed Parts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../pzt-element-preparation/">PZT Element Preparation</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../matching-layer-deposition/">Matching Layer Deposition</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pzt-element-alignment/">PZT Element Alignment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pcb-housing-assembly/">PCB-Housing Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rear-electrode-connection/">Rear Electrode Connection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backing-layer-casting/">Backing Layer Casting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../front-electrode-connection/">Front Electrode Connection</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../cable-preparation/">Cable Preparation</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Strain Relief Clip Manufacture</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mark-hole-and-outline-locations">Mark hole and outline locations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#drill-holes">Drill holes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cut-outlines">Cut outlines</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#form-the-grip-indents">Form the grip indents</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shape-the-wings">Shape the wings</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../cable-installation/">Cable Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../electromagnetic-shielding/">Electromagnetic Shielding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../install-mounting-nuts/">Install Mounting Nuts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rigid-coating/">Rigid Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acoustic-coating/">Acoustic Coating</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../finishing/">Finishing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Manufacture</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../plug-assembly/">Plug Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2D-ring-array-mounting-plate/">$2D Ring Array Mounting Plate</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Impedance Matching</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-measurement/">$Impedance Measurement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../impedance-matching-circuit/">$Impedance Matching Circuit</a>
                   </li>
               </ul>
       </div>
@@ -67,7 +138,9 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Strain Relief Clip Manufacture</li>
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Transducer Manufacture &raquo;</li>
+      <li>Strain Relief Clip Manufacture</li>
     <li class="wy-breadcrumbs-aside">
         <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/strain-relief-clip-manufacture.md"
           class="icon icon-github"> Edit on GitHub</a>
@@ -75,19 +148,19 @@
   </ul>
   <hr/>
 </div>
-
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
                 <h1 id="strain-relief-clip-manufacture">Strain Relief Clip Manufacture</h1>
+<h2 id="overview">Overview</h2>
 <p>The strain relief clips are used to:
 * secure the cable to the transducer module housing,
 * secure the cable to the plug backshell.</p>
 <h2 id="mark-hole-and-outline-locations">Mark hole and outline locations</h2>
 <ol>
 <li>Download and print the template <code>placeholder</code></li>
-<li>Cut a piece of 0.2 mm steel shim stock (part in BOM) larger than the template printout.</li>
-<li>Use a strong adhesive to fix the paper template to the steel sheet.</li>
+<li>Cut a piece of 0.2 mm steel shim stock slightly larger than the template printout.</li>
+<li>Use a pritt stick adhesive to fix the paper template to the steel sheet.</li>
 </ol>
 <p><strong>Note:</strong> If marking the hole and outline locations manually, use the following dimensions: (from )
 <strong>Note:</strong> Make more clips than required to allow for defects.</p>
@@ -127,6 +200,10 @@
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../cable-preparation/" class="btn btn-neutral float-left" title="Cable Preparation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../cable-installation/" class="btn btn-neutral float-right" title="Cable Installation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -152,6 +229,10 @@
         </span>
     
     
+      <span><a href="../cable-preparation/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../cable-installation/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

@@ -1,36 +1,39 @@
 # MVP
 
+Outputs
+- section pages w/photos DRAFTED
+- home page DRAFTED
+- contact page DRAFTED
+- breast ultrasound with UST overview/background NOT DONE
+- further reading NOT DONE
+  - IUS video links embeded
+- readme on repo - this is just the home page.
+- add overview section to each page
+
+Next most important is adding pictures
+
+
+------------------------------------------------------------
+WIP pages
+----------
+custom tooling
+calibration
+impedance measurement
+impedance circuit
+2d mounting plate/tank
+
+------------------------------------------------------------
 to link pages to sections in other pages
 [see_link](custom-tooling-manufacture.md#test1)
 
-each page
-- background
-  - why is section required
-  - overview of what will happen
-  - explanation of the steps if necessary
-- steps
-  - *more practical details and photos of what to do*.
-
-- calibration pages
-- custom tooling pages
-
-Outputs
-- section pages w/photos
-- home page
-- contact page
-- breast ultrasound with UST overview/background 
-- further reading
-  - IUS video links embeded
-- readme on repo
-- email subscription
-
-
+------------------------------------------------------------
 hardware
 - files
 - BOM - unify part numbers throughout docs
 - 3d print orientation and settings files
 - plug wiring diagram
-
+- matlab functions for polymer casting
+---------------------------------------------------------------
 things to check
 - safety
 - capitalisation in titles and subtitles.
@@ -45,8 +48,9 @@ things to check
 - unify titles match nav
 - polarity section makes sense with oictures ink markings
 
-matlab functions for polymer casting
+---------------------------------------------------------------
 
+# other stuff
 future work page
 - klm modelling - transducer design
 - right angled format

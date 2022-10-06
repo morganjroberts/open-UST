@@ -9,7 +9,7 @@ A shielded round ribbon cable is used to connect each transducer module to the d
 * Up to 122 mm of cable may need to be removed when the sheath length is adjusted (see below).
 * To account for this the cables were cut oversized, to lengths of 2.5 m.
 
-![cut-cable-to-length](img/cable-preparation/cut-cable-to-length.svg)
+<!-- ![cut-cable-to-length](img/cable-preparation/cut-cable-to-length.svg) -->
 
 ## Braid Preparation
 
@@ -25,7 +25,7 @@ The cable braid is made from groups of strands that are woven together. To preve
     - Apply a small amount of solder to the end of the group of strands,
     - Bend the group of strands backwards.
 
-![braid-preparation](img/cable-preparation/braid-preparation.svg)
+<!-- ![braid-preparation](img/cable-preparation/braid-preparation.svg) -->
 
 ` placeholder for video `
 
@@ -47,7 +47,7 @@ The IDC connector is installed on the bonded section. The end of the sheath shou
 5. Pull back the braid to expose the foil.
 6. Use a scalpel to remove the foil, exposing the ribbon cable. Verify that the end of the sheath is aligned with the point where the ribbon cable changes from bonded to split (moving towards the end of the cable).
 
-![adjusting-sheath-length](img/cable-preparation/adjusting-sheath-length.svg)
+<!-- ![adjusting-sheath-length](img/cable-preparation/adjusting-sheath-length.svg) -->
 
 ` placeholder for video `
 
@@ -61,14 +61,14 @@ The IDC connector is installed on the bonded section. The end of the sheath shou
 4. Use a vice to compress the assembly until the IDC clip locks to the IDC housing.
 5. Use side cutters to trim the excess ribbon cable flush with the IDC connector.
 
-![install-idc-connector](img/cable-preparation/install-idc-connector.svg)
+<!-- ![install-idc-connector](img/cable-preparation/install-idc-connector.svg) -->
 
 ## Test Continuity and Isolation
 
 The quality of the IDC connector installation should be tested at this point, to prevent further manufacture on a bad cable, which would have to be repeated once the fault is detected.
 Conductor continuity along the cable is tested, in addition to isolation between neighbouring conductors.
 
-![test-continuity-isolation](img/cable-preparation/test-continuity-isolation.svg)
+<!-- ![test-continuity-isolation](img/cable-preparation/test-continuity-isolation.svg) -->
 
 1. Find a multimeter with probes that are compatible with the IDC socket.
 2. If necessary, incompatible multimeter probes can be modified:
@@ -83,7 +83,7 @@ Conductor continuity along the cable is tested, in addition to isolation between
     * **Note:** for continuous measurements the DC resistance should be \( < 1 \Omega \).
     * **Note:** for isolated measurements the DC resistance should be out-of-range.
 
-![IDC-testing-pinout-diagram](img/cable-preparation/IDC-testing-pinout-diagram.png)
+<!-- ![IDC-testing-pinout-diagram](img/cable-preparation/IDC-testing-pinout-diagram.png) -->
 
 ## Sheath Surface Treatment for Bonding (Transducer End)
 
@@ -99,7 +99,8 @@ During the coating process, an adhesive bond to the PVC cable sheath is required
 6. Wrap the end of the sheath in electrical insulating tape
     * **Note:** The tape width should be \(\leq \) 14 mm.
 
-![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.svg)
+![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment.webp)
+![sheath-surface-treatment](img/cable-preparation/sheath-surface-treatment-800.webp)
 
 ## Sheath Copper Coating for Shield Termination (Plug End)
 

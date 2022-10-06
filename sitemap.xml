@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://morganjroberts.github.io/open-UST/dimension-calibration-3D-printing/</loc>
+         <lastmod>2022-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://morganjroberts.github.io/open-UST/electromagnetic-shielding/</loc>
          <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
@@ -87,11 +92,6 @@
     </url>
     <url>
          <loc>https://morganjroberts.github.io/open-UST/matching-layer-deposition/</loc>
-         <lastmod>2022-10-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://morganjroberts.github.io/open-UST/offset-calibration/</loc>
          <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -4,9 +4,9 @@
 
 ## Solder Interconnect PCB
 
-1. Setup a soldering iron with a temperature of 350 degC and a small tip
-1. Position the Samtec header strip on the interconnect PCB. The edge of the insulating body should be flush with the upper edge of the PCB.
-1. Solder the pads.
+1. Setup a soldering iron with a temperature of 350 degC and a small tip.
+1. Position x1 Samtec header pin strip on the interconnect PCB. The edge of the insulating body should be flush with the upper edge of the PCB.
+1. Solder the header pin strip to the PCB.
 
 ## Prepare the housing
 

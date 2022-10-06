@@ -24,10 +24,12 @@ Outputs
 - readme on repo
 - email subscription
 
+
 hardware
 - files
 - BOM - unify part numbers throughout docs
 - 3d print orientation and settings files
+- plug wiring diagram
 
 things to check
 - safety

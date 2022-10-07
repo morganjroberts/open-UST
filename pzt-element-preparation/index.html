@@ -32,7 +32,7 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href="..">
-          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+          <img src="../img/open-UST_logo.png" class="logo" alt="Logo"/>
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -57,13 +57,17 @@
                 <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
                 </li>
               </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../image-gallery/">Image Gallery</a>
+                </li>
+              </ul>
               <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">1 PZT Element Preparation</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#manufacture-and-load-the-pzt-element-tray">Manufacture and Load the PZT Element Tray</a>
+    <li class="toctree-l2"><a class="reference internal" href="#load-the-pzt-element-tray">Load the PZT Element Tray</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#dress-the-pzt-electrode-edges-assess-defects">Dress the PZT Electrode Edges, Assess Defects</a>
+    <li class="toctree-l2"><a class="reference internal" href="#dress-the-pzt-electrode-edges">Dress the PZT Electrode Edges</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#meaure-the-pzt-element-dimensions">Meaure the PZT Element Dimensions</a>
     </li>
@@ -156,36 +160,21 @@
 <li>The element widths are needed for calibrating the slot widths in the matching layer deposition mould, and the PZT alignment mould.</li>
 <li>If the unmatched and matched PZT element thicknesses are measured, these can be used to estimate the matching layer thicknesses (this data can be useful when interpretting inter-element variations in acoustic performance).</li>
 </ul>
-<h2 id="manufacture-and-load-the-pzt-element-tray">Manufacture and Load the PZT Element Tray</h2>
+<h2 id="load-the-pzt-element-tray">Load the PZT Element Tray</h2>
 <p>To store and keep track of the PZT elements, a gridded tray has been designed. This is accompanied by spreadsheet <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx"><code>pzt-element-dimensions-defects.xlsx</code></a>, where the data rows and columns correspond to the physical row and column locations on the PZT element tray. From now on, each PZT element should be identified by its row/column location e.g. 'A/3'.</p>
-<p><img alt="doctor_blade_coater_print_orientation" src="../img/pzt-element-preparation/PZT-element-tray.jpg" /></p>
-<p><strong>Note:</strong> The default stl file is <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl"><code>PZT Element Tray 16x17 10 mm length.stl</code></a>, which is a 16 <script type="math/tex">\times</script> 17 grid, supporting 272 PZT bars of dimensions 1 mm <script type="math/tex">\times</script> 1 mm <script type="math/tex">\times</script> 10 mm. To design a tray for more elements, or for elements with different dimensions, open the <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d"><code>pzt-element-tray.f3d</code></a> CAD file in Fusion 360 and edit the <code>Nrows, Ncolumns, hole_diameter, pzt_element_length</code> parameters in the <code>Solid &gt; Modify &gt; Change Parameters</code> menu.</p>
+<p><img alt="-" src="../img/pzt-element-preparation/PZT-element-tray.jpg" /></p>
 <ol>
-<li>
-<p>Print the stl file with these settings:</p>
-<ul>
-<li>Low infill &lt; 20% (non-structural)</li>
-<li>Coarse layer height 0.2 mm</li>
-<li>No support required</li>
-<li>Preview the part and make sure the holes are empty</li>
-</ul>
-</li>
-<li>
-<p>Install the threaded inserts into the holes using a soldering iron set to 275<script type="math/tex">^{\circ}</script>C (adjust as necessary for non-PLA filaments),</p>
-</li>
-<li>Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf"><code>PZT Element Tray Drawing.pdf</code></a> drawing can be printed out at 100% size to help mark out the hole pattern.</li>
-<li>Label the rows with numbers and columns with letters using a permenant marker.</li>
-<li>Load the tray with PZT elements.</li>
-<li>Use M3 x 12 mm screws to secure the lid to the tray during storage (part ID XXX in <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx"><code>bill-of-materials.xlsx</code></a>).</li>
+<li>Manufacture the PZT storage tray, according to XXX.</li>
+<li>Load the tray with PZT elements, using plastic tweezers.</li>
+<li>Use M3 x 12 mm screws to secure the lid to the tray for storage.</li>
 </ol>
-<h2 id="dress-the-pzt-electrode-edges-assess-defects">Dress the PZT Electrode Edges, Assess Defects</h2>
+<h2 id="dress-the-pzt-electrode-edges">Dress the PZT Electrode Edges</h2>
 <ul>
 <li>During manufacture the individual PZT bars are cut from a large slab. Sometimes the silver electrodes are not cut neatly to the edge of the PZT.</li>
 <li>The excess PZT electrode material can fold over onto itself during shipping and handling.</li>
 <li>The excess electrode can affect the thickness measurement of the PZT elements and can prevent the PZT elements from seating properly on the bottom face of the slots in the PVA mould during matching layer deposition.</li>
 <li>To fix this, the electrode edges should be "dressed" by scraping away the excess electrode material.</li>
 </ul>
-<p><img alt="folded-electrode" src="img/pzt-element-preparation/folded-electrode.svg" /></p>
 <p><strong>Note:</strong> Perform this work underneath a microscope.</p>
 <p>For each PZT element:  </p>
 <ol>
@@ -193,14 +182,8 @@
 <li>Hold the PZT element on a flat clean surface with the electrode facing upwards.</li>
 <li>Use a scalpel blade (Swann-Morton No.11) to gently chamfer the edges of the electrodes. Do not apply excessive downwards pressure with the scalpel. Do not touch the face of the electrode with the scalpel.</li>
 </ol>
-<p><code>placeholder for video</code></p>
-<p><img alt="pzt-chip-electrode-defects" src="img/pzt-element-preparation/pzt-chip-electrode-defects.svg" /></p>
-<ol>
-<li>Assess the PZT element for any defects. Possible defects are chipping (C), electrode delamination (E), sliced electrode (S), broken (B). Record these defects in spreadsheet <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx"><code>pzt-element-dimensions-defects.xlsx</code></a>.</li>
-</ol>
-<p><strong>Note:</strong> This defect classification is not final, since some PZT elements will become damaged during manufacture. </p>
+<p><img alt="dressing-electrodes" src="../img/pzt-element-preparation/dressing-electrodes.png" /></p>
 <h2 id="meaure-the-pzt-element-dimensions">Meaure the PZT Element Dimensions</h2>
-<p><img alt="micrometer-measurement" src="../img/pzt-element-preparation/micrometer-measurement.jpg" /></p>
 <ol>
 <li>Setup a micrometer securely in a clamp on a workbench.</li>
 <li>Clean the micrometer anvils using a foam swab (part ID XXX in <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx"><code>bill-of-materials.xlsx</code></a>) and isopropyl alcohol (part ID XXX in <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx"><code>bill-of-materials.xlsx</code></a>).</li>
@@ -218,7 +201,7 @@
 </li>
 </ol>
 <p><strong>Note:</strong> Re-clean the micrometer anvils using a foam swab and isopropyl alcohol every 10 PZT elements.</p>
-<p><code>placeholder for video</code></p>
+<p><img alt="pzt-thickness-measure" src="../img/pzt-element-preparation/pzt-thickness-measure.png" /></p>
 <h2 id="example-data">Example Data</h2>
 <p>Width and thickness distributions were measured from the pool of PZT elements (N = 288) used for this project, using the procedure detailed above. Excess electrode folding was found to produce a systematic error in thickness measurement. A mean decrease of 22 <script type="math/tex"> \mu m </script> was measured before and after dressing the electrode edges. The difference in standard deviation was negligible after dressing. In this case, the mean values for thickness and width match the nominal value provided by the manufacturer.</p>
 <table>
@@ -247,12 +230,12 @@
 </tr>
 </tbody>
 </table>
-<p><img alt="pzt-element-dimensions" src="img/pzt-element-preparation/pzt-element-dimensions.svg" /></p>
+<p><img alt="pzt-element-dimensions" src="../img/pzt-element-preparation/pzt-element-dimensions.png" /></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../bill-of-materials/" class="btn btn-neutral float-left" title="Bill of Materials"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../image-gallery/" class="btn btn-neutral float-left" title="Image Gallery"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="../matching-layer-deposition/" class="btn btn-neutral float-right" title="2 Matching Layer Deposition">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
@@ -280,7 +263,7 @@
         </span>
     
     
-      <span><a href="../bill-of-materials/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../image-gallery/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../matching-layer-deposition/" style="color: #fcfcfc">Next &raquo;</a></span>

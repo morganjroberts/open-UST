@@ -32,7 +32,7 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href="..">
-          <img src="../img/open-UST_logo.svg" class="logo" alt="Logo"/>
+          <img src="../img/open-UST_logo.png" class="logo" alt="Logo"/>
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -55,6 +55,10 @@
               </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../bill-of-materials/">Bill of Materials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../image-gallery/">Image Gallery</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
@@ -208,6 +212,24 @@ The blade height should be equal to the thickness of the matching layer depositi
 <li>Gently tighten the screws, using the lowest tension required to grip the blade. Overtightening will lead to blade flex.</li>
 <li>Look along the blade to check its straightness. If there is a visible bend, check that the screws are not overtightened, and that the clamping surfaces are flat and clean.</li>
 </ul>
+<h2 id="pzt-storage-tray">PZT storage tray</h2>
+<p><strong>Note:</strong> The default stl file is <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl"><code>PZT Element Tray 16x17 10 mm length.stl</code></a>, which is a 16 <script type="math/tex">\times</script> 17 grid, supporting 272 PZT bars of dimensions 1 mm <script type="math/tex">\times</script> 1 mm <script type="math/tex">\times</script> 10 mm. To design a tray for more elements, or for elements with different dimensions, open the <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d"><code>pzt-element-tray.f3d</code></a> CAD file in Fusion 360 and edit the <code>Nrows, Ncolumns, hole_diameter, pzt_element_length</code> parameters in the <code>Solid &gt; Modify &gt; Change Parameters</code> menu.</p>
+<ol>
+<li>
+<p>Print the stl file with these settings:</p>
+<ul>
+<li>Low infill &lt; 20% (non-structural)</li>
+<li>Coarse layer height 0.2 mm</li>
+<li>No support required</li>
+<li>Preview the part and make sure the holes are empty</li>
+</ul>
+</li>
+<li>
+<p>Install the threaded inserts into the holes using a soldering iron set to 275<script type="math/tex">^{\circ}</script>C (adjust as necessary for non-PLA filaments),</p>
+</li>
+<li>Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf"><code>PZT Element Tray Drawing.pdf</code></a> drawing can be printed out at 100% size to help mark out the hole pattern.</li>
+<li>Label the rows with numbers and columns with letters using a permenant marker.</li>
+</ol>
               
             </div>
           </div><footer>

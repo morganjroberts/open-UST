@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://morganjroberts.github.io/open-UST/image-gallery/</loc>
+         <lastmod>2022-10-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://morganjroberts.github.io/open-UST/impedance-matching-circuit/</loc>
          <lastmod>2022-10-07</lastmod>
          <changefreq>daily</changefreq>

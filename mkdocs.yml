@@ -9,6 +9,7 @@ nav:
     - Contact: contact.md
     - UST Background: background.md
     - Bill of Materials: bill-of-materials.md  
+    - Image Gallery: image-gallery.md
     - Transducer Manufacture:
         - 1 PZT Element Preparation: pzt-element-preparation.md
         - 2 Matching Layer Deposition: matching-layer-deposition.md
@@ -42,4 +43,4 @@ markdown_extensions:
 
 theme: 
     name: readthedocs
-    logo: img/open-UST_logo.svg
+    logo: img/open-UST_logo.png

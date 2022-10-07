@@ -33,7 +33,9 @@ Note: final vacuum must be better than 5 mbar.
 1. Once the mixture has expanded and collapsed, releasing the trapped air, all the pump to run for 20 more seconds.
 1. Turn off the pump and release the vacuum.
 
-## Casting
+![polyurethane-preparation](img/acoustic-coating/polyurethane-preparation.png)
+
+## Polyurethane casting: sides
 
 1. Remove the pot from the vacuum chamber and bring it into contact with the syringe barrel opening.
 1. Slowly, pour the mixture into the syringe.
@@ -43,9 +45,14 @@ Note: final vacuum must be better than 5 mbar.
 1. Carefully place the needle into the coating mould cavity, as far down as it will go (it may be necessary to wiggle the needle if the fit is tight).
 1. Push the syringe plunger to dispense the polyurethane into the mould. Due to its viscosity, this can take 3-5 minutes.
 1. Once the polyurethane has reached the top of the mould, gently remove the needle from the mould.
-1. Pull the luer-slip needle fitting apart to expose the syringe nozzle.
-1. With the syringe nozzle almost in contact with the PZT elements, dispense a layer of polyurethane onto the transducer front face. 
+
+![casting-polyurethane-sides](img/acoustic-coating/casting-polyurethane-sides.png)
+
+## Polyurethane casting: front face
+1. With the needle almost in contact with the PZT elements, dispense a layer of polyurethane onto the transducer front face. 
 1. Use the pre-cleaned safety blade to remove the excess polyurethane. Holding it at a 45 degree angle, gently drag it along the surface of the coating mould, at a rate of ~1 mm/s.
 1. Use the pre-cleaned sewing needle to remove pockets of air trapped between the PZT elements. Gently agitate the polyurethane between the elements so that it fully contacts the backing layer and the PCB.
 1. Remove excess polyurethane once more using the safety blade.
 1. Allow the polyurethane to cure for 48 hours.
+
+![casting-polyurethane-front](img/acoustic-coating/casting-polyurethane-front.png)

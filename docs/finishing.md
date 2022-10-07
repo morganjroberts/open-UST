@@ -12,10 +12,12 @@
 `Note: Do not use warm water or agressive agitation since this can warp the internal plastic parts and damage the adhesive bond between the thin polyurethane coating and the transducer.`
 
 1. After dissolving the mould, rinse in clean water and pat dry with a paper towel.
-1. Once dry, use a scalpel to remove the thin flashing created by the coating mould seams.
+
+![dissolve-coating-moulds](img/finishing/dissolve-coating-moulds.png)
 
 ## Bend relief install
 
+1. Use a scalpel to remove the thin flashing created by the coating mould seams.
 1. Cut a 31 mm piece of heatshrink using a pair of scissors.
 1. Thread the heatshrink over the cable.
 1. Pull the heatshrink over the collar where the cable enters the transducer module.
@@ -23,3 +25,5 @@
 1. Use a heatgun to gently heat the heatshrink, starting from the collar end. Heat from all directions, and allow the transducer to cool if the coating becomes too hot to touch.
 1. Allow the heatshrink to cool fully before bending the cable.
 1. The transducer module is now finished.
+
+![install-heatshrink](img/finishing/install-heatshrink.png)

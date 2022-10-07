@@ -77,3 +77,19 @@ Recomended Settings:
 * Slide the safety blade underneath the heads of the screws. Make sure the blade is fully seated against the registering features.
 * Gently tighten the screws, using the lowest tension required to grip the blade. Overtightening will lead to blade flex.
 * Look along the blade to check its straightness. If there is a visible bend, check that the screws are not overtightened, and that the clamping surfaces are flat and clean.
+
+
+
+## PZT storage tray
+
+**Note:** The default stl file is [`PZT Element Tray 16x17 10 mm length.stl`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%2016x17%2010%20mm%20length.stl), which is a 16 \(\times\) 17 grid, supporting 272 PZT bars of dimensions 1 mm \(\times\) 1 mm \(\times\) 10 mm. To design a tray for more elements, or for elements with different dimensions, open the [`pzt-element-tray.f3d`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/pzt-element-tray.f3d) CAD file in Fusion 360 and edit the `Nrows, Ncolumns, hole_diameter, pzt_element_length` parameters in the `Solid > Modify > Change Parameters` menu.
+
+1. Print the stl file with these settings:
+    * Low infill < 20% (non-structural)
+    * Coarse layer height 0.2 mm
+    * No support required
+    * Preview the part and make sure the holes are empty
+
+2. Install the threaded inserts into the holes using a soldering iron set to 275\(^{\circ}\)C (adjust as necessary for non-PLA filaments),
+3. Manufacture a perspex lid with 4 mm clearance holes. If using the default stl file, the [`PZT Element Tray Drawing.pdf`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-tray/PZT%20Element%20Tray%20Drawing.pdf) drawing can be printed out at 100% size to help mark out the hole pattern.
+4. Label the rows with numbers and columns with letters using a permenant marker.

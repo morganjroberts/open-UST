@@ -130,3 +130,7 @@ Repeat the thickness measurement described in XXX.
 1. Record any defects (chipping, electrode damage, matching layer damage) in the XXX spreadsheet.
 1. Return the PZT element to the PZT storage tray.
 1. Repeat this process for all PZT elements.
+
+
+. Assess the PZT element for any defects. Possible defects are chipping (C), electrode delamination (E), sliced electrode (S), broken (B). Record these defects in spreadsheet [`pzt-element-dimensions-defects.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/pzt-element-dimensions-defects.xlsx).
+CHIPPING IMAGE PREVIOUSLY ON PREP PAGE

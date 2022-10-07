@@ -17,7 +17,8 @@ tight seams needed to prevent leakage
 7. Wrap the side tabs around the transducer module.
 8. Place the smaller copper foil pattern on the PCB side of the transducer module.
 9. Rub the copper foil all over with a hard stick so that the adhesive creates tight seams. 
-10. Use a scalpel to cutout x4 hexagons, exposing the mounting nut recesses.
+
+![copper-foil](img/electromagnetic-shielding/copper-foil.png)
 
 ## Bond cable braid to transducer shield
 
@@ -28,4 +29,6 @@ tight seams needed to prevent leakage
 5. Cut the bundle so that it overlaps the copper foil by ~ 4 mm.
 6. Solder the trimmed bundle to the copper foil. Keep heating time to a minimum to avoid melting the transducer housing.
 7. Repeat this process for all four bundles.
+10. Use a scalpel to cutout x4 hexagons, exposing the mounting nut recesses.
 
+![bond-braid-to-shield](img/electromagnetic-shielding/bond-braid-to-shield.png)

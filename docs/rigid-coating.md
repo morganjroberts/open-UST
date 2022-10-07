@@ -13,6 +13,8 @@ cable entry point needed to prevent coating leakage and backup waterproofing
 6. Mix thoroughly for 1 minute using a small plastic rod, making sure all material is fully incorporated.
 7. Use a foam swab to apply the epoxy to the cable entry point, forming a smooth fillet around the circumference. Make sure the joint completely covers the seam between the copper foil and the exposed housing region, to prevent leakage.
 
+![seal-cable-entry-point](img/rigid-coating/seal-cable-entry-point.png)
+
 ## Prepare coating moulds
 
 1. 3D-print the coating mould parts.
@@ -26,6 +28,9 @@ cable entry point needed to prevent coating leakage and backup waterproofing
 - Part B has x8 inserts
 7. Use a scalpel to flatten any PVA squeezeout around the threaded inserts.
 8. Use a paper towel, to apply a layer of vaseline petroleum jelly to the threads of the M3 x 6 mm socket head bolts.
+
+![prepare-coating-moulds](img/rigid-coating/prepare-coating-moulds.png)
+
 
 ## Assemble coating moulds
 
@@ -42,6 +47,11 @@ cable entry point needed to prevent coating leakage and backup waterproofing
 10. Use a foam swab to plug all of the holes in the coating mould with silicone sealant.
 11. Use a gloved finger to seal the cable entry point to the mould with silicone sealant. A thick layer is needed since the PVC-silicone bond is weak. A thin coat could easily peel away when the transducer is handled.
 12. Allow the silicone to cure for 4 hours.
+
+![assemble-coating-moulds](img/rigid-coating/assemble-coating-moulds.png)
+
+## Fix coating mould to strong-plate
+
 13. Install M3 screws through the coating strong-plate and into the coating mould-transducer assembly (part A should be facing the strong-plate).
 14. Tighten the screws so that part A is pulled flat against the strongplate.
 15. Install the acoustic coating mould using M3 x 8 mm screws.
@@ -49,6 +59,7 @@ cable entry point needed to prevent coating leakage and backup waterproofing
 17. Remove the acoustic coating mould.
 18. If the PCB was too low, reduce the height of the acoustic coating mould by lapping it on a sheet of P180 grit abrasive paper.
 
+![assemble-coating-mould-strongplate](img/rigid-coating/assemble-coating-mould-strongplate.png)
 
 ## Cast rigid coating
 
@@ -96,3 +107,5 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 Note: If the epoxy is leaking internally, it will leak into the cable, making the cable rigid when the epoxy cures, which should be avoided. To stop the leak, use the needle and a new syringe to suck as much epoxy as possible out of the mould, wait for the epoxy to cure (this will seal the leak) and start the coating process again with a new batch of epoxy.
 
 Note: be careful not to touch the front face of the transducer with the epoxy. If this happens, remove it immediately and rinse thoroughly with isopropyl alcohol.
+
+![cast-rigid-coating](img/rigid-coating/cast-rigid-coating.png)

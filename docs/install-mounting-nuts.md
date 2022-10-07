@@ -11,6 +11,8 @@ glass plate clamping to ensure the ends of the mounting nuts are coplanar
 3. Put the mounting nuts in a bath of isopropyl alcohol and agitate to degrease them.
 4. Thread each mounting nut onto an M3 x 30 mm screw. The threads should engage by ~ 4 mm.
 
+![mounting-nut-preparation](img/install-mounting-nuts/mounting-nut-preparation.png)
+
 ## Mounting nut installation
 
 Note: the Loctite 3090 has an extremely short work time, so these steps must be performed very quickly. Make sure that the supplies are prepared before starting, and use two operators.
@@ -24,3 +26,6 @@ Note: the Loctite 3090 has an extremely short work time, so these steps must be 
 7. Push the mounting nut into the recess, and remove the screw.
 8. repeat this for all 4 mounting nuts in the transducer module.
 9. Clamp the transducer module to the glass plate using a small G-clamp, with the mounting nuts facing down. Make sure that the end of each mounting nut is flat against the glass.
+1. Allow the adhesive to cure for 1 hour before removing the transducer from the glass plate.
+
+![mounting-nut-installation](img/install-mounting-nuts/mounting-nut-installation.png)

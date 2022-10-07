@@ -10,7 +10,10 @@
 4. Push the IDC connector onto the PCB header pins.
 5. Secure the cable to the transducer housing using the strain rleief clip and M3 x 5 mm socket head screws. Make sure the clip grips the sheathed part of the cable, and not the individual wires.
 
-## Cover Piece Welding
+![cable-installation](img/cable-installation/cable-installation.png)
+
+
+## Cable cover welding
 
 1. 3D-print the cover piece with the orientation and settings detailed in `placeholder`
 2. Setup a soldering iron with a temperature of 275 deg C and a very clean tip. Setup an extraction fan.
@@ -18,3 +21,5 @@
 4. Tack weld the cover-housing seam using the soldering iron.
 5. Fully weld the cover-housing seam, pushing the tip deep into the seam to achieve good penetration.
 6. Smooth out the welded seam using the soldering iron tip.
+
+![cable-cover-welding](img/cable-installation/cable-cover-welding.png)

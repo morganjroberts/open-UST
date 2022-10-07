@@ -110,11 +110,11 @@
                   </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">Custom Tooling Manufacture</a>
+                <li class="toctree-l1"><a class="reference internal" href="../custom-tooling-manufacture/">$Custom Tooling Manufacture</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../dimension-calibration-3D-printing/">Dimension Calibration for 3D-Printed Parts</a>
+                <li class="toctree-l1"><a class="reference internal" href="../dimension-calibration-3D-printing/">$Dimension Calibration for 3D-Printed Parts</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Impedance Matching</span></p>
@@ -158,19 +158,20 @@
 <li>Position x1 Samtec header pin strip on the interconnect PCB. The edge of the insulating body should be flush with the upper edge of the PCB.</li>
 <li>Solder the header pin strip to the PCB.</li>
 </ol>
+<p><img alt="solder-interconnect-pcb" src="../img/pcb-housing-assembly/solder-interconnect-pcb.png" /></p>
 <h2 id="prepare-the-housing">Prepare the housing</h2>
+<p><code>Note: residual PVA can be gently removed from the housing using a toothbrush and foam swabs. Do not use warm water since this can warp the housing.</code></p>
 <ol>
 <li>3D-print the housing using the ...</li>
 <li>Allow the parts to cool and remove from the build plate.</li>
 <li>Remove the PVA support from the wedged structure on the front of the housings. Do not attempt to dig the PVA support out of the mounting nut recesses.</li>
 <li>Place the housings in a bath of room temperature water for ~36 hours.</li>
-</ol>
-<p><code>Note: residual PVA can be gently removed from the housing using a toothbrush and foam swabs. Do not use warm water since this can warp the housing.</code></p>
-<ol>
 <li>Install M3 threaded inserts into the housing, using a soldering iron set to 275 degC. Make sure to use a tip that does not protrude all the way through the insert, since this would melt a hole through the housing.</li>
 <li>Use a scalpel to scrape flat the PCB mating face (the region between the two PCB alignment tabs).</li>
 <li>Test fit the PCB-housing assembly (with the header pin strip facing the housing), to verify that the mating faces are in full contact.</li>
+<li>Test that the hex nuts seat properly into the hex nut recesses. The hex nut should protrude from the surface by 2 mm. Discard the housing if this fetaure has a defect.</li>
 </ol>
+<p><img alt="housing-preparation" src="../img/pcb-housing-assembly/housing-preparation.png" /></p>
 <h2 id="base-plate-setup">Base plate setup</h2>
 <p>It is required that the PZT elements are aligned perpendicularly to the top surface of the transducer housing. To achieve this, the PZT elements are installed in the PZT alignment mould to align them perpendicularly with the base plate, which acts as a reference plane. The top surface of the housing is parallel with the surface of the base plate, which in turn means that it is perpendicular to the PZT elements. The following adjustment procedure is required to make the top surface of the housing parallel with the surface of the base plate:</p>
 <ol>
@@ -187,6 +188,7 @@
 <li>Repeat this process until the 4 height measurements are within 25 (\mu m(.</li>
 <li>Loosen the clamp screws so that the PCB-housing assembly can be removed. Leave the screws and clamp attached to the base plate, for the PCB-housing bonding. </li>
 </ol>
+<p><img alt="base-plate-setup" src="../img/pcb-housing-assembly/base-plate-setup.png" /></p>
 <h2 id="pcb-housing-bonding">PCB-Housing Bonding</h2>
 <p>Note: the Loctite 3090 has an extremely short work time, so these steps must be performed quickly. Make sure that everything is prepared before starting.</p>
 <ol>
@@ -198,6 +200,7 @@
 <li>Tighten the screws so that the clamp pushes down on the housing.</li>
 <li>Allow to cure for 1 hour. Do not remove the assembly from the base plate, since it is required for the rear electrode connection procedure.</li>
 </ol>
+<p><img alt="pcb-housing-bonding" src="../img/pcb-housing-assembly/pcb-housing-bonding.png" /></p>
               
             </div>
           </div><footer>

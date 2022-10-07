@@ -13,3 +13,5 @@
 6. Repeat this process for all PZT elements in the transducer module,
 7. Allow the conductive epoxy to cure for 24 hours.
 8. Inspect the joints. Make sure that the conductive epoxy joints are flush with the edge of the PCB. If any of them overhang, use a new sharp scalpel blade to remove the excess material. 
+
+![front-electrode-connection](img/front-electrode-connection/front-electrode-connection.png)

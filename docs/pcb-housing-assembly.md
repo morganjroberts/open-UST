@@ -8,18 +8,22 @@
 1. Position x1 Samtec header pin strip on the interconnect PCB. The edge of the insulating body should be flush with the upper edge of the PCB.
 1. Solder the header pin strip to the PCB.
 
+![solder-interconnect-pcb](img/pcb-housing-assembly/solder-interconnect-pcb.png)
+
 ## Prepare the housing
+
+`Note: residual PVA can be gently removed from the housing using a toothbrush and foam swabs. Do not use warm water since this can warp the housing.`
 
 1. 3D-print the housing using the ...
 1. Allow the parts to cool and remove from the build plate.
 1. Remove the PVA support from the wedged structure on the front of the housings. Do not attempt to dig the PVA support out of the mounting nut recesses.
 1. Place the housings in a bath of room temperature water for ~36 hours.
-
-`Note: residual PVA can be gently removed from the housing using a toothbrush and foam swabs. Do not use warm water since this can warp the housing.`
-
 1. Install M3 threaded inserts into the housing, using a soldering iron set to 275 degC. Make sure to use a tip that does not protrude all the way through the insert, since this would melt a hole through the housing.
 1. Use a scalpel to scrape flat the PCB mating face (the region between the two PCB alignment tabs).
 1. Test fit the PCB-housing assembly (with the header pin strip facing the housing), to verify that the mating faces are in full contact.
+1. Test that the hex nuts seat properly into the hex nut recesses. The hex nut should protrude from the surface by 2 mm. Discard the housing if this fetaure has a defect.
+
+![housing-preparation](img/pcb-housing-assembly/housing-preparation.png)
 
 ## Base plate setup
 
@@ -38,6 +42,8 @@ It is required that the PZT elements are aligned perpendicularly to the top surf
 1. Repeat this process until the 4 height measurements are within 25 \(\mu m\(.
 1. Loosen the clamp screws so that the PCB-housing assembly can be removed. Leave the screws and clamp attached to the base plate, for the PCB-housing bonding. 
 
+![base-plate-setup](img/pcb-housing-assembly/base-plate-setup.png)
+
 ## PCB-Housing Bonding
 
 Note: the Loctite 3090 has an extremely short work time, so these steps must be performed quickly. Make sure that everything is prepared before starting.
@@ -49,3 +55,5 @@ Note: the Loctite 3090 has an extremely short work time, so these steps must be 
 1. Quickly, place the PCB-housing assembly back on the base plate, sliding it underneath the clamp.
 1. Tighten the screws so that the clamp pushes down on the housing.
 1. Allow to cure for 1 hour. Do not remove the assembly from the base plate, since it is required for the rear electrode connection procedure.
+
+![pcb-housing-bonding](img/pcb-housing-assembly/pcb-housing-bonding.png)

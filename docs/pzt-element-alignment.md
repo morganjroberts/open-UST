@@ -37,6 +37,8 @@ Tune the slot width:
 6. Cleanup nozzle stringing using a scalpel,
 7. Use an air duster to blow debris out of the slots.
 
+![alignment-mould-preparation](img/pzt-element-alignment/alignment-mould-preparation.png)
+
 ## Prepare and load PZT elements into alignment mould slots
 
 1. Hold the alignment mould with the blind end of the slots on the left and the PCB recess on the right.
@@ -50,6 +52,9 @@ Tune the slot width:
 7. Apply gently pressure with the tweezers to fully seat the element onto the bottom of the slot. Make sure the element is pushed fully into the blind end of the slot.
 8. Repeat this process for all elements in the transducer module.
 
+![prepare-load-pzt-alignment-slots](img/pzt-element-alignment/prepare-load-pzt-alignment-slots.png)
+
+
 ## Apply PVA blocking layer
 
 A PVA blocking layer is needed to prevent the backing layer composite from bonding to the exposed front electrode (this would later obstruct an electrical connection from the electrode to the PCB pad).
@@ -61,3 +66,4 @@ A PVA blocking layer is needed to prevent the backing layer composite from bondi
 
 Note: if PVA adhesive is accidentally applied to the rear electrode, do not use solvent or water to remove it. Liquids can dissolve the surrounding PVA alignment mould and deposit a thin layer of PVA onto the rear electrode, preventing a proper bond between the electrode and the backing layer composite. Instead, allow the PVA adheisve to dry, then remove it using a small piece of P2000 grit sandpaper held in a pair of forceps. Remove the debris with an air duster.
 
+![pva-blocking-layer](img/pzt-element-alignment/pva-blocking-layer.png)

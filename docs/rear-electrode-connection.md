@@ -13,6 +13,8 @@ The interconnect PCB-housing assembly should not be removed from the base plate 
 6. Inspect the final alignment under a microscope to check that the parts have not shifted when the screws were tightened.
 7. Use an air duster to blow any debris out of the cavity.
 
+![pzt-housing-registration](img/rear-electrode-connection/pzt-housing-registration.png)
+
 ## Conductive Epoxy Preparation
 
 `Note: dilution with acetone has only been verified with MG chemicals XXX. If using a different conductive epoxy, prepare a test sample to check the effect of acetone ratio on viscosity, and to verify that diluting with acetone does not affect the electrical and mechanical properties after curing.`
@@ -25,6 +27,9 @@ The interconnect PCB-housing assembly should not be removed from the base plate 
 6. Place the petri dish on the balance and tare it.
 7. Using a pipette, dispense 0.1 g of acetone,
 8. Incorporate the acetone. 
+
+![conductive-epoxy-preparation](img/rear-electrode-connection/conductive-epoxy-preparation.png)
+
 
 ## Rear Electrode Connection
 
@@ -40,7 +45,7 @@ Allow the conductive epoxy to cure for 24 hours. Once the conductive epoxy has c
 
 `Note: if the conductive epoxy is accidentally placed on the alignment mould, remove it after curing with a scalpel and If it is accidentally placed on the rear electrode, wipe off as much as possible with a foam swab, and any cured residue with a small piece of P2000 grit sandpaper held in a pair of forceps. In both cases remove any debris with an air duster.  Do not use solvents at any point, since they can dissolve the PVA alignment mould and deposit a thin layer of PVA on the rear electrode, preventing proper bonding with the backing layer composite.`
 
-
+![rear-electrode-connection](img/rear-electrode-connection/rear-electrode-connection.png)
 
 
 

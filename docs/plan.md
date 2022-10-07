@@ -39,7 +39,7 @@ things to check
 - capitalisation in titles and subtitles.
 - hyphenation
 - full stops vs commas at end of lines
-- notes formating
+- unify 'notes' formating
 - standard sentence for 3D printing  details found elsewhere
 - standard sentence for threaded inserts
 - spell check

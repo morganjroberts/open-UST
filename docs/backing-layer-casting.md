@@ -9,6 +9,8 @@ Masking tape is used to remove excess composite after casting.
 1. Cut four pieces of masking tape for each transducer module,
 2. Place these smoothly around the backing layer cavity.
 
+![masking-backing-cavity](img/backing-layer-casting/masking-backing-cavity.JPG)
+
 ## Prepare tungsten-epoxy composite
 
 1. Calculate the required mass of tungsten, resin and hardener. For four transducer modules, the required volume is XXX ml. For a tungsten-weight fraction of 80.8 %, the required quantities are:
@@ -33,6 +35,9 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 11. Add the tungsten powder.
 12. Mix thoroughly for 15 minutes, making sure that the mixture is homogeneous. Frequently remove unmixed material from the scraper blade and the edges of the glass plate and combine it with the rest of the material.
 
+![tungsten-epoxy-mixing](img/backing-layer-casting/tungsten-epoxy-mixing.png)
+
+
 ## Composite casting
 
 1. Collect ~3ml of composite on the end of the scraper,
@@ -41,6 +46,9 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 4. Remove the excess composite by sliding the scraper blade along the top surface of the housing and alignment mould. Do this in both directions, with the blade angled towards the direction of travel.
 5. To fully remove the excess composite, carefully pull away the masking tape.
 6. Allow the composite to cure for 24 hours.
+
+![backing-layer-casting](img/backing-layer-casting/backing-layer-casting.png)
+
 
 ## Alignment mould removal
 
@@ -52,3 +60,5 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 
 4. After dissolving the alignment mould, rinse in clean water and pat dry with a paper towel.
 5. Once dry, use a scalpel to create a chamfer on the edges of the backing layer.
+
+![alignment-mould-removal](img/backing-layer-casting/alignment-mould-removal.png)

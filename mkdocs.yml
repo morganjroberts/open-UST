@@ -6,7 +6,6 @@ repo_url: https://github.com/morganjroberts/open-UST
 
 nav:
     - Home: index.md
-    # - Background: background.md
     - Contact: contact.md
     - UST Background: background.md
     - Bill of Materials: bill-of-materials.md  
@@ -29,8 +28,8 @@ nav:
     - Additional Manufacture:
         - 16 Plug Assembly: plug-assembly.md       
         - $2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
-    - Custom Tooling Manufacture: custom-tooling-manufacture.md
-    - Dimension Calibration for 3D-Printed Parts: dimension-calibration-3D-printing.md
+    - $Custom Tooling Manufacture: custom-tooling-manufacture.md
+    - $Dimension Calibration for 3D-Printed Parts: dimension-calibration-3D-printing.md
     - Impedance Matching:
         - $Impedance Measurement: impedance-measurement.md
         - $Impedance Matching Circuit: impedance-matching-circuit.md

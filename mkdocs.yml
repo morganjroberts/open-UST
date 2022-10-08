@@ -6,34 +6,35 @@ repo_url: https://github.com/morganjroberts/open-UST
 
 nav:
     - Home: index.md
-    - Contact: contact.md
-    - UST Background: background.md
-    - Bill of Materials: bill-of-materials.md  
-    - Image Gallery: image-gallery.md
+    - About: about.md
+    - Contact: contact.md    
+    - Transducer Array Description: transducer-array-description.md
     - Transducer Manufacture:
-        - 1 PZT Element Preparation: pzt-element-preparation.md
-        - 2 Matching Layer Deposition: matching-layer-deposition.md
-        - 3 PZT Element Alignment: pzt-element-alignment.md
-        - 4 PCB-Housing Assembly: pcb-housing-assembly.md
-        - 5 Rear Electrode Connection: rear-electrode-connection.md
-        - 6 Backing Layer Casting: backing-layer-casting.md
-        - 7 Front Electrode Connection: front-electrode-connection.md      
-        - 8 Cable Preparation: cable-preparation.md
-        - 9 Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
-        - 10 Cable Installation: cable-installation.md
-        - 11 Electromagnetic Shielding: electromagnetic-shielding.md
-        - 12 Install Mounting Nuts: install-mounting-nuts.md
-        - 13 Rigid Coating: rigid-coating.md
-        - 14 Acoustic Coating: acoustic-coating.md
-        - 15 Finishing: finishing.md 
+        - PZT Element Preparation: pzt-element-preparation.md
+        - Matching Layer Deposition: matching-layer-deposition.md
+        - PZT Element Alignment: pzt-element-alignment.md
+        - PCB-Housing Assembly: pcb-housing-assembly.md
+        - Rear Electrode Connection: rear-electrode-connection.md
+        - Backing Layer Casting: backing-layer-casting.md
+        - Front Electrode Connection: front-electrode-connection.md      
+        - Cable Preparation: cable-preparation.md
+        - Strain Relief Clip Manufacture: strain-relief-clip-manufacture.md
+        - Cable Installation: cable-installation.md
+        - Electromagnetic Shielding: electromagnetic-shielding.md
+        - Install Mounting Nuts: install-mounting-nuts.md
+        - Rigid Coating: rigid-coating.md
+        - Acoustic Coating: acoustic-coating.md
+        - Finishing: finishing.md 
     - Additional Manufacture:
-        - 16 Plug Assembly: plug-assembly.md       
-        - $2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
-    - $Custom Tooling Manufacture: custom-tooling-manufacture.md
-    - $Dimension Calibration for 3D-Printed Parts: dimension-calibration-3D-printing.md
-    - Impedance Matching:
-        - $Impedance Measurement: impedance-measurement.md
-        - $Impedance Matching Circuit: impedance-matching-circuit.md
+        - Plug Assembly: plug-assembly.md       
+        - 2D Ring Array Mounting Plate: 2D-ring-array-mounting-plate.md
+    - Custom Tooling:
+        - Overview: custom-tooling-manufacture.md
+    - 3D-print Dimension Calibration:
+        - Overview: dimension-calibration-3D-printing.md
+    # - Impedance Matching:
+        # - $Impedance Measurement: impedance-measurement.md
+        # - $Impedance Matching Circuit: impedance-matching-circuit.md
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML

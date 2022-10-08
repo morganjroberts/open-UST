@@ -11,6 +11,8 @@
 1. Carefully remove the part from the glass build plate using a scalpel.
 1. Inspect the slots under a microscope. Remove any debris using a scalpel and an air duster.
 
+![prepare-deposition-mould](img/matching-layer-deposition/prepare-deposition-mould.png)
+
 ## Prepare deposition tooling
 
 1. Remove debris from the deposition tooling parts using an air duster.
@@ -26,6 +28,9 @@
 1. Tighten all the screws until the parts are fixed in place, but no further (to avoid flexing).
 1. Place strips of masking tape on the glass plate beside the rails, and on the retention clips.
 
+![prepare-deposition-tooling](img/matching-layer-deposition/prepare-deposition-tooling.png)
+
+
 ## Prepare and load PZT elements
 
 Note: PZT element electrodes are polarised, and come from the manufacturer with a polarity indicator (e.g. an ink marking). Polarity affects whether the PZT generates a positive or negative pressure wave when driven with a positive voltage pulse, and should be the same for all the elements in the array. Although their polarity can be identified during calibration, and corrected for with the driving voltage, it is more convenient to make sure that the PZT elements are loaded into the deposition mould with the same polarity.
@@ -35,6 +40,8 @@ Note: PZT element electrodes are polarised, and come from the manufacturer with 
 1. Under a microscope, lightly abrade the surface of the front electrode using a small piece of P2000 grit sandpaper held in a pair of forceps. Do not remove excessive material,
 1. Clean all faces of the PZT element using isopropyl alcohol and a foam swab.
 1. Use tweezers to place the clean PZT element into the deposition mould slots, with the front electrode facing up. Make sure the PZT element is in full contact with the glass plate.
+
+![prepare-load-pzt](img/matching-layer-deposition/prepare-load-pzt.png)
 
 ## Prepare tungsten-epoxy composite
 
@@ -62,6 +69,9 @@ Use the matlab function XXX to calculate the masses needed for other volumes and
 11. Add the tungsten powder.
 12. Mix thoroughly for 15 minutes, making sure that the mixture is homogeneous. Frequently remove unmixed material from the scraper blade and the edges of the glass plate and combine it with the rest of the material.
 
+![prepare-composite](img/matching-layer-deposition/prepare-composite.png)
+
+
 ## Blade coating composite
 
 Note: practice this step
@@ -75,6 +85,9 @@ Note: practice this step
 1. Remove the rails, being careful not to touch the coating layer.
 1. Use a paper towel and isopropyl alcohol to remove residue from the parts of the glass base previously covered by the rails and tape.
 
+![blade-coat-composite](img/matching-layer-deposition/blade-coat-composite.png)
+
+
 ## Composite compression
 
 1. Place the 2 clamp bases either side of the deposition mould.
@@ -87,6 +100,8 @@ Note: practice this step
 1. In sequence, compress the composite layer. Tighten the four screws a quarter-turn at a time, to apply even clamping pressure. Stop once the glass lid touches the gauge block.
 1. Label the glass lid with the batch ID using a permananent marker.
 1. Allow the composite to cure undisturbed for 24 hours.
+
+![compress-composite](img/matching-layer-deposition/compress-composite.png)
 
 Note: during the manufacture of UST-001, there were major problems compressing the composite, since the thin 1 mm glass coverslips flexed and cracked before it made proper contact with the gauge blocks. This custom tooling needs a redesign which is an open issue on GitHub.
 

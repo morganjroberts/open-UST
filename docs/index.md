@@ -4,14 +4,4 @@ This is the documentation for the [open-UST](https://github.com/morganjroberts/o
 
 ![home-image](img/home-image.png)
 
-This documentation, and the hardware github repository, are both being actively updated. 
-
-Progress tracker:
-
-| Task | Status |
-|------|-------|
-|Prototyping | Complete | 
-|Batch 1 Manufacture (x8 modules) | Complete |
-|Batch 1 Acoustic Evaluation | In Progress |
-|Batch 2 Manufacture (x8 modules) | In Progress |
-|Combine Batch 1 & 2 (x16 modules), do UST phantom imaging | Not started |
+This documentation, and the hardware github repository, are both being expanded. Check back for further updates.

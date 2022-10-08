@@ -116,6 +116,8 @@ Note: during the manufacture of UST-001, there were major problems compressing t
 1. Place the glass lid on a flat surface with the PZT elements facing up.
 1. Use a scalpel to gently release the composite from the glass lid. Work slowly, from the outside inwards, from all directions.
 
+![deposition-mould-removal](img/matching-layer-deposition/deposition-mould-removal.png)
+
 ## Matching layer trimming
 
 Note: change the scalpel blade for a new sharp one every 10 elements.

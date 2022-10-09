@@ -61,7 +61,7 @@ things to check
 #3 add BOM ID numbers throughout documentation
 #4 add short overview to each section
 #5 CAD flythrough video 
-#6 edit front-electrode-connection image
-future work page
-- klm modelling - transducer design
-- right angled format
+#7 add images to about page
+#8 license
+#9 add a gentting started page
+#10 future work page - klm modelling - transducer design - right angled format

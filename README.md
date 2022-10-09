@@ -5,21 +5,27 @@
 
 # **open-UST:** An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System.
 
-The goal of the open-UST project is to lower the barrier to entry for experimental ultrasound tomography UST researchers. 
-
-The open source hardware distribution supports end users to manufacture a UST transducer array in-house:
+There is a high barrier to entry for researchers starting UST experiments: UST hardware is not available off the shelf, and custom systems are expensive. The goal of the open-UST project is to **lower the barrier to entry for experimental ultrasound tomography UST researchers.**
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image.png" width="100%">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image-nologo.png" width="100%">
 </p>
+
+This research project is guided by three objectives:
+
+1. Design a low cost UST research system and manufacture it in-house.
+1. Measure its acoustic performance and imaging capability, and assess its overall suitability as a tool for the UST research community.
+1. Release the design as an open-source hardware distribution.
+
+If successful, this work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.
 
 ## Features
 
-**Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber
-**Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system
-**Modular:** Both 2D and 3D imaging setups can be configured. Modules feature threaded mounting points for repeatable positioning
-**Durable:** Transducers are fully waterproof
-**Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour
+-**Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber
+-**Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system
+-**Modular:** Both 2D and 3D imaging setups can be configured. Modules feature threaded mounting points for repeatable positioning
+-**Durable:** Transducers are fully waterproof
+-**Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour
 
 
 

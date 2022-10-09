@@ -7,8 +7,9 @@ Outputs
 - breast ultrasound with UST overview/background NOT DONE
 - further reading NOT DONE
   - IUS video links embeded
-- readme on repo - this is just the home page.
+- readme on repo - this is just the home/about page.
 - add overview section to each page
+- getting started page
 
 Next most important is adding pictures
 
@@ -40,7 +41,10 @@ things to check
 - hyphenation
 - full stops vs commas at end of lines
 - unify 'notes' formating
-- standard sentence for 3D printing  details found elsewhere
+- standard sentences
+  - (orientation and slicer settings detailed in [3D-print-spec.pdf](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/3D-print-spec.pdf))
+  - (offset calibration process described [here](dimension-calibration-3D-printing.md#deposition-mould))
+  - (further details [here](custom-tooling-manufacture.md))
 - standard sentence for threaded inserts
 - spell check
 - unify abrasive-paper vs sandpaper.
@@ -50,7 +54,14 @@ things to check
 
 ---------------------------------------------------------------
 
-# other stuff
+# issues
+#1 `tungstenPolymerRatio`
+#2 deposition jig
+#3 probe assignment concept
+#3 add BOM ID numbers throughout documentation
+#4 add short overview to each section
+#5 CAD flythrough video 
+#6 edit front-electrode-connection image
 future work page
 - klm modelling - transducer design
 - right angled format

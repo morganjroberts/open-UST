@@ -37,8 +37,6 @@ For each PZT element:
 
 ## Meaure the PZT Element Dimensions
 
-
-
 1. Setup a micrometer securely in a clamp on a workbench.
 2. Clean the micrometer anvils using a foam swab (part ID XXX in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)) and isopropyl alcohol (part ID XXX in [`bill-of-materials.xlsx`](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/bill-of-materials.xlsx)).
 3. If using a digital micrometer, calibrate/tare it to 0.
@@ -67,3 +65,5 @@ Width and thickness distributions were measured from the pool of PZT elements (N
 | Width                      | 1000               | 20.4                             |
 
 ![pzt-element-dimensions](img/pzt-element-preparation/pzt-element-dimensions.png)
+
+WIDTH ORDERED LIST

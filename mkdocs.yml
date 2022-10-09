@@ -7,6 +7,7 @@ repo_url: https://github.com/morganjroberts/open-UST
 nav:
     - Home: index.md
     - About: about.md
+    - Getting Started: getting-started.md
     - Contact: contact.md    
     - Transducer Array Description: transducer-array-description.md
     - Transducer Manufacture:

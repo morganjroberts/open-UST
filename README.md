@@ -6,13 +6,13 @@
 # **open-UST:** An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System.
 
 There is a high barrier to entry for researchers starting ultrasound tomography (UST) experiments: UST hardware is not available off the shelf, and custom systems are expensive.
-The goal of the open-UST project is to **lower the barrier to entry for experimental ultrasound tomography UST researchers.**
+The goal of the open-UST project is to **lower the barrier to entry for experimental UST researchers**, by providing a manufacturing framework that allows end users to build their own UST transducers in-house.
 
 <p align="center">
   <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image-nologo.png" width="100%">
 </p>
 
-This research project is guided by three objectives:
+open-UST is part of an ongoing research project, guided by three objectives:
 
 1. Design a low cost UST research system and manufacture it in-house.
 1. Measure its acoustic performance and imaging capability, and assess its overall suitability as a tool for the UST research community.
@@ -40,9 +40,9 @@ To access the design and manufacture files, clone this repository locally:
 git clone https://github.com/morganjroberts/open-UST
 ```
 
-The files are located in the `hardware-distribution` directory.
+The design and manufacture files are located in the `hardware-distribution` directory.
 
-For the manufacturing documentation, please visit [morganjroberts.github.io/open-UST](https://morganjroberts.github.io/open-UST/).
+For the accompanying manufacturing documentation, please visit [morganjroberts.github.io/open-UST](https://morganjroberts.github.io/open-UST/).
 
 ## Citing open-UST
 

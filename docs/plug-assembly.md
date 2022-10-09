@@ -2,12 +2,14 @@
 
 ## Overview
 
-## 3D-print the plug parts
+## 3D-Print the Plug Parts
 
-1. 3D-print the plug parts listed in XXX.
-1. Remove the support material.
+1. 3D-print the plug parts (orientation and slicer settings detailed in [3D-print-spec.pdf](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/3D-print-spec.pdf)).
+1. Remove the support material, using a room temperature water bath for parts with PVA support.
 
-## Process the backshell parts
+![3d-print-plug-parts](img/plug-assembly/3d-print-plug-parts.png)
+
+## Process the Backshell Parts
 
 Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the clamp, using the following process:
 1. Use calipers to take a dimension from the part.
@@ -15,16 +17,18 @@ Coat the inner surfaces of the two halves of the split plug backshell, and the o
 1. Cut the required shape from the foil using scissors.
 1. Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.
 1. Repeat this until the parts are fully coated.
-1. Setup a soldering iron with a temperature of 380 deg C, with a large tip.
+1. Setup a soldering iron with a temperature of 380 °C, with a large tip.
 1. Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.
 1. Use a scalpel to expose any covered holes
-1. Setup a solering iron with a temperature of 275 deg C, and a clean tip.
+1. Setup a solering iron with a temperature of 275 °C, and a clean tip.
 1. Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.
 
-## Solder the DL5 breakout PCB
+![process-backshell-parts](img/plug-assembly/process-backshell-parts.png)
 
-1. Setup a soldering iron with a temperature of 350 degC and a small tip.
-1. 3D-print the breakout PCB soldering jig detailed in XXX
+## Solder the DL5 Breakout PCB
+
+1. Setup a soldering iron with a temperature of 350 °C and a small tip.
+1. 3D-print the breakout PCB soldering jig (further details [here](custom-tooling-manufacture.md)).
 1. Load x8 of the AMPMODU 4-way sockets into the soldering jig.
 1. Place the breakout PCB into the soldeing jig, aligning the socket legs with the pads. Make sure the egde of the PCB is pushed squarely against the base of every socket.
 1. Solder the sockets to the PCB. Use small solder joints and short heating times to prevent shorting the signal and ground pins.
@@ -32,12 +36,14 @@ Coat the inner surfaces of the two halves of the split plug backshell, and the o
 1. Solder the socket in place.
 1. Flip the PCB and solder the joints on the other side.
 
-## Solder the cable mount PCB
+![solder-breakout-pcb](img/plug-assembly/solder-breakout-pcb.png)
+
+## Solder the Cable Mount PCB
 
 Note: If impedance matching is being used, the SMT component below refers to an inductor. If not, then the SMT component will be a zero-ohm link.
 
-1. Setup a soldering iron with a temperature of 350 degC and a small tip.
-1. 3D-print the cable mount PCB soldering jig detailed in XXX
+1. Setup a soldering iron with a temperature of 350 °C and a small tip.
+1. 3D-print the cable mount PCB soldering jig (further details [here](custom-tooling-manufacture.md))
 1. Load x1 8-way Wurth header pin strip and x1 24-way Wurth header pin strip into the soldering jig.
 1. Place the cable mount PCB into the soldeing jig, aligning the socket legs with the header pins. Make sure the egde of the PCB is pushed squarely against the base of every header pin strip.
 1. Solder the header pins to the PCB. 
@@ -48,11 +54,13 @@ Note: If impedance matching is being used, the SMT component below refers to an 
 1. Use tweezers to position the SMT component above a pad-pair, and re-melt the solder to fix the component in place.
 1. Solder the other end of the SMT component to its pad.
 
-## Assemble the plug components
+![solder-cable-mount-pcb](img/plug-assembly/solder-cable-mount-pcb.png)
+
+## Assemble the Plug Components
 
 1. Attach the breakout PCB support block to the main plug body using two M3 x 10 mm screws.
 1. Attach the coupler to the shaft of the DL5-260P connector using an M4 x 12 mm screw.
-1. Push the breakout PCBs onto the DL5-260P connector pins, according to the pinout diagram XXX.
+1. Push the breakout PCBs onto the DL5-260P connector pins.
 1. Attach the DL5-260P connector to the main plug body using two M3 x 10 mm screws. Pay attention to the plug polarity, shown in the picture below. The breakout PCBs should fit into the grooves in the support block.
 1. Attach the retention bar to fix the breakout PCBs to the support block, using 2 M3 x 6 mm screws.
 1. Push the lever through the hole in the main plug body, into the coupler. Make sure the hole in the coupler aligns with the threaded insert on the end of the lever.
@@ -70,3 +78,5 @@ Note: If impedance matching is being used, the SMT component below refers to an 
 1. Fix the plug lid to the support block using two M3 x 10 mm screws.
 1. Fix the plug lid to the DL5-260P connector using two M3 x 10 mm screws.
 1. Fix the plug lid to the plug main body connector using six M3 x 10 mm screws, and two M3 x 30 mm screws.
+
+![assemble-plug-components](img/plug-assembly/assemble-plug-components.png)

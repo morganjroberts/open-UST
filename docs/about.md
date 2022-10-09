@@ -22,3 +22,28 @@ This research project is guided by three objectives:
 If successful, this work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.
 
 This documentation is part of the open-source hardware distribution.
+
+## Features
+
+- **Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber.
+- **Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system.
+- **Modular:** Both 2D and 3D imaging setups can be configured. 
+- **Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour.
+- **Other:**
+    - Fully waterproof
+    - Electromagnetically shielded
+    - Modules feature threaded mounting points for repeatable positioning
+    - Includes option for a modular interface with the ITT Cannon DL5-260P connector (compatible with Verasonics)
+
+## Citing open-UST
+
+open-UST will shortly be published in a journal paper. Currently, please cite this repository if you use open-UST in your research:
+
+```
+@misc{roberts2022_open-UST,
+	title          =    { open-UST: An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System  },
+	author         =    { Morgan Roberts and Eleanor Martin and Michael Brown and Ben Cox and Bradley Treeby },
+	year           =    { 2022 },
+	url            =    { https://github.com/morganjroberts/open-UST }
+}
+```

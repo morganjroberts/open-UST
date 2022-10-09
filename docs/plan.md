@@ -65,3 +65,4 @@ things to check
 #8 license
 #9 add a gentting started page
 #10 future work page - klm modelling - transducer design - right angled format
+#11 DL5 pinout diagrams

@@ -100,15 +100,15 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#3d-print-the-plug-parts">3D-print the plug parts</a>
+    <li class="toctree-l2"><a class="reference internal" href="#3d-print-the-plug-parts">3D-Print the Plug Parts</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#process-the-backshell-parts">Process the backshell parts</a>
+    <li class="toctree-l2"><a class="reference internal" href="#process-the-backshell-parts">Process the Backshell Parts</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#solder-the-dl5-breakout-pcb">Solder the DL5 breakout PCB</a>
+    <li class="toctree-l2"><a class="reference internal" href="#solder-the-dl5-breakout-pcb">Solder the DL5 Breakout PCB</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#solder-the-cable-mount-pcb">Solder the cable mount PCB</a>
+    <li class="toctree-l2"><a class="reference internal" href="#solder-the-cable-mount-pcb">Solder the Cable Mount PCB</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#assemble-the-plug-components">Assemble the plug components</a>
+    <li class="toctree-l2"><a class="reference internal" href="#assemble-the-plug-components">Assemble the Plug Components</a>
     </li>
     </ul>
                   </li>
@@ -153,27 +153,29 @@
               
                 <h1 id="plug-assembly">Plug Assembly</h1>
 <h2 id="overview">Overview</h2>
-<h2 id="3d-print-the-plug-parts">3D-print the plug parts</h2>
+<h2 id="3d-print-the-plug-parts">3D-Print the Plug Parts</h2>
 <ol>
-<li>3D-print the plug parts listed in XXX.</li>
-<li>Remove the support material.</li>
+<li>3D-print the plug parts (orientation and slicer settings detailed in <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/3D-print-spec.pdf">3D-print-spec.pdf</a>).</li>
+<li>Remove the support material, using a room temperature water bath for parts with PVA support.</li>
 </ol>
-<h2 id="process-the-backshell-parts">Process the backshell parts</h2>
+<p><img alt="3d-print-plug-parts" src="img/plug-assembly/3d-print-plug-parts.png" /></p>
+<h2 id="process-the-backshell-parts">Process the Backshell Parts</h2>
 <p>Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the clamp, using the following process:
 1. Use calipers to take a dimension from the part.
 1. Transfer these dimensions to a sheet of adhesive-backed copper foil.
 1. Cut the required shape from the foil using scissors.
 1. Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.
 1. Repeat this until the parts are fully coated.
-1. Setup a soldering iron with a temperature of 380 deg C, with a large tip.
+1. Setup a soldering iron with a temperature of 380 °C, with a large tip.
 1. Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.
 1. Use a scalpel to expose any covered holes
-1. Setup a solering iron with a temperature of 275 deg C, and a clean tip.
+1. Setup a solering iron with a temperature of 275 °C, and a clean tip.
 1. Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.</p>
-<h2 id="solder-the-dl5-breakout-pcb">Solder the DL5 breakout PCB</h2>
+<p><img alt="process-backshell-parts" src="img/plug-assembly/process-backshell-parts.png" /></p>
+<h2 id="solder-the-dl5-breakout-pcb">Solder the DL5 Breakout PCB</h2>
 <ol>
-<li>Setup a soldering iron with a temperature of 350 degC and a small tip.</li>
-<li>3D-print the breakout PCB soldering jig detailed in XXX</li>
+<li>Setup a soldering iron with a temperature of 350 °C and a small tip.</li>
+<li>3D-print the breakout PCB soldering jig (further details <a href="../custom-tooling-manufacture/">here</a>).</li>
 <li>Load x8 of the AMPMODU 4-way sockets into the soldering jig.</li>
 <li>Place the breakout PCB into the soldeing jig, aligning the socket legs with the pads. Make sure the egde of the PCB is pushed squarely against the base of every socket.</li>
 <li>Solder the sockets to the PCB. Use small solder joints and short heating times to prevent shorting the signal and ground pins.</li>
@@ -181,11 +183,12 @@
 <li>Solder the socket in place.</li>
 <li>Flip the PCB and solder the joints on the other side.</li>
 </ol>
-<h2 id="solder-the-cable-mount-pcb">Solder the cable mount PCB</h2>
+<p><img alt="solder-breakout-pcb" src="img/plug-assembly/solder-breakout-pcb.png" /></p>
+<h2 id="solder-the-cable-mount-pcb">Solder the Cable Mount PCB</h2>
 <p>Note: If impedance matching is being used, the SMT component below refers to an inductor. If not, then the SMT component will be a zero-ohm link.</p>
 <ol>
-<li>Setup a soldering iron with a temperature of 350 degC and a small tip.</li>
-<li>3D-print the cable mount PCB soldering jig detailed in XXX</li>
+<li>Setup a soldering iron with a temperature of 350 °C and a small tip.</li>
+<li>3D-print the cable mount PCB soldering jig (further details <a href="../custom-tooling-manufacture/">here</a>)</li>
 <li>Load x1 8-way Wurth header pin strip and x1 24-way Wurth header pin strip into the soldering jig.</li>
 <li>Place the cable mount PCB into the soldeing jig, aligning the socket legs with the header pins. Make sure the egde of the PCB is pushed squarely against the base of every header pin strip.</li>
 <li>Solder the header pins to the PCB. </li>
@@ -196,11 +199,12 @@
 <li>Use tweezers to position the SMT component above a pad-pair, and re-melt the solder to fix the component in place.</li>
 <li>Solder the other end of the SMT component to its pad.</li>
 </ol>
-<h2 id="assemble-the-plug-components">Assemble the plug components</h2>
+<p><img alt="solder-cable-mount-pcb" src="img/plug-assembly/solder-cable-mount-pcb.png" /></p>
+<h2 id="assemble-the-plug-components">Assemble the Plug Components</h2>
 <ol>
 <li>Attach the breakout PCB support block to the main plug body using two M3 x 10 mm screws.</li>
 <li>Attach the coupler to the shaft of the DL5-260P connector using an M4 x 12 mm screw.</li>
-<li>Push the breakout PCBs onto the DL5-260P connector pins, according to the pinout diagram XXX.</li>
+<li>Push the breakout PCBs onto the DL5-260P connector pins.</li>
 <li>Attach the DL5-260P connector to the main plug body using two M3 x 10 mm screws. Pay attention to the plug polarity, shown in the picture below. The breakout PCBs should fit into the grooves in the support block.</li>
 <li>Attach the retention bar to fix the breakout PCBs to the support block, using 2 M3 x 6 mm screws.</li>
 <li>Push the lever through the hole in the main plug body, into the coupler. Make sure the hole in the coupler aligns with the threaded insert on the end of the lever.</li>
@@ -219,6 +223,7 @@
 <li>Fix the plug lid to the DL5-260P connector using two M3 x 10 mm screws.</li>
 <li>Fix the plug lid to the plug main body connector using six M3 x 10 mm screws, and two M3 x 30 mm screws.</li>
 </ol>
+<p><img alt="assemble-plug-components" src="img/plug-assembly/assemble-plug-components.png" /></p>
               
             </div>
           </div><footer>

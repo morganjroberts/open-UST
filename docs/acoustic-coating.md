@@ -1,32 +1,31 @@
 # Acoustic Coating
 
-## Overview
+## Aptflex F7 Polyurethane Preparation
 
-## Aptflex F7 preparation
+- **Note:** The working time of aptflex F7 is 20 minutes. Beyond this its viscosity will increase as the reaction progresses, making it difficult to work with the aptflex F7. Do not attempt to coat more than two modules in one batch (it takes 5-8 minutes to coat each module).
+- **Note:** Use aa fumehood when working with the polyurethane.
+- **Note:** Degreasing was performed previously, do not repeat it as the liquid solvent could dissolve the surrounding PVA mould material and deposit a thin layer of PVA on the transducer front face
+- **Note:** The final vacuum achieved by the pump/chamber must be better than 5 mbar.
 
-Note: The working time of aptflex F7 is 20 minutes. Beyond this its viscosity will increase as the reaction progresses, making it difficult to work with the aptflex F7. Do not attempt to coat more than two modules in one batch (it takes 5-8 minutes to coat each module). 
-
-Note: work under a fumehood
-Note: degreasing was performed previously, do not repeat it as the liquid solvent could dissolve the surrounding PVA mould material and deposit a thin layer of PVA on the transducer front face
-Note: final vacuum must be better than 5 mbar.
+Prepare the polyurethane using the following procedure:
 
 1. Clean a safety blade and a sewing needle using a paper towel soaked in isopropyl alcohol. Set aside on a clean surface.
 1. Use an air duster to remove debris from the front face of the transducer module.
 1. Test the fit of the 15ga blunt needle in the coating cavity.
 1. If the needle is slightly too large, compress it in a vice until it fits.
 1. Tightly push the needle luer-slip fitting onto the 60 ml syringe body and remove the plunger.
-1. Calculate the required mass of part A and part B. For two transducer modules, the required volume is XXX ml, and the required quantities (with a 6:1 ratio) are:
+1. Calculate the required mass of part A and part B. For two transducer modules, the required volume is ~40 ml, and the required quantities (with a 6:1 weight ratio) are:
 
 | Component | Mass [g] |
 |-----------|----------|
-|Part A | |
-|Part B | |
+|Part A |36|
+|Part B |6|
 
 
-1. Place a clean mixing pot (minimum capacity 250 ml) on a digital balance (resolution 0.1 g or better), and tare it,
-1. Dispense the required mass of part A,
+1. Place a clean mixing pot (minimum capacity 250 ml) on a digital balance (resolution 0.1 g or better), and tare it.
+1. Dispense the required mass of part A.
 1. Tare the balance.
-1. Dispense the required mass of part B,
+1. Dispense the required mass of part B.
 1. Use a plastic rod to mix the components together for 5 minutes. Frequently scrape down the walls and bottom of the pot to make sure that all of the material is fully incorporated.
 1. Place the mixing pot into a vacuum chamber, seal the lid.
 1. Turn on the vacuum pump.
@@ -35,7 +34,7 @@ Note: final vacuum must be better than 5 mbar.
 
 ![polyurethane-preparation](img/acoustic-coating/polyurethane-preparation.png)
 
-## Polyurethane casting: sides
+## Polyurethane Casting: Sides
 
 1. Remove the pot from the vacuum chamber and bring it into contact with the syringe barrel opening.
 1. Slowly, pour the mixture into the syringe.
@@ -48,9 +47,9 @@ Note: final vacuum must be better than 5 mbar.
 
 ![casting-polyurethane-sides](img/acoustic-coating/casting-polyurethane-sides.png)
 
-## Polyurethane casting: front face
+## Polyurethane Casting: Front Face
 1. With the needle almost in contact with the PZT elements, dispense a layer of polyurethane onto the transducer front face. 
-1. Use the pre-cleaned safety blade to remove the excess polyurethane. Holding it at a 45 degree angle, gently drag it along the surface of the coating mould, at a rate of ~1 mm/s.
+1. Use the pre-cleaned safety blade to remove the excess polyurethane. Holding it at a 45° angle, slowly drag it along the surface of the coating mould, at a rate of ~1 mm/s.
 1. Use the pre-cleaned sewing needle to remove pockets of air trapped between the PZT elements. Gently agitate the polyurethane between the elements so that it fully contacts the backing layer and the PCB.
 1. Remove excess polyurethane once more using the safety blade.
 1. Allow the polyurethane to cure for 48 hours.

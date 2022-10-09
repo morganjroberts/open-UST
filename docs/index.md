@@ -4,4 +4,4 @@ This is the documentation for the [open-UST](https://github.com/morganjroberts/o
 
 ![home-image](img/home-image.png)
 
-This documentation, and the hardware github repository, are both being expanded. Check back for further updates.
+This documentation, and the hardware github repository, are continuously being expanded. Check back for further updates.

@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/open-UST_logo.png" />
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/open-UST-logo-white-bg.png" />
 </p>
 
 <!-- ![ust-logo](https://github.com/morganjroberts/open-UST/blob/main/docs/img/open-UST_logo.png) -->

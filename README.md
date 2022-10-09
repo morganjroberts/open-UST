@@ -5,7 +5,8 @@
 
 # **open-UST:** An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System.
 
-There is a high barrier to entry for researchers starting UST experiments: UST hardware is not available off the shelf, and custom systems are expensive. The goal of the open-UST project is to **lower the barrier to entry for experimental ultrasound tomography UST researchers.**
+There is a high barrier to entry for researchers starting ultrasound tomography (UST) experiments: UST hardware is not available off the shelf, and custom systems are expensive.
+The goal of the open-UST project is to **lower the barrier to entry for experimental ultrasound tomography UST researchers.**
 
 <p align="center">
   <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image-nologo.png" width="100%">
@@ -21,14 +22,11 @@ If successful, this work will support researchers to build their own UST systems
 
 ## Features
 
--**Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber
--**Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system
--**Modular:** Both 2D and 3D imaging setups can be configured. Modules feature threaded mounting points for repeatable positioning
--**Durable:** Transducers are fully waterproof
--**Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour
-
-
-
+- **Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber
+- **Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system
+- **Modular:** Both 2D and 3D imaging setups can be configured. Modules feature threaded mounting points for repeatable positioning
+- **Durable:** Transducers are fully waterproof
+- **Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour
 
 ## Documentation
 

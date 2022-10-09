@@ -22,13 +22,25 @@ If successful, this work will support researchers to build their own UST systems
 
 ## Features
 
-- **Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber
-- **Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system
-- **Modular:** Both 2D and 3D imaging setups can be configured. Modules feature threaded mounting points for repeatable positioning
-- **Durable:** Transducers are fully waterproof
-- **Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour
+- **Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber.
+- **Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system.
+- **Modular:** Both 2D and 3D imaging setups can be configured. 
+- **Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour.
+- **Other:**
+    - Fully waterproof
+    - Electromagnetically shielded
+    - Modules feature threaded mounting points for repeatable positioning
+    - Includes option for a modular interface with the ITT Cannon DL5-260P connector (compatible with Verasonics)
 
-## Documentation
+## Hardware Distribution and Documentation
+
+To access the design and manufacture files, clone this repository locally:
+
+```
+git clone https://github.com/morganjroberts/open-UST
+```
+
+The files are located in the `hardware-distribution` directory.
 
 For the manufacturing documentation, please visit [morganjroberts.github.io/open-UST](https://morganjroberts.github.io/open-UST/).
 

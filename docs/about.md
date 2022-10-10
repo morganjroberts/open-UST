@@ -37,7 +37,7 @@ This documentation is part of the open-source hardware distribution.
 
 ## Citing open-UST
 
-open-UST will shortly be published in a journal paper. Currently, please cite this repository if you use open-UST in your research:
+open-UST will shortly be published in a journal paper. Currently, please cite the GitHub repository if you use open-UST in your research:
 
 ```
 @misc{roberts2022_open-UST,

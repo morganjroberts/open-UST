@@ -16,7 +16,7 @@ Each module has the following specifications:
 
 ## Further Reading
 
-- M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Transducer Module Development for an Open-Source Ultrasound Tomography System," 2021 IEEE International Ultrasonics Symposium (IUS), 2021, pp. 1-4, doi: [10.1109/IUS52206.2021.9593866](https://doi.org/10.1109/IUS52206.2021.9593866)
-- M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Matching Layer Deposition for an Open-Source Ultrasound Tomography System: Inter-Element Variation in Frequency Response," 2022 IEEE International Ultrasonics Symposium (IUS), 2022, pp. 1-4, doi: [10.1109/IUS52206.2021.9593866](https://doi.org/10.1109/IUS52206.2021.9593866)
+- M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Transducer Module Development for an Open-Source Ultrasound Tomography System," 2021 IEEE International Ultrasonics Symposium (IUS), 2021, pp. 1-4, doi: [10.1109/IUS52206.2021.9593866](https://doi.org/10.1109/IUS52206.2021.9593866) Available for download [here](http://gofile.me/3oqCv/ncMDqJbop)
+- M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Matching Layer Deposition for an Open-Source Ultrasound Tomography System: Inter-Element Variation in Frequency Response," 2022 IEEE International Ultrasonics Symposium (IUS), 2022, pp. 1-4, Available for download [here](http://gofile.me/3oqCv/6K82Qo7WL)
 
 ![image-gallery](img/image-gallery.png)

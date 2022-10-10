@@ -7,23 +7,29 @@
 1. 3D-print the plug parts (orientation and slicer settings detailed in [3D-print-spec.pdf](https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/3D-print-spec.pdf)).
 1. Remove the support material, using a room temperature water bath for parts with PVA support.
 
-![3d-print-plug-parts](img/plug-assembly/3d-print-plug-parts.png)
+![3D-print-plug-parts](img/plug-assembly/3D-print-plug-parts.png)
 
-## Process the Backshell Parts
+## Copper Coating Backshell Parts
 
-Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the clamp, using the following process:
+Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the riser bar, using the following process:
+
 1. Use calipers to take a dimension from the part.
 1. Transfer these dimensions to a sheet of adhesive-backed copper foil.
 1. Cut the required shape from the foil using scissors.
 1. Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.
 1. Repeat this until the parts are fully coated.
+1. Use a scalpel to expose any covered holes.
+
+![copper-coating-backshell](img/plug-assembly/copper-coating-backshell.png)
+
+## Finishing Backshell Parts
+
 1. Setup a soldering iron with a temperature of 380 °C, with a large tip.
 1. Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.
-1. Use a scalpel to expose any covered holes
 1. Setup a solering iron with a temperature of 275 °C, and a clean tip.
 1. Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.
 
-![process-backshell-parts](img/plug-assembly/process-backshell-parts.png)
+![finishing-backshell-parts](img/plug-assembly/finishing-backshell-parts.png)
 
 ## Solder the DL5 Breakout PCB
 

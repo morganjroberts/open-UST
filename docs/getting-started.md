@@ -1,6 +1,6 @@
 # Getting Started
 
-To access the design and manufacture files, clone this repository locally:
+To access the design and manufacture files, clone the GitHub repository locally:
 
 ```
 git clone https://github.com/morganjroberts/open-UST

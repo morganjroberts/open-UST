@@ -102,7 +102,9 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#3d-print-the-plug-parts">3D-Print the Plug Parts</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#process-the-backshell-parts">Process the Backshell Parts</a>
+    <li class="toctree-l2"><a class="reference internal" href="#copper-coating-backshell-parts">Copper Coating Backshell Parts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#finishing-backshell-parts">Finishing Backshell Parts</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#solder-the-dl5-breakout-pcb">Solder the DL5 Breakout PCB</a>
     </li>
@@ -158,20 +160,26 @@
 <li>3D-print the plug parts (orientation and slicer settings detailed in <a href="https://github.com/morganjroberts/open-UST/blob/main/hardware-distribution/3D-print-spec.pdf">3D-print-spec.pdf</a>).</li>
 <li>Remove the support material, using a room temperature water bath for parts with PVA support.</li>
 </ol>
-<p><img alt="3d-print-plug-parts" src="img/plug-assembly/3d-print-plug-parts.png" /></p>
-<h2 id="process-the-backshell-parts">Process the Backshell Parts</h2>
-<p>Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the clamp, using the following process:
-1. Use calipers to take a dimension from the part.
-1. Transfer these dimensions to a sheet of adhesive-backed copper foil.
-1. Cut the required shape from the foil using scissors.
-1. Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.
-1. Repeat this until the parts are fully coated.
-1. Setup a soldering iron with a temperature of 380 °C, with a large tip.
-1. Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.
-1. Use a scalpel to expose any covered holes
-1. Setup a solering iron with a temperature of 275 °C, and a clean tip.
-1. Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.</p>
-<p><img alt="process-backshell-parts" src="img/plug-assembly/process-backshell-parts.png" /></p>
+<p><img alt="3D-print-plug-parts" src="../img/plug-assembly/3D-print-plug-parts.png" /></p>
+<h2 id="copper-coating-backshell-parts">Copper Coating Backshell Parts</h2>
+<p>Coat the inner surfaces of the two halves of the split plug backshell, and the outside of the riser bar, using the following process:</p>
+<ol>
+<li>Use calipers to take a dimension from the part.</li>
+<li>Transfer these dimensions to a sheet of adhesive-backed copper foil.</li>
+<li>Cut the required shape from the foil using scissors.</li>
+<li>Remove the adhesive backing and stick the copper foil to the part. Overlap with previously applied pieces of copper. Push the foil all the way into corners using a hard object. Rub the seams to ensure good adhesion.</li>
+<li>Repeat this until the parts are fully coated.</li>
+<li>Use a scalpel to expose any covered holes.</li>
+</ol>
+<p><img alt="copper-coating-backshell" src="../img/plug-assembly/copper-coating-backshell.png" /></p>
+<h2 id="finishing-backshell-parts">Finishing Backshell Parts</h2>
+<ol>
+<li>Setup a soldering iron with a temperature of 380 °C, with a large tip.</li>
+<li>Apply solder joints to the seams between individual copper foil pieces to permenantly attach them. Space the joints every ~15 mm. Make sure that any loose flaps are tacked down with solder.</li>
+<li>Setup a solering iron with a temperature of 275 °C, and a clean tip.</li>
+<li>Use the soldering iron to install the threaded inserts so that they sit just below the surface of the part.</li>
+</ol>
+<p><img alt="finishing-backshell-parts" src="../img/plug-assembly/finishing-backshell-parts.png" /></p>
 <h2 id="solder-the-dl5-breakout-pcb">Solder the DL5 Breakout PCB</h2>
 <ol>
 <li>Setup a soldering iron with a temperature of 350 °C and a small tip.</li>
@@ -183,7 +191,7 @@
 <li>Solder the socket in place.</li>
 <li>Flip the PCB and solder the joints on the other side.</li>
 </ol>
-<p><img alt="solder-breakout-pcb" src="img/plug-assembly/solder-breakout-pcb.png" /></p>
+<p><img alt="solder-breakout-pcb" src="../img/plug-assembly/solder-breakout-pcb.png" /></p>
 <h2 id="solder-the-cable-mount-pcb">Solder the Cable Mount PCB</h2>
 <p>Note: If impedance matching is being used, the SMT component below refers to an inductor. If not, then the SMT component will be a zero-ohm link.</p>
 <ol>
@@ -199,7 +207,7 @@
 <li>Use tweezers to position the SMT component above a pad-pair, and re-melt the solder to fix the component in place.</li>
 <li>Solder the other end of the SMT component to its pad.</li>
 </ol>
-<p><img alt="solder-cable-mount-pcb" src="img/plug-assembly/solder-cable-mount-pcb.png" /></p>
+<p><img alt="solder-cable-mount-pcb" src="../img/plug-assembly/solder-cable-mount-pcb.png" /></p>
 <h2 id="assemble-the-plug-components">Assemble the Plug Components</h2>
 <ol>
 <li>Attach the breakout PCB support block to the main plug body using two M3 x 10 mm screws.</li>
@@ -223,7 +231,7 @@
 <li>Fix the plug lid to the DL5-260P connector using two M3 x 10 mm screws.</li>
 <li>Fix the plug lid to the plug main body connector using six M3 x 10 mm screws, and two M3 x 30 mm screws.</li>
 </ol>
-<p><img alt="assemble-plug-components" src="img/plug-assembly/assemble-plug-components.png" /></p>
+<p><img alt="assemble-plug-components" src="../img/plug-assembly/assemble-plug-components.png" /></p>
               
             </div>
           </div><footer>

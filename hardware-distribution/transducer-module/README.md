@@ -1,6 +1,10 @@
 # Transducer Module 
 
-The transducer module source files are found within `transducer-module.f3d`. This is a component breakdown:
+<p align="center">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/cad-images.png" width="50%">
+</p>
+
+The transducer module source files are found within `transducer-module.f3d`. The CAD file is split into the following components:
 
 | Component | Type | Description |
 |---|---|---|
@@ -10,6 +14,7 @@ The transducer module source files are found within `transducer-module.f3d`. Thi
 | SMT Header | Transducer part | Surface mount header strip soldered to interconnect PCB to mate with cable IDC connector. |
 | IDC connector | Transducer part | Crimped onto ribbon cable, mates with SMT header. |
 | Housing | Transducer part | 3D-printed backbone of the transducer module. PCB and backing layers are bonded to this. Cable fixed to this. |
+| Ribbon Cable | Transducer part | Round bundled ribbon cable in overall sheath. IDC connector is crimped to this. |
 | Cover | Transducer part | Completes the housing after the cable is fixed in place. |
 | PZT Alignment Mould | Sacrifical custom tooling | Aligns the PZT elements during manufacture, gets dissolved in water to remove it. |
 | Clamp | Re-usable custom tooling | Clamps the housing to the base plate during backing layer casting. |

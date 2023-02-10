@@ -18,16 +18,31 @@
 
 ## Module Interconnect
 
-This PCB is located inside each transducer module, and interfaces the ribbon cable IDC connector with the individual PZT elements.
+- This PCB is located inside each transducer module.
+- Interfaces the ribbon cable IDC connector with the individual PZT elements.
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/pcb-housing-assembly/module-interconnect.png" width="100%">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/pcb-housing-assembly/module-interconnect.png" width="50%">
 </p>
 
 ## Module Matching
 
-This PCB is located inside the plug backshell, and interfaces each ribbon cable IDC connector with the DL5-260PW6A breakout stack. This PCB contains pads for single-inductor electrical impedance matching on every channel (unbalanced). These pads should be filled with zero-ohm links if no matching is required.
+- This PCB is located inside the plug backshell.
+- Interfaces each ribbon cable IDC connector with the DL5-260PW6A breakout stack.
+- Contains pads for single-inductor electrical impedance matching on every channel (unbalanced).
+- A XX package 22 uH inductor is recommended.
+- These pads should be filled with zero-ohm links if no matching is required.
+
+<p align="center">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/pcb-assembly/module-matching.png" width="50%">
+</p>
 
 ## DL5-260PW6A Breakout
 
-These PCBs form a stack that act as a breakout for the DL5-260PW6A plug connector. It provides a separate signal-ground pair for every channel (the plug pins share 2 ground pins per 8 signal pins).
+- These PCBs form a stack that act as a breakout for the DL5-260PW6A plug connector.
+- Provides a separate signal-ground pair for every channel (the plug pins share 2 ground pins per 8 signal pins).
+
+<p align="center">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/pcb-assembly/DL5-260PW6A-breakout.png" width="100%">
+</p>
+

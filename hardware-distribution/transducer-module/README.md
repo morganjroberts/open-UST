@@ -1,7 +1,7 @@
 # Transducer Module 
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/cad-images.png" width="50%">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/cad-images.png" width="100%">
 </p>
 
 The transducer module source files are found within `transducer-module.f3d`. The CAD file is split into the following components:

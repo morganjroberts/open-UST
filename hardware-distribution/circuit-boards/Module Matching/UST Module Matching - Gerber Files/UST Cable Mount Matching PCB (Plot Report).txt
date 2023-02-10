@@ -1,0 +1,243 @@
+Plot Report
+-----------
+
+Report Written:     Tuesday, October 05, 2021
+Design Path:        C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB.pcb
+Design Title:       
+Created:            28/09/2021 18:44:46
+Last Saved:         05/10/2021 09:57:35
+Editing Time:       9563 min
+Units:              mm (precision 2)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute inches.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+Drill Settings
+==============
+
+    Excellon Format 1
+    Format 3.5 absolute in inches.
+    Zero suppression None
+
+
+
+Plots Output
+============
+
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Top Copper.gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D89    Round 31.50
+    D90    Round 11.42
+    D109   Rectangle 50.00 X 125.20
+    D110   Round 105.12
+    D120   Rectangle 39.37 X 157.48  Rotation 90
+    D121   Rectangle 118.11 X 137.80
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Top Copper (Paste).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D112   Rectangle 46.00 X 121.20
+    D122   Rectangle 35.37 X 153.48  Rotation 90
+    D123   Rectangle 114.11 X 133.80
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Top Solder Mask.gbr
+
+    Layers:
+    -------------------
+    Top Solder Mask
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D113   Round 37.50
+    D115   Rectangle 56.00 X 131.20
+    D116   Round 111.12
+    D124   Rectangle 45.37 X 163.48  Rotation 90
+    D125   Round 143.80
+    D126   Rectangle 124.11 X 143.80
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Top Silkscreen.gbr
+
+    Layers:
+    ------------------
+    Top Silkscreen
+
+    D-Code Shape  (thou)
+    -----------------------
+    D10    Round 5.00
+    D12    Round 19.69
+    D84    Round 1.00
+    D85    Round 3.94
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Documentation.gbr
+
+    Layers:
+    -----------------
+    Documentation
+
+    D-Code Shape  (thou)
+    -----------------------
+    D85    Round 3.94
+    D127   Round 12.00
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D89    Round 31.50
+    D110   Round 105.12
+    D117   Round 10.00
+    D120   Rectangle 39.37 X 157.48  Rotation 90
+    D127   Round 12.00
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Bottom Copper (Paste).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D122   Rectangle 35.37 X 153.48  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Bottom Solder Mask.gbr
+
+    Layers:
+    ----------------------
+    Bottom Solder Mask
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D113   Round 37.50
+    D116   Round 111.12
+    D124   Rectangle 45.37 X 163.48  Rotation 90
+    D125   Round 143.80
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Gerber Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+    D118   Round 11.81
+    D119   Round 70.08
+    D128   Round 137.80
+
+NC Drill Output
+===============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - NC Drill Data - [Through Hole].drl
+
+    Output:
+    -----------------------------
+    Plated Round Drill Holes
+    Unplated Round Drill Holes
+    Plated Slots
+    Unplated Slots
+
+    Tool  Size           Count   ID  (Plated/Unplated)
+    -----------------------------------------------------------
+    T001  0.01181 inches 18    V
+    T002  0.07008 inches 2     Z
+    T003  0.13780 inches 1     /AA
+    -----------------------------------------------------------
+    Total                21
+    -----------------------------------------------------------
+
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Drill Ident Drawing - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size Shape ID
+    -----------------------------------
+    12    Y      100  Round V
+    70    Y      100  Round Z
+    138          100  Round AA
+
+    D-Code Shape  (thou)
+    -----------------------
+    D10    Round 5.00
+    D83    Round 100.00
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST Cable Mount Matching PCB - Outline.gbr
+
+    Layers:
+    ------------------
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D127   Round 12.00
+
+End Of Report.

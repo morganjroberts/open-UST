@@ -1,0 +1,235 @@
+Plot Report
+-----------
+
+Report Written:     Tuesday, October 05, 2021
+Design Path:        C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB.pcb
+Design Title:       
+Created:            28/09/2021 17:03:09
+Last Saved:         05/10/2021 09:57:36
+Editing Time:       8715 min
+Units:              mm (precision 2)
+
+
+Device Settings
+===============
+
+
+Gerber Settings
+===============
+
+    Leading zero suppression.
+    G01 assumed throughout.
+    Line termination <*> <CR> <LF>.
+    3.5 format absolute inches.
+    Format commands defined in Gerber file.
+    Aperture table defined in Gerber file.
+    Hardware arcs allowed.
+
+
+Drill Settings
+==============
+
+    Excellon Format 1
+    Format 3.5 absolute in inches.
+    Zero suppression None
+
+
+
+Plots Output
+============
+
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Top Copper.gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D90    Round 11.42
+    D117   Round 10.00
+    D120   Rectangle 39.37 X 157.48  Rotation 90
+    D127   Round 12.00
+    D129   Rectangle 39.37 X 78.74
+    D130   Rectangle 39.37 X 157.48
+    D131   Rectangle 39.37 X 78.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Top Copper (Paste).gbr
+
+    Layers:
+    --------------
+    Top Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D122   Rectangle 35.37 X 153.48  Rotation 90
+    D132   Rectangle 35.37 X 74.74
+    D133   Rectangle 35.37 X 153.48
+    D134   Rectangle 35.37 X 74.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Top Solder Mask.gbr
+
+    Layers:
+    -------------------
+    Top Solder Mask
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D124   Rectangle 45.37 X 163.48  Rotation 90
+    D135   Rectangle 45.37 X 84.74
+    D136   Rectangle 45.37 X 163.48
+    D137   Rectangle 45.37 X 84.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Top Silkscreen.gbr
+
+    Layers:
+    ------------------
+    Top Silkscreen
+
+    D-Code Shape  (thou)
+    -----------------------
+    D84    Round 1.00
+    D127   Round 12.00
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Bottom Copper.gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D90    Round 11.42
+    D117   Round 10.00
+    D120   Rectangle 39.37 X 157.48  Rotation 90
+    D127   Round 12.00
+    D129   Rectangle 39.37 X 78.74
+    D130   Rectangle 39.37 X 157.48
+    D131   Rectangle 39.37 X 78.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Bottom Copper (Paste).gbr
+
+    Layers:
+    -----------------
+    Bottom Copper
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D122   Rectangle 35.37 X 153.48  Rotation 90
+    D132   Rectangle 35.37 X 74.74
+    D133   Rectangle 35.37 X 153.48
+    D134   Rectangle 35.37 X 74.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Bottom Solder Mask.gbr
+
+    Layers:
+    ----------------------
+    Bottom Solder Mask
+
+    D-Code Shape  (thou)
+    -----------------------------------------------
+    D124   Rectangle 45.37 X 163.48  Rotation 90
+    D135   Rectangle 45.37 X 84.74
+    D136   Rectangle 45.37 X 163.48
+    D137   Rectangle 45.37 X 84.74  Rotation 90
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Bottom Silkscreen.gbr
+
+    Layers:
+    ---------------------
+    Bottom Silkscreen
+
+    D-Code Shape  (thou)
+    -----------------------
+    D84    Round 1.00
+    D127   Round 12.00
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Gerber Drill Data - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+    D-Code Shape  (thou)
+    -----------------------
+
+NC Drill Output
+===============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - NC Drill Data - [Through Hole].drl
+
+    Output:
+    -----------------------------
+    Plated Round Drill Holes
+    Unplated Round Drill Holes
+    Plated Slots
+    Unplated Slots
+
+    Tool  Size Count   ID
+    ----------------------------
+    ----------------------------
+    Total      0
+    ----------------------------
+
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Drill Ident Drawing - [Through Hole].gbr
+
+    Layers:
+    ------------------
+    [Through Hole]
+
+
+Drill Ident Drawing
+===================
+
+    Drill Plated Size Shape ID
+    -----------------------------------
+
+    D-Code Shape  (thou)
+    -----------------------
+
+Gerber Output
+=============
+
+C:\Users\Morgan\Synology Drive\mySynologyDrive\Open source UST files\UST DL5 Breakout PCB - Outline.gbr
+
+    Layers:
+    ------------------
+    Board Outlines
+
+    D-Code Shape  (thou)
+    -----------------------
+    D127   Round 12.00
+
+End Of Report.

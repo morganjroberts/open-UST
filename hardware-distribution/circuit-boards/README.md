@@ -43,6 +43,6 @@
 - Provides a separate signal-ground pair for every channel (the plug pins share 2 ground pins per 8 signal pins).
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/plug-assembly/DL5-260PW6A-breakout.png" width="100%">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/plug-assembly/DL5-260PW6A-breakout.png" width="50%">
 </p>
 

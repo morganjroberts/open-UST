@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'transducer-module.step',
-/* time_stamp */ '2023-02-10T15:28:46Z',
+/* time_stamp */ '2023-02-10T16:23:20Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19.2',
@@ -42833,7 +42833,7 @@ SOLID_ANGLE_UNIT()
 #40522=SHAPE_REPRESENTATION('',(#23799),#40466);
 #40523=PRODUCT_DEFINITION_CONTEXT('part definition',#40564,'design');
 #40524=PRODUCT_DEFINITION('Modular UST Transducer Array',
-'Modular UST Transducer Array v152',#40537,#40523);
+'Modular UST Transducer Array v155',#40537,#40523);
 #40525=PRODUCT_DEFINITION('PZT Elements','PZT Elements',#40538,#40523);
 #40526=PRODUCT_DEFINITION('PCB','PCB',#40539,#40523);
 #40527=PRODUCT_DEFINITION('Backing Layer','Backing Layer',#40540,#40523);
@@ -42861,7 +42861,7 @@ SOLID_ANGLE_UNIT()
 #40548=PRODUCT_DEFINITION_FORMATION('',$,#40577);
 #40549=PRODUCT_DEFINITION_FORMATION('',$,#40578);
 #40550=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'Modular UST Transducer Array v152','Modular UST Transducer Array v152',
+'Modular UST Transducer Array v155','Modular UST Transducer Array v155',
 (#40566));
 #40551=PRODUCT_RELATED_PRODUCT_CATEGORY('PZT Elements','PZT Elements',(#40567));
 #40552=PRODUCT_RELATED_PRODUCT_CATEGORY('PCB','PCB',(#40568));
@@ -42886,7 +42886,7 @@ SOLID_ANGLE_UNIT()
 'Core Data for Automotive Mechanical Design Process');
 #40565=PRODUCT_CONTEXT('part definition',#40564,'mechanical');
 #40566=PRODUCT('Modular UST Transducer Array',
-'Modular UST Transducer Array v152',$,(#40565));
+'Modular UST Transducer Array v155',$,(#40565));
 #40567=PRODUCT('PZT Elements','PZT Elements',$,(#40565));
 #40568=PRODUCT('PCB','PCB',$,(#40565));
 #40569=PRODUCT('Backing Layer','Backing Layer',$,(#40565));

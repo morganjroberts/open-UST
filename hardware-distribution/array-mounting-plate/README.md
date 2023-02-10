@@ -9,7 +9,8 @@
 - `array-mounting-plate.step` and `array-mounting-plate.f3d` are also included but have no timeline history.
 
 ## Mounting Plate Manufacture
-The array mounting plate uses precision-drilled holes to align the transducer modules.
+
+The array mounting plate is machined from 10 mm clear acrylic sheet, and uses precision-drilled holes to align the transducer modules.
 
 - We CNC drilled this part, and the g-code was created using the "manufacture" tool in Fusion 360. The toolpaths are included in the `array-mounting-plate.f3d` file.
 - Alternatively this part could be manually drilled. A to-scale `array-mounting-plate.pdf` file is included as a template, which could be printed at 100% size to assist with the hole layout.
@@ -20,6 +21,6 @@ The array mounting plate uses precision-drilled holes to align the transducer mo
 
 - We mounted the array using aluminium extrusion rails and 3D-printed brackets.
 - Designed for a rail spacing of 500 mm: [Precision Acoustics standard tank](https://www.acoustics.co.uk/product/ums-tank-specification/)
-- The array mounting bracket CAD object is found within the `transducer-module.f3d` source file.
-- `array-mounting-bracket.step` and `array-mounting-bracket.stl` are also included.
+- The array mounting bracket CAD objects are found within the `transducer-module.f3d` source file within the `Rigid Aperture Support` component.
+- The bracket `.stl` files are also included here.
 

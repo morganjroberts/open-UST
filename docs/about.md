@@ -16,7 +16,7 @@
 This research project is guided by three objectives:
 
 1. High accessibility for end users.
-1. Design parameters and nominal acoustic behaviour that supports UST imaging research.
+1. Nominal acoustic behaviour that supports UST imaging research.
 1. Low inter-element variation (IEV) in acoustic behaviour.
 
 This work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.

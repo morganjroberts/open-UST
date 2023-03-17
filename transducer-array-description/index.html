@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://morganjroberts.github.io/open-UST/transducer-array-description/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Transducer Array Description - open-UST</title>
+    <title>System Description - open-UST</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Transducer Array Description";
+        var mkdocs_page_name = "System Description";
         var mkdocs_page_input_path = "transducer-array-description.md";
         var mkdocs_page_url = "/open-UST/transducer-array-description/";
       </script>
@@ -58,7 +58,7 @@
                 </li>
               </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Transducer Array Description</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">System Description</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#further-reading">Further Reading</a>
     </li>
@@ -129,7 +129,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Transducer Array Description</li>
+      <li>System Description</li>
     <li class="wy-breadcrumbs-aside">
         <a href="https://github.com/morganjroberts/open-UST/edit/master/docs/transducer-array-description.md"
           class="icon icon-github"> Edit on GitHub</a>
@@ -140,7 +140,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="transducer-array-description">Transducer Array Description</h1>
+                <h1 id="system-description">System Description</h1>
 <p>Each transducer module is a 16-element linear array, with complete electromagnetic shielding and waterproofing. The standard 256-element open-UST imaging system is formed by assembling 16 of these modules into a ring array.</p>
 <p>Each module has the following specifications:</p>
 <ul>
@@ -149,15 +149,39 @@
 <li>PZT lateral width: 1 mm</li>
 <li>PZT thickness: 1 mm</li>
 <li>PZT pitch: 2.54 mm</li>
-<li>Transmit-receive beamwidth at z = 110 mm: 8.1 mm (-6 dB)</li>
-<li>Opening angle: 44.7 deg (-6 dB)</li>
-<li>Centre frequency: 1.21 MHz</li>
-<li>Fractional Bandwidth: 75 % (-20 dB)</li>
+<li>Transmit-Receive watershot data characteristics (N = 256):<ul>
+<li>Resonance frequency: 1.21 MHz <script type="math/tex"> \pm </script> 7.1 kHz</li>
+<li>Amplitude deviation at resonance: 7.9%</li>
+<li>6 dB FBW (1.08 MHz - 1.41 MHz): 29% <script type="math/tex"> \pm </script> 6.1%</li>
+<li>12 dB FBW (924 kHz - 1.58 MHz): 54% <script type="math/tex"> \pm </script> 4.9%</li>
+<li>40 dB  FBW (528 kHz - 2.61 MHz): 170% <script type="math/tex"> \pm </script> 3.0%</li>
+<li>Signal to noise ratio: 61.2 dB <script type="math/tex"> \pm </script> 1.2 dB</li>
+<li>Receive cross talk: -37.1 dB <script type="math/tex"> \pm </script> 6.0 dB</li>
+</ul>
+</li>
+<li>Beam Pattern (N = 64):<ul>
+<li>Elevational skew: 0.457<script type="math/tex">^{\circ} \pm </script> 0.207<script type="math/tex">^{\circ} </script>
+</li>
+<li>Lateral skew: 1.169<script type="math/tex">^{\circ} \pm </script> 0.834<script type="math/tex">^{\circ} </script>
+</li>
+<li>Elevational -6 dB beamwidth: 16.3 mm <script type="math/tex"> \pm </script> 0.456 mm</li>
+<li>Lateral -6 dB opening angle: 55.4<script type="math/tex">^{\circ} \pm </script> 2.96<script type="math/tex">^{\circ} </script>
+</li>
+</ul>
+</li>
+<li>Electrical Input Impedance (N = 128):<ul>
+<li>Phase at resonance: -8.58<script type="math/tex">^{\circ} \pm </script> 4.96<script type="math/tex">^{\circ} </script>
+</li>
+<li>Magnitude at resonance: 1114 <script type="math/tex">\Omega \pm </script> 121 <script type="math/tex">\Omega </script>
+</li>
+</ul>
+</li>
 </ul>
 <h2 id="further-reading">Further Reading</h2>
 <ul>
 <li>M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Transducer Module Development for an Open-Source Ultrasound Tomography System," 2021 IEEE International Ultrasonics Symposium (IUS), 2021, pp. 1-4, doi: <a href="https://doi.org/10.1109/IUS52206.2021.9593866">10.1109/IUS52206.2021.9593866</a> Available for download <a href="http://gofile.me/3oqCv/ncMDqJbop">here</a></li>
-<li>M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Matching Layer Deposition for an Open-Source Ultrasound Tomography System: Inter-Element Variation in Frequency Response," 2022 IEEE International Ultrasonics Symposium (IUS), 2022, pp. 1-4, Available for download <a href="http://gofile.me/3oqCv/6K82Qo7WL">here</a></li>
+<li>M. Roberts, E. Martin, M. Brown, B. Cox and B. Treeby, "Matching Layer Deposition for an Open-Source Ultrasound Tomography System: Inter-Element Variation in Frequency Response," 2022 IEEE International Ultrasonics Symposium (IUS), 2022, pp. 1-4, doi: <a href="https://doi.org/10.1109/IUS54386.2022.9957739">10.1109/IUS54386.2022.9957739</a> Available for download <a href="http://gofile.me/3oqCv/6K82Qo7WL">here</a></li>
+<li>Roberts, Morgan, Eleanor Martin, Michael D. Brown, Ben T. Cox, and Bradley E. Treeby. "open-UST: An Open-Source Ultrasound Tomography Transducer Array System." arXiv preprint arXiv:2302.10114 (2023) doi: <a href="https://doi.org/10.48550/arXiv.2302.10114">10.48550/arXiv.2302.10114</a></li>
 </ul>
 <p><img alt="image-gallery" src="../img/image-gallery.png" /></p>
               

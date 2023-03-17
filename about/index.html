@@ -70,7 +70,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../transducer-array-description/">Transducer Array Description</a>
+                <li class="toctree-l1"><a class="reference internal" href="../transducer-array-description/">System Description</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Transducer Manufacture</span></p>
@@ -166,33 +166,37 @@
 <p><strong>The goal of the open-UST project is to lower the barrier to entry for experimental UST researchers.</strong>
 This research project is guided by three objectives:</p>
 <ol>
-<li>Design a low cost UST research system and manufacture it in-house.</li>
-<li>Measure its acoustic performance and imaging capability, and assess its overall suitability as a tool for the UST research community.</li>
-<li>Release the design as an open-source hardware distribution.</li>
+<li>High accessibility for end users.</li>
+<li>Design parameters and nominal acoustic behaviour that supports UST imaging research.</li>
+<li>Low inter-element variation (IEV) in acoustic behaviour.</li>
 </ol>
-<p>If successful, this work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.</p>
+<p>This work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.</p>
 <p>This documentation is part of the open-source hardware distribution.</p>
 <h2 id="features">Features</h2>
 <ul>
-<li><strong>Simple end-user requirements:</strong> No specialist equipment required, only a 3D-printer and vacuum chamber.</li>
-<li><strong>Low material cost:</strong> ~£2,500 (excluding DAQ hardware) for a 256-element system.</li>
+<li><strong>Simple equipment requirements:</strong> No specialist equipment required, only a 3D-printer, vacuum chamber and standard workshop tooling.</li>
+<li><strong>Low material cost:</strong> ~£2k (excluding DAQ hardware) for a 256-element system.</li>
 <li><strong>Modular:</strong> Both 2D and 3D imaging setups can be configured. </li>
 <li><strong>Low interelement variation</strong>: Recent testing showed that the individual sensing elements have uniform acoustic behaviour.</li>
 <li><strong>Other:</strong><ul>
 <li>Fully waterproof</li>
 <li>Electromagnetically shielded</li>
-<li>Modules feature threaded mounting points for repeatable positioning</li>
+<li>Transducer modules feature threaded mounting points for repeatable positioning</li>
 <li>Includes option for a modular interface with the ITT Cannon DL5-260P connector (compatible with Verasonics)</li>
 </ul>
 </li>
 </ul>
 <h2 id="citing-open-ust">Citing open-UST</h2>
-<p>open-UST will shortly be published in a journal paper. Currently, please cite the GitHub repository if you use open-UST in your research:</p>
-<pre><code>@misc{roberts2022_open-UST,
-    title          =    { open-UST: An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System  },
-    author         =    { Morgan Roberts and Eleanor Martin and Michael Brown and Ben Cox and Bradley Treeby },
-    year           =    { 2022 },
-    url            =    { https://github.com/morganjroberts/open-UST }
+<p>Currently, please cite this pre-print article if you use open-UST in your research:</p>
+<pre><code>@misc{roberts2023openUST,
+  doi       = {10.48550/ARXIV.2302.10114},
+  url       = {https://arxiv.org/abs/2302.10114},
+  author    = {Roberts, Morgan and Martin, Eleanor and Brown, Michael D. and Cox, Ben T. and Treeby, Bradley E.},
+  keywords  = {Medical Physics (physics.med-ph), FOS: Physical sciences, FOS: Physical sciences},
+  title     = {open-UST: An Open-Source Ultrasound Tomography Transducer Array System},
+  publisher = {arXiv},
+  year      = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 </code></pre>
               

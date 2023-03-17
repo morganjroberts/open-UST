@@ -15,35 +15,39 @@
 **The goal of the open-UST project is to lower the barrier to entry for experimental UST researchers.**
 This research project is guided by three objectives:
 
-1. Design a low cost UST research system and manufacture it in-house.
-1. Measure its acoustic performance and imaging capability, and assess its overall suitability as a tool for the UST research community.
-1. Release the design as an open-source hardware distribution.
+1. High accessibility for end users.
+1. Design parameters and nominal acoustic behaviour that supports UST imaging research.
+1. Low inter-element variation (IEV) in acoustic behaviour.
 
-If successful, this work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.
+This work will support researchers to build their own UST systems in house, accelerating progress towards fast and accurate UST imaging.
 
 This documentation is part of the open-source hardware distribution.
 
 ## Features
 
-- **Simple end-user requirements:** No specialist equipment required, only a 3D-printer and vacuum chamber.
-- **Low material cost:** ~£2,500 (excluding DAQ hardware) for a 256-element system.
+- **Simple equipment requirements:** No specialist equipment required, only a 3D-printer, vacuum chamber and standard workshop tooling.
+- **Low material cost:** ~£2k (excluding DAQ hardware) for a 256-element system.
 - **Modular:** Both 2D and 3D imaging setups can be configured. 
 - **Low interelement variation**: Recent testing showed that the individual sensing elements have uniform acoustic behaviour.
 - **Other:**
     - Fully waterproof
     - Electromagnetically shielded
-    - Modules feature threaded mounting points for repeatable positioning
+    - Transducer modules feature threaded mounting points for repeatable positioning
     - Includes option for a modular interface with the ITT Cannon DL5-260P connector (compatible with Verasonics)
 
 ## Citing open-UST
 
-open-UST will shortly be published in a journal paper. Currently, please cite the GitHub repository if you use open-UST in your research:
+Currently, please cite this pre-print article if you use open-UST in your research:
 
 ```
-@misc{roberts2022_open-UST,
-	title          =    { open-UST: An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System  },
-	author         =    { Morgan Roberts and Eleanor Martin and Michael Brown and Ben Cox and Bradley Treeby },
-	year           =    { 2022 },
-	url            =    { https://github.com/morganjroberts/open-UST }
+@misc{roberts2023openUST,
+  doi       = {10.48550/ARXIV.2302.10114},
+  url       = {https://arxiv.org/abs/2302.10114},
+  author    = {Roberts, Morgan and Martin, Eleanor and Brown, Michael D. and Cox, Ben T. and Treeby, Bradley E.},
+  keywords  = {Medical Physics (physics.med-ph), FOS: Physical sciences, FOS: Physical sciences},
+  title     = {open-UST: An Open-Source Ultrasound Tomography Transducer Array System},
+  publisher = {arXiv},
+  year      = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 ```

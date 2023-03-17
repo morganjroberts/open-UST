@@ -9,7 +9,7 @@ nav:
     - About: about.md
     - Getting Started: getting-started.md
     - Contact: contact.md    
-    - Transducer Array Description: transducer-array-description.md
+    - System Description: transducer-array-description.md
     - Transducer Manufacture:
         - PZT Element Preparation: pzt-element-preparation.md
         - Matching Layer Deposition: matching-layer-deposition.md

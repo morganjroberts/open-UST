@@ -9,7 +9,7 @@ There is a high barrier to entry for researchers starting ultrasound tomography 
 The goal of the open-UST project is to **lower the barrier to entry for experimental UST researchers**, by providing a manufacturing framework that allows end users to build their own UST transducers in-house.
 
 <p align="center">
-  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image-nologo.png" width="100%">
+  <img src="https://github.com/morganjroberts/open-UST/blob/main/docs/img/home-image-nologo.png" width="75%">
 </p>
 
 open-UST is part of an ongoing research project, guided by three objectives:
@@ -46,14 +46,18 @@ For the accompanying manufacturing documentation, please visit [morganjroberts.g
 
 ## Citing open-UST
 
-open-UST will shortly be published in a journal paper. Currently, please cite this repository if you use open-UST in your research:
+Currently, please cite this pre-print article if you use open-UST in your research:
 
 ```
-@misc{roberts2022_open-UST,
-	title          =    { open-UST: An Open Source Manufacturing Framework for a Low-cost Ultrasound Tomography Research System  },
-	author         =    { Morgan Roberts and Eleanor Martin and Michael Brown and Ben Cox and Bradley Treeby },
-	year           =    { 2022 },
-	url            =    { https://github.com/morganjroberts/open-UST }
+@misc{roberts2023openUST,
+  doi       = {10.48550/ARXIV.2302.10114},
+  url       = {https://arxiv.org/abs/2302.10114},
+  author    = {Roberts, Morgan and Martin, Eleanor and Brown, Michael D. and Cox, Ben T. and Treeby, Bradley E.},
+  keywords  = {Medical Physics (physics.med-ph), FOS: Physical sciences, FOS: Physical sciences},
+  title     = {open-UST: An Open-Source Ultrasound Tomography Transducer Array System},
+  publisher = {arXiv},
+  year      = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
 

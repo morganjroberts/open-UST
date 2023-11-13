@@ -40,14 +40,12 @@ This documentation is part of the open-source hardware distribution.
 Currently, please cite this pre-print article if you use open-UST in your research:
 
 ```
-@misc{roberts2023openUST,
-  doi       = {10.48550/ARXIV.2302.10114},
-  url       = {https://arxiv.org/abs/2302.10114},
-  author    = {Roberts, Morgan and Martin, Eleanor and Brown, Michael D. and Cox, Ben T. and Treeby, Bradley E.},
-  keywords  = {Medical Physics (physics.med-ph), FOS: Physical sciences, FOS: Physical sciences},
+@article{roberts2023open,
   title     = {open-UST: An Open-Source Ultrasound Tomography Transducer Array System},
-  publisher = {arXiv},
+  author    = {Roberts, Morgan and Martin, Eleanor and Brown, Michael D and Cox, Ben T and Treeby, Bradley E},
+  journal   = {IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
   year      = {2023},
-  copyright = {Creative Commons Attribution 4.0 International}
+  publisher = {IEEE},
+  doi       = {10.1109/TUFFC.2023.3280635}
 }
 ```

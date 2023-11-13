@@ -37,7 +37,7 @@ This documentation is part of the open-source hardware distribution.
 
 ## Citing open-UST
 
-Currently, please cite this pre-print article if you use open-UST in your research:
+Please cite this article if you use open-UST in your research:
 
 ```
 @article{roberts2023open,

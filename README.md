@@ -43,7 +43,7 @@ For the accompanying manufacturing documentation, please visit [morganjroberts.g
 
 ## Citing open-UST
 
-Currently, please cite this pre-print article if you use open-UST in your research:
+Please cite this article if you use open-UST in your research:
 
 ```
 @article{roberts2023open,
